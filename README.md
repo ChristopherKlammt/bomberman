@@ -10,3 +10,13 @@ export required libraries
 create conda env by using 
 
 ```conda create --name bomberman python=3.8 --file requirements.txt```
+
+## play and train
+
+```python main.py play --my-agent robin-fleige_clara-hartmann_christopher-klammt```
+
+starts the game and executes our own trained agent
+
+```python main.py play --my-agent robin-fleige_clara-hartmann_christopher-klammt --train 1````
+
+starts the training process

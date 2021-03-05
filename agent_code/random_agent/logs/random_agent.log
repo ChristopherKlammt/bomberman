@@ -1,0 +1,269 @@
+2021-03-04 14:13:10,878 [random_agent_wrapper] DEBUG: Calling setup on callback.
+2021-03-04 14:13:10,879 [random_agent_wrapper] DEBUG: Got result from callback#setup in 0.000s.
+2021-03-04 14:13:11,093 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:11,093 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:11,093 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:11,143 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:11,143 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:11,143 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:11,253 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:11,253 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:11,253 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:11,362 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:11,362 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:11,362 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:11,463 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:11,463 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:11,463 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:11,561 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:11,561 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:11,561 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:11,666 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:11,666 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:11,666 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:11,762 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:11,762 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:11,762 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:11,868 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:11,868 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:11,868 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:11,968 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:11,968 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:11,969 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:12,068 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:12,069 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:12,069 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:12,177 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:12,177 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:12,177 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:14,440 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:14,440 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:14,440 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:14,544 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:14,544 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:14,544 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:14,645 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:14,645 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:14,645 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:14,747 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:14,748 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:14,748 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:14,852 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:14,852 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:14,852 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:14,955 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:14,955 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:14,955 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:15,056 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:15,056 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:15,056 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:15,165 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:15,165 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:15,165 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:15,262 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:15,262 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:15,262 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:15,377 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:15,377 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:15,378 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:15,471 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:15,471 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:15,471 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:15,576 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:15,576 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:15,576 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:15,678 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:15,678 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:15,678 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:15,787 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:15,787 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:15,787 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:15,896 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:15,896 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:15,896 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:15,991 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:15,991 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:15,992 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:16,092 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:16,092 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:16,092 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:16,192 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:16,192 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:16,192 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:16,306 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:16,306 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:16,306 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:16,401 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:16,401 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:16,401 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:16,503 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:16,503 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:16,503 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:16,607 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:16,607 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:16,607 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:16,704 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:16,704 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:16,704 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:16,816 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:16,816 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:16,816 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:16,916 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:16,916 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:16,916 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:17,016 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:17,016 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:17,016 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:17,120 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:17,120 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:17,120 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:17,224 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:17,224 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:17,224 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:17,328 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:17,328 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:17,328 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:17,429 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:17,429 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:17,429 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:17,526 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:17,526 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:17,527 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:17,636 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:17,636 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:17,636 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:17,802 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:17,802 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:17,802 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:17,860 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:17,860 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:17,860 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:17,970 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:17,970 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:17,970 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:18,069 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:18,069 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:18,069 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:18,173 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:18,173 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:18,173 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:18,283 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:18,283 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:18,283 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:18,376 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:18,376 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:18,376 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:18,484 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:18,484 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:18,485 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:18,580 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:18,580 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:18,580 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:18,694 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:18,694 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:18,694 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:18,791 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:18,791 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:18,791 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:18,901 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:18,901 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:18,901 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:19,005 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:19,006 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:19,006 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:19,104 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:19,104 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:19,104 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:19,209 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:19,209 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:19,210 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:19,305 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:19,305 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:19,305 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:19,412 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:19,412 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:19,412 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:19,516 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:19,516 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:19,516 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:19,630 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:19,630 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:19,630 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:19,722 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:19,722 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:19,722 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:19,924 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:19,924 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:19,924 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:20,033 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:20,033 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:20,033 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:20,126 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:20,126 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:20,126 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:20,250 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:20,250 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:20,251 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:20,339 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:20,339 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:20,339 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:20,439 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:20,439 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:20,440 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:20,544 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:20,544 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:20,544 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:20,642 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:20,642 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:20,642 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:20,744 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:20,744 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:20,744 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:20,845 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:20,845 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:20,845 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:20,939 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:20,939 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:20,939 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:21,044 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:21,044 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:21,044 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:21,152 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:21,152 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:21,152 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:21,259 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:21,259 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:21,259 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:21,357 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:21,357 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:21,357 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:21,454 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:21,454 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:21,454 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:21,557 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:21,557 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:21,557 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:21,657 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:21,657 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:21,657 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:21,768 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:21,768 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:21,768 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:21,872 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:21,872 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:21,872 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:21,972 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:21,972 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:21,972 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:22,082 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:22,082 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:22,082 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:22,173 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:22,173 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:22,174 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:22,284 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:22,285 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:22,285 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-04 14:13:22,382 [random_agent_wrapper] DEBUG: Calling act on callback.
+2021-03-04 14:13:22,382 [random_agent_code] INFO: Pick action at random
+2021-03-04 14:13:22,382 [random_agent_wrapper] DEBUG: Got result from callback#act in 0.000s.

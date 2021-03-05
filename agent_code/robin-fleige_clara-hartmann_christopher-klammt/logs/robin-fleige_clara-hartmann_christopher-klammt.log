@@ -1,0 +1,1089 @@
+2021-03-05 10:37:47,424 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling setup on callback.
+2021-03-05 10:37:47,424 [robin-fleige_clara-hartmann_christopher-klammt_code] INFO: Loading model from saved state.
+2021-03-05 10:37:47,663 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#setup in 0.239s.
+2021-03-05 10:37:47,769 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:47,769 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:47,881 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:47,881 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:47,881 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.112s.
+2021-03-05 10:37:47,881 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:47,881 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:47,931 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:47,931 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:47,931 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.050s.
+2021-03-05 10:37:47,985 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:47,985 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:48,046 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:48,047 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:48,047 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.062s.
+2021-03-05 10:37:48,089 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:48,089 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:48,153 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:48,153 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:48,153 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.064s.
+2021-03-05 10:37:48,193 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:48,193 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:48,260 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:48,261 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:48,261 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.068s.
+2021-03-05 10:37:48,296 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:48,297 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:48,355 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:48,355 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:48,355 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:37:48,401 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:48,401 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:48,464 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:48,464 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:48,464 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:37:48,501 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:48,501 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:48,559 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:48,560 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:48,560 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:37:48,604 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:48,604 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:48,668 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:48,668 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:48,668 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.065s.
+2021-03-05 10:37:48,712 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:48,712 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:48,770 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:48,770 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:48,770 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:37:48,816 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:48,816 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:48,872 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:48,872 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:48,872 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.056s.
+2021-03-05 10:37:48,920 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:48,920 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:48,983 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:48,984 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:48,984 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.064s.
+2021-03-05 10:37:49,022 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:49,022 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:49,083 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:49,083 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:49,083 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:49,126 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:49,126 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:49,197 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:49,198 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:49,198 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.071s.
+2021-03-05 10:37:49,231 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:49,231 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:49,293 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:49,293 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:49,293 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.062s.
+2021-03-05 10:37:49,335 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:49,335 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:49,394 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:49,395 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:49,395 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:37:49,437 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:49,437 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:49,496 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:49,496 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:49,497 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:37:49,540 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:49,540 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:49,607 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:49,608 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:49,608 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.068s.
+2021-03-05 10:37:49,643 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:49,643 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:49,706 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:49,707 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:49,707 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.064s.
+2021-03-05 10:37:49,746 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:49,746 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:49,806 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:49,807 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:49,807 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:37:49,847 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:49,848 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:49,906 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:49,906 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:49,906 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:37:49,983 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:49,983 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:50,035 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:50,036 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:50,036 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.052s.
+2021-03-05 10:37:50,085 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:50,085 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:50,150 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:50,151 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:50,151 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.065s.
+2021-03-05 10:37:50,187 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:50,187 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:50,248 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:50,248 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:50,248 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:50,292 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:50,293 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:50,350 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:50,351 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:50,351 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:37:50,396 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:50,396 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:50,455 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:50,455 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:50,456 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:37:50,497 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:50,497 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:50,558 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:50,558 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:50,558 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:50,602 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:50,603 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:50,666 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:50,666 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:50,666 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:37:50,706 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:50,707 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:50,771 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:50,771 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:50,771 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.065s.
+2021-03-05 10:37:50,808 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:50,808 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:50,866 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:50,866 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:50,866 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:37:50,912 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:50,912 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:50,969 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:50,970 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:50,970 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:37:51,023 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:51,023 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:51,086 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:51,087 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:51,087 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.064s.
+2021-03-05 10:37:51,124 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:51,124 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:51,192 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:51,193 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:51,193 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.069s.
+2021-03-05 10:37:51,228 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:51,228 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:51,292 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:51,292 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:51,292 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.064s.
+2021-03-05 10:37:51,332 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:51,332 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:51,390 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:51,391 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:51,391 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:37:51,437 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:51,437 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:51,506 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:51,507 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:51,507 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.070s.
+2021-03-05 10:37:51,541 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:51,541 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:51,593 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:51,593 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:51,593 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.052s.
+2021-03-05 10:37:51,644 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:51,644 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:51,703 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:51,704 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:51,704 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:37:51,749 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:51,749 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:51,804 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:51,805 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:51,805 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.056s.
+2021-03-05 10:37:51,853 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:51,853 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:51,913 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:51,913 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:51,913 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:37:51,955 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:51,956 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:52,024 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:52,024 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:52,024 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.068s.
+2021-03-05 10:37:52,059 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:52,059 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:52,128 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1543099e-13 1.0000000e+00 7.8130646e-23 5.1206464e-17 5.7148974e-15
+ 1.3569812e-17]
+2021-03-05 10:37:52,128 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:52,129 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.069s.
+2021-03-05 10:37:52,163 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:52,163 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:52,222 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1171274e-13 1.0000000e+00 6.9918143e-23 4.9271834e-17 5.2825739e-15
+ 1.1910896e-17]
+2021-03-05 10:37:52,222 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:52,222 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:37:52,268 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:52,268 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:52,329 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1171274e-13 1.0000000e+00 6.9918143e-23 4.9271834e-17 5.2825739e-15
+ 1.1910896e-17]
+2021-03-05 10:37:52,329 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:52,330 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:52,372 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:52,372 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:52,439 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1171274e-13 1.0000000e+00 6.9918143e-23 4.9271834e-17 5.2825739e-15
+ 1.1910896e-17]
+2021-03-05 10:37:52,439 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:52,439 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.067s.
+2021-03-05 10:37:52,476 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:52,476 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:52,536 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1171274e-13 1.0000000e+00 6.9918143e-23 4.9271834e-17 5.2825739e-15
+ 1.1910896e-17]
+2021-03-05 10:37:52,536 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:52,537 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:37:52,579 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:52,579 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:52,632 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1171274e-13 1.0000000e+00 6.9918143e-23 4.9271834e-17 5.2825739e-15
+ 1.1910896e-17]
+2021-03-05 10:37:52,633 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:52,633 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.054s.
+2021-03-05 10:37:52,684 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:52,684 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:52,745 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1171274e-13 1.0000000e+00 6.9918143e-23 4.9271834e-17 5.2825739e-15
+ 1.1910896e-17]
+2021-03-05 10:37:52,745 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:52,745 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:52,791 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:52,791 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:52,846 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1171274e-13 1.0000000e+00 6.9918143e-23 4.9271834e-17 5.2825739e-15
+ 1.1910896e-17]
+2021-03-05 10:37:52,847 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:52,847 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.055s.
+2021-03-05 10:37:52,893 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:52,893 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:52,958 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1171274e-13 1.0000000e+00 6.9918143e-23 4.9271834e-17 5.2825739e-15
+ 1.1910896e-17]
+2021-03-05 10:37:52,958 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:52,958 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.065s.
+2021-03-05 10:37:52,997 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:52,997 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:53,057 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1171274e-13 1.0000000e+00 6.9918143e-23 4.9271834e-17 5.2825739e-15
+ 1.1910896e-17]
+2021-03-05 10:37:53,058 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:53,058 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:53,099 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:53,099 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:53,153 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3172524e-13 1.0000000e+00 4.3125464e-23 3.5322233e-17 4.0894755e-15
+ 8.5853820e-18]
+2021-03-05 10:37:53,153 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:53,154 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.055s.
+2021-03-05 10:37:53,203 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:53,203 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:53,265 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3172524e-13 1.0000000e+00 4.3125464e-23 3.5322233e-17 4.0894755e-15
+ 8.5853820e-18]
+2021-03-05 10:37:53,266 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:53,266 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:37:53,306 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:53,306 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:53,372 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3172524e-13 1.0000000e+00 4.3125464e-23 3.5322233e-17 4.0894755e-15
+ 8.5853820e-18]
+2021-03-05 10:37:53,373 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:53,373 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.067s.
+2021-03-05 10:37:53,410 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:53,411 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:53,468 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3172524e-13 1.0000000e+00 4.3125464e-23 3.5322233e-17 4.0894755e-15
+ 8.5853820e-18]
+2021-03-05 10:37:53,469 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:53,469 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:37:53,515 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:53,515 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:53,575 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3172524e-13 1.0000000e+00 4.3125464e-23 3.5322233e-17 4.0894755e-15
+ 8.5853820e-18]
+2021-03-05 10:37:53,576 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:53,576 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:53,617 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:53,617 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:53,671 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3172524e-13 1.0000000e+00 4.3125464e-23 3.5322233e-17 4.0894755e-15
+ 8.5853820e-18]
+2021-03-05 10:37:53,671 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:53,671 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.054s.
+2021-03-05 10:37:53,718 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:53,718 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:53,782 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3172524e-13 1.0000000e+00 4.3125464e-23 3.5322233e-17 4.0894755e-15
+ 8.5853820e-18]
+2021-03-05 10:37:53,783 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:53,783 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.064s.
+2021-03-05 10:37:53,818 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:53,819 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:53,885 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3172524e-13 1.0000000e+00 4.3125464e-23 3.5322233e-17 4.0894755e-15
+ 8.5853820e-18]
+2021-03-05 10:37:53,886 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:53,886 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.067s.
+2021-03-05 10:37:53,923 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:53,923 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:53,981 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3172524e-13 1.0000000e+00 4.3125464e-23 3.5322233e-17 4.0894755e-15
+ 8.5853820e-18]
+2021-03-05 10:37:53,981 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:53,981 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:37:54,027 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:54,027 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:54,089 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3172524e-13 1.0000000e+00 4.3125464e-23 3.5322233e-17 4.0894755e-15
+ 8.5853820e-18]
+2021-03-05 10:37:54,090 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:54,090 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.062s.
+2021-03-05 10:37:54,132 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:54,132 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:54,187 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.2953754e-07 9.9999976e-01 9.6961872e-10 2.0721162e-08 1.3168868e-07
+ 2.0351681e-08]
+2021-03-05 10:37:54,187 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:54,187 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.055s.
+2021-03-05 10:37:54,233 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:54,233 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:54,298 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [6.7111095e-08 9.9999976e-01 5.7415414e-12 9.5548280e-09 9.1501946e-08
+ 5.9484213e-09]
+2021-03-05 10:37:54,299 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:54,299 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.066s.
+2021-03-05 10:37:54,334 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:54,334 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:54,395 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [4.7598970e-08 9.9999988e-01 2.1870034e-10 2.1328626e-08 7.9668439e-08
+ 1.0047813e-08]
+2021-03-05 10:37:54,395 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:54,395 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:54,439 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:54,439 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:54,498 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.0327224e-07 9.9999940e-01 5.2267790e-10 7.1891257e-08 2.8512073e-07
+ 2.5703285e-08]
+2021-03-05 10:37:54,499 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:54,499 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:37:54,543 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:54,543 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:54,602 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [5.7066666e-07 9.9999762e-01 1.5397982e-08 5.5359618e-07 1.0650574e-06
+ 1.5387596e-07]
+2021-03-05 10:37:54,602 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:54,602 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:37:54,645 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:54,645 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:54,701 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.4754953e-07 9.9999869e-01 1.8251836e-09 1.8697091e-07 6.7764341e-07
+ 5.5882555e-08]
+2021-03-05 10:37:54,701 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:54,701 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.056s.
+2021-03-05 10:37:54,750 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:54,750 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:54,816 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.2416777e-06 9.9999189e-01 6.8932529e-08 2.1440603e-06 2.7123319e-06
+ 8.1576405e-07]
+2021-03-05 10:37:54,816 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:54,816 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.066s.
+2021-03-05 10:37:54,850 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:54,851 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:54,910 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [8.2568437e-07 9.9999726e-01 3.3204752e-09 3.8184444e-07 1.4546306e-06
+ 1.3261213e-07]
+2021-03-05 10:37:54,911 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:54,911 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:37:54,955 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:54,955 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:55,012 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [4.0675200e-06 9.9998510e-01 1.1932016e-07 3.3609390e-06 6.3736484e-06
+ 1.0990135e-06]
+2021-03-05 10:37:55,012 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:55,012 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:37:55,059 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:55,059 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:55,120 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [6.17507226e-07 9.99998093e-01 3.03350145e-09 2.75857303e-07
+ 9.70259634e-07 1.02617186e-07]
+2021-03-05 10:37:55,121 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:55,121 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:55,163 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:55,164 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:55,227 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.4183018e-06 9.9999094e-01 8.1029810e-08 2.0722343e-06 3.7819384e-06
+ 7.7313689e-07]
+2021-03-05 10:37:55,227 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:55,227 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:37:55,268 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:55,268 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:55,389 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.4529850e-07 9.9999976e-01 2.2937920e-10 3.3178768e-08 1.7809765e-07
+ 1.6756426e-08]
+2021-03-05 10:37:55,389 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:55,389 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.121s.
+2021-03-05 10:37:55,390 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:55,393 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:55,445 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.7691635e-08 1.0000000e+00 4.1361250e-12 3.3710681e-10 9.7719068e-09
+ 1.4691028e-10]
+2021-03-05 10:37:55,445 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:55,445 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.052s.
+2021-03-05 10:37:55,493 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:55,493 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:55,555 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1180172e-08 1.0000000e+00 2.3374881e-12 5.1777060e-10 1.5357893e-08
+ 3.9386155e-10]
+2021-03-05 10:37:55,556 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:55,556 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:37:55,597 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:55,597 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:55,657 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:55,657 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:55,657 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:55,699 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:55,699 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:55,758 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:55,759 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:55,759 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:37:55,801 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:55,801 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:55,858 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:55,859 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:55,859 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:37:55,903 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:55,903 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:55,957 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:55,958 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:55,958 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.054s.
+2021-03-05 10:37:56,008 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:56,008 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:56,069 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:56,070 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:56,070 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.062s.
+2021-03-05 10:37:56,109 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:56,109 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:56,179 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:56,179 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:56,179 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.070s.
+2021-03-05 10:37:56,213 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:56,213 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:56,268 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:56,269 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:56,269 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.055s.
+2021-03-05 10:37:56,314 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:56,314 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:56,365 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:56,365 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:56,365 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.051s.
+2021-03-05 10:37:56,419 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:56,419 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:56,477 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:56,477 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:56,477 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:37:56,524 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:56,524 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:56,583 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:56,583 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:56,584 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:37:56,628 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:56,628 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:56,689 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:56,689 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:56,690 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.062s.
+2021-03-05 10:37:56,730 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:56,730 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:56,792 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:56,793 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:56,793 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:37:56,830 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:56,830 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:56,891 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:56,891 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:56,891 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:56,935 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:56,935 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:56,993 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:56,993 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:56,993 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:37:57,037 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:57,038 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:57,102 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:57,102 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:57,102 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.064s.
+2021-03-05 10:37:57,140 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:57,140 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:57,196 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:57,196 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:57,196 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.056s.
+2021-03-05 10:37:57,243 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:57,243 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:57,306 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:57,306 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:57,306 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:37:57,347 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:57,347 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:57,407 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1801856e-06 9.9999642e-01 2.4445014e-11 2.7660697e-08 3.7359449e-08
+ 3.0890612e-07]
+2021-03-05 10:37:57,407 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:57,407 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:37:57,451 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:57,451 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:57,509 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [4.8275423e-14 1.0000000e+00 2.1065018e-24 2.2393061e-18 4.1261098e-16
+ 9.3833714e-19]
+2021-03-05 10:37:57,510 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:57,510 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:37:57,556 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:57,556 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:57,624 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.5228394e-14 1.0000000e+00 1.4711701e-24 2.6188733e-18 5.4548546e-16
+ 1.7972887e-18]
+2021-03-05 10:37:57,624 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:57,624 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.068s.
+2021-03-05 10:37:57,659 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:57,660 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:57,714 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [6.3001945e-14 1.0000000e+00 9.2567100e-24 7.3325773e-18 1.3416235e-15
+ 2.5716998e-18]
+2021-03-05 10:37:57,715 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:57,715 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.055s.
+2021-03-05 10:37:57,763 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:57,764 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:57,829 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3165766e-13 1.0000000e+00 6.5436176e-23 3.9677664e-17 5.3857565e-15
+ 1.4734499e-17]
+2021-03-05 10:37:57,830 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:57,830 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.066s.
+2021-03-05 10:37:57,867 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:57,867 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:57,918 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3707372e-13 1.0000000e+00 4.6648782e-23 3.2820489e-17 5.0431677e-15
+ 6.9656623e-18]
+2021-03-05 10:37:57,919 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:57,919 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.052s.
+2021-03-05 10:37:57,969 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:57,969 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:58,033 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [9.3890350e-14 1.0000000e+00 3.2311433e-23 2.5541519e-17 3.5995453e-15
+ 8.7455349e-18]
+2021-03-05 10:37:58,034 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:58,034 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.065s.
+2021-03-05 10:37:58,073 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:58,073 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:58,134 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [8.7882758e-14 1.0000000e+00 2.4115547e-23 1.8672395e-17 3.2386593e-15
+ 4.2051108e-18]
+2021-03-05 10:37:58,135 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:58,135 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:58,177 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:58,177 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:58,231 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.1630300e-13 1.0000000e+00 5.4585615e-23 3.9388270e-17 5.3328881e-15
+ 1.5567781e-17]
+2021-03-05 10:37:58,231 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:58,231 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.055s.
+2021-03-05 10:37:58,279 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:58,279 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:58,341 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [7.7678105e-14 1.0000000e+00 2.1376685e-23 1.7743798e-17 2.9825345e-15
+ 3.3242838e-18]
+2021-03-05 10:37:58,341 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:58,341 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.062s.
+2021-03-05 10:37:58,381 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:58,381 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:58,443 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.0583290e-13 1.0000000e+00 4.6640596e-23 3.3347767e-17 4.9050966e-15
+ 1.2265103e-17]
+2021-03-05 10:37:58,443 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:58,443 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.062s.
+2021-03-05 10:37:58,485 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:58,485 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:58,546 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.2951741e-13 1.0000000e+00 4.3201368e-23 3.0565813e-17 4.5478741e-15
+ 7.1042945e-18]
+2021-03-05 10:37:58,547 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:58,547 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:58,590 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:58,590 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:58,651 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [7.6107415e-14 1.0000000e+00 2.2956594e-23 2.1769700e-17 2.9997640e-15
+ 8.4029622e-18]
+2021-03-05 10:37:58,651 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:58,651 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:58,695 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:58,695 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:58,750 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.2125652e-14 1.0000000e+00 6.9481488e-25 1.2131318e-18 3.4995137e-16
+ 1.9906386e-19]
+2021-03-05 10:37:58,750 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:58,750 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.055s.
+2021-03-05 10:37:58,799 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:58,799 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:58,856 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1643074e-14 1.0000000e+00 5.1213118e-24 6.9461863e-18 1.2129023e-15
+ 1.8263722e-18]
+2021-03-05 10:37:58,857 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:58,857 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:37:58,903 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:58,903 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:58,962 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:37:58,962 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:58,962 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:37:59,006 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:59,006 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:59,067 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:37:59,068 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:59,068 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:59,111 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:59,111 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:59,174 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:37:59,174 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:59,174 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:37:59,215 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:59,216 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:59,272 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:37:59,272 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:59,272 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.056s.
+2021-03-05 10:37:59,320 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:59,320 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:59,380 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:37:59,381 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:59,381 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:37:59,526 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:59,527 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:59,592 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [4.4692199e-14 1.0000000e+00 2.2196704e-24 2.4382848e-18 4.2329905e-16
+ 1.0327301e-18]
+2021-03-05 10:37:59,592 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:59,592 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.065s.
+2021-03-05 10:37:59,634 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:59,634 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:59,690 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3034682e-14 1.0000000e+00 1.4079083e-24 2.8953251e-18 6.1876244e-16
+ 1.6620809e-18]
+2021-03-05 10:37:59,690 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:59,690 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.056s.
+2021-03-05 10:37:59,735 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:59,736 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:59,796 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.3180130e-14 1.0000000e+00 3.5911078e-24 3.8845547e-18 7.5971296e-16
+ 1.1983719e-18]
+2021-03-05 10:37:59,796 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:59,796 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:37:59,839 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:59,839 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:59,901 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1454976e-13 1.0000000e+00 1.2141572e-22 5.8881423e-17 7.4255067e-15
+ 2.4921218e-17]
+2021-03-05 10:37:59,901 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:59,901 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.062s.
+2021-03-05 10:37:59,942 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:37:59,943 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:37:59,996 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3441940e-13 1.0000000e+00 4.8756388e-23 3.1839968e-17 4.8757516e-15
+ 6.5910334e-18]
+2021-03-05 10:37:59,997 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:37:59,997 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.054s.
+2021-03-05 10:38:00,046 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:00,046 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:00,103 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.3128404e-13 1.0000000e+00 5.0926960e-23 3.4432468e-17 4.9200887e-15
+ 1.4084451e-17]
+2021-03-05 10:38:00,103 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:00,103 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.057s.
+2021-03-05 10:38:00,146 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:00,146 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:00,204 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [4.4478662e-14 1.0000000e+00 8.0099453e-24 8.7162255e-18 1.5948288e-15
+ 1.5396677e-18]
+2021-03-05 10:38:00,205 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:00,205 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:38:00,250 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:00,250 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:00,308 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.2771461e-13 1.0000000e+00 6.3493849e-23 4.1957234e-17 5.5992541e-15
+ 1.6954518e-17]
+2021-03-05 10:38:00,308 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:00,308 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:38:00,354 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:00,354 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:00,410 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.01435285e-13 1.00000000e+00 3.01552746e-23 2.27847049e-17
+ 3.66170141e-15 4.79667520e-18]
+2021-03-05 10:38:00,410 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:00,410 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.056s.
+2021-03-05 10:38:00,459 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:00,459 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:00,522 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [9.3760428e-14 1.0000000e+00 3.7116814e-23 2.8391416e-17 4.1670641e-15
+ 1.0479819e-17]
+2021-03-05 10:38:00,522 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:00,522 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:38:00,562 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:00,562 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:00,618 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [4.7516014e-14 1.0000000e+00 9.1088877e-24 9.7586194e-18 1.7553158e-15
+ 1.8086991e-18]
+2021-03-05 10:38:00,618 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:00,618 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.056s.
+2021-03-05 10:38:00,663 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:00,663 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:00,718 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [6.3166188e-14 1.0000000e+00 1.8127976e-23 1.7725329e-17 2.5955446e-15
+ 6.7843203e-18]
+2021-03-05 10:38:00,718 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:00,718 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.055s.
+2021-03-05 10:38:00,764 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:00,764 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:00,822 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [8.7318467e-15 1.0000000e+00 4.1916588e-25 9.4119071e-19 2.6937747e-16
+ 1.5191598e-19]
+2021-03-05 10:38:00,822 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:00,822 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:38:00,865 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:00,865 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:00,924 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.5745814e-14 1.0000000e+00 5.4695848e-24 7.1967079e-18 1.2027061e-15
+ 2.0009251e-18]
+2021-03-05 10:38:00,924 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:00,924 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:38:00,970 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:00,970 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:01,030 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1857575e-13 1.0000000e+00 7.6512856e-23 5.4535621e-17 5.7152896e-15
+ 1.3814193e-17]
+2021-03-05 10:38:01,031 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:01,031 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:38:01,078 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:01,078 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:01,134 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1857575e-13 1.0000000e+00 7.6512856e-23 5.4535621e-17 5.7152896e-15
+ 1.3814193e-17]
+2021-03-05 10:38:01,135 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:01,135 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.056s.
+2021-03-05 10:38:01,180 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:01,180 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:01,239 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1857575e-13 1.0000000e+00 7.6512856e-23 5.4535621e-17 5.7152896e-15
+ 1.3814193e-17]
+2021-03-05 10:38:01,239 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:01,239 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:38:01,283 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:01,284 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:01,346 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1857575e-13 1.0000000e+00 7.6512856e-23 5.4535621e-17 5.7152896e-15
+ 1.3814193e-17]
+2021-03-05 10:38:01,346 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:01,346 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:38:01,385 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:01,386 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:01,446 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1857575e-13 1.0000000e+00 7.6512856e-23 5.4535621e-17 5.7152896e-15
+ 1.3814193e-17]
+2021-03-05 10:38:01,447 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:01,447 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:38:01,489 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:01,490 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:01,553 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1857575e-13 1.0000000e+00 7.6512856e-23 5.4535621e-17 5.7152896e-15
+ 1.3814193e-17]
+2021-03-05 10:38:01,554 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:01,554 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.064s.
+2021-03-05 10:38:01,596 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:01,596 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:01,651 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1913721e-13 1.0000000e+00 6.5542849e-23 4.4686590e-17 4.7512276e-15
+ 1.2811814e-17]
+2021-03-05 10:38:01,651 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:01,651 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.056s.
+2021-03-05 10:38:01,700 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:01,700 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:01,759 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1913721e-13 1.0000000e+00 6.5542849e-23 4.4686590e-17 4.7512276e-15
+ 1.2811814e-17]
+2021-03-05 10:38:01,760 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:01,760 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:38:01,804 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:01,804 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:01,871 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1913721e-13 1.0000000e+00 6.5542849e-23 4.4686590e-17 4.7512276e-15
+ 1.2811814e-17]
+2021-03-05 10:38:01,871 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:01,871 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.068s.
+2021-03-05 10:38:01,907 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:01,908 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:01,963 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1913721e-13 1.0000000e+00 6.5542849e-23 4.4686590e-17 4.7512276e-15
+ 1.2811814e-17]
+2021-03-05 10:38:01,964 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:01,964 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.056s.
+2021-03-05 10:38:02,007 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:02,007 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:02,061 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1913721e-13 1.0000000e+00 6.5542849e-23 4.4686590e-17 4.7512276e-15
+ 1.2811814e-17]
+2021-03-05 10:38:02,061 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:02,061 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.054s.
+2021-03-05 10:38:02,110 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:02,110 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:02,163 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1913721e-13 1.0000000e+00 6.5542849e-23 4.4686590e-17 4.7512276e-15
+ 1.2811814e-17]
+2021-03-05 10:38:02,164 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:02,164 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.054s.
+2021-03-05 10:38:02,215 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:02,215 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:02,276 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1913721e-13 1.0000000e+00 6.5542849e-23 4.4686590e-17 4.7512276e-15
+ 1.2811814e-17]
+2021-03-05 10:38:02,277 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:02,277 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:38:02,318 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:02,318 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:02,385 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1913721e-13 1.0000000e+00 6.5542849e-23 4.4686590e-17 4.7512276e-15
+ 1.2811814e-17]
+2021-03-05 10:38:02,386 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:02,386 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.068s.
+2021-03-05 10:38:02,421 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:02,421 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:02,482 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.1913721e-13 1.0000000e+00 6.5542849e-23 4.4686590e-17 4.7512276e-15
+ 1.2811814e-17]
+2021-03-05 10:38:02,482 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:02,482 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:38:02,526 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:02,526 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:02,585 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.4486928e-07 9.9999964e-01 1.5284836e-11 1.9013935e-08 1.8393742e-07
+ 1.4293353e-08]
+2021-03-05 10:38:02,585 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:02,585 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:38:02,630 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:02,630 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:02,684 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.9170416e-07 9.9999940e-01 1.0316298e-09 9.0978439e-08 2.9657170e-07
+ 3.9947395e-08]
+2021-03-05 10:38:02,685 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:02,685 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.055s.
+2021-03-05 10:38:02,735 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:02,735 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:02,802 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [5.8921103e-07 9.9999821e-01 1.8016734e-09 2.0796767e-07 8.1155179e-07
+ 1.0293340e-07]
+2021-03-05 10:38:02,802 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:02,802 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.067s.
+2021-03-05 10:38:02,835 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:02,836 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:02,895 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [4.5902661e-06 9.9998283e-01 1.6554145e-07 4.1757994e-06 6.9282132e-06
+ 1.2779183e-06]
+2021-03-05 10:38:02,896 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:02,896 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:38:02,940 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:02,941 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:02,996 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [9.7062775e-07 9.9999690e-01 6.6120331e-09 5.6024214e-07 1.4708999e-06
+ 1.6802647e-07]
+2021-03-05 10:38:02,996 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:02,996 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.055s.
+2021-03-05 10:38:03,043 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:03,043 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:03,106 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.1627005e-06 9.9998772e-01 1.6229565e-07 2.9116829e-06 5.3825161e-06
+ 6.7765154e-07]
+2021-03-05 10:38:03,107 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:03,107 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.064s.
+2021-03-05 10:38:03,146 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:03,146 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:03,200 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.4519638e-07 9.9999905e-01 1.1137397e-09 1.3137499e-07 4.8204657e-07
+ 4.8998825e-08]
+2021-03-05 10:38:03,200 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:03,200 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.054s.
+2021-03-05 10:38:03,250 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:03,250 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:03,313 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.473996e-06 9.999901e-01 9.497036e-08 2.343798e-06 4.124205e-06
+ 7.674050e-07]
+2021-03-05 10:38:03,313 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:03,313 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:38:03,357 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:03,357 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:03,412 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [5.5950062e-07 9.9999809e-01 2.5411588e-09 2.3668933e-07 9.2629006e-07
+ 6.9921605e-08]
+2021-03-05 10:38:03,412 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:03,412 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.055s.
+2021-03-05 10:38:03,457 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:03,457 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:03,517 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.2323928e-06 9.9999535e-01 3.7167933e-08 1.0653474e-06 2.0502880e-06
+ 3.3938829e-07]
+2021-03-05 10:38:03,517 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:03,517 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:38:03,557 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:03,558 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:03,620 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.2633798e-07 9.9999917e-01 4.7452131e-10 6.0853502e-08 3.7382557e-07
+ 3.7777589e-08]
+2021-03-05 10:38:03,620 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:03,621 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:38:03,662 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:03,662 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:03,724 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [3.9867725e-08 1.0000000e+00 2.6462580e-11 1.3545146e-09 2.8951685e-08
+ 7.3207151e-10]
+2021-03-05 10:38:03,724 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:03,724 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.062s.
+2021-03-05 10:38:03,767 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:03,767 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:03,824 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.9001181e-08 1.0000000e+00 2.4189619e-12 5.1190435e-10 1.5204234e-08
+ 3.6541895e-10]
+2021-03-05 10:38:03,824 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:03,824 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.057s.
+2021-03-05 10:38:03,869 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:03,869 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:03,925 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.8767770e-06 9.9999678e-01 2.8795751e-11 3.0607509e-08 4.1593076e-08
+ 3.1934147e-07]
+2021-03-05 10:38:03,925 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:03,925 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.056s.
+2021-03-05 10:38:03,974 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:03,974 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:04,034 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.8767770e-06 9.9999678e-01 2.8795751e-11 3.0607509e-08 4.1593076e-08
+ 3.1934147e-07]
+2021-03-05 10:38:04,034 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:04,034 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:38:04,079 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:04,079 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:04,143 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.8767770e-06 9.9999678e-01 2.8795751e-11 3.0607509e-08 4.1593076e-08
+ 3.1934147e-07]
+2021-03-05 10:38:04,143 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:04,143 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.064s.
+2021-03-05 10:38:04,184 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:04,184 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:04,247 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.8767770e-06 9.9999678e-01 2.8795751e-11 3.0607509e-08 4.1593076e-08
+ 3.1934147e-07]
+2021-03-05 10:38:04,247 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:04,247 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:38:04,284 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:04,284 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:04,345 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.8767770e-06 9.9999678e-01 2.8795751e-11 3.0607509e-08 4.1593076e-08
+ 3.1934147e-07]
+2021-03-05 10:38:04,345 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:04,345 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:38:04,387 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:04,387 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:04,441 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.8533003e-13 1.0000000e+00 1.1871084e-22 7.2749357e-17 7.3834210e-15
+ 1.7898183e-17]
+2021-03-05 10:38:04,441 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:04,441 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.054s.
+2021-03-05 10:38:04,488 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:04,488 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:04,545 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.8533003e-13 1.0000000e+00 1.1871084e-22 7.2749357e-17 7.3834210e-15
+ 1.7898183e-17]
+2021-03-05 10:38:04,546 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:04,546 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:38:04,592 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:04,593 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:04,658 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.8533003e-13 1.0000000e+00 1.1871084e-22 7.2749357e-17 7.3834210e-15
+ 1.7898183e-17]
+2021-03-05 10:38:04,659 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:04,659 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.066s.
+2021-03-05 10:38:04,697 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:04,697 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:04,754 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.8533003e-13 1.0000000e+00 1.1871084e-22 7.2749357e-17 7.3834210e-15
+ 1.7898183e-17]
+2021-03-05 10:38:04,755 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:04,755 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:38:04,800 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:04,800 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:04,858 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.8533003e-13 1.0000000e+00 1.1871084e-22 7.2749357e-17 7.3834210e-15
+ 1.7898183e-17]
+2021-03-05 10:38:04,858 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:04,858 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.058s.
+2021-03-05 10:38:04,901 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:04,901 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:04,955 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.8533003e-13 1.0000000e+00 1.1871084e-22 7.2749357e-17 7.3834210e-15
+ 1.7898183e-17]
+2021-03-05 10:38:04,955 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:04,956 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.055s.
+2021-03-05 10:38:05,001 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:05,001 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:05,062 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.8533003e-13 1.0000000e+00 1.1871084e-22 7.2749357e-17 7.3834210e-15
+ 1.7898183e-17]
+2021-03-05 10:38:05,063 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:05,063 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.061s.
+2021-03-05 10:38:05,102 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:05,102 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:05,169 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [2.8533003e-13 1.0000000e+00 1.1871084e-22 7.2749357e-17 7.3834210e-15
+ 1.7898183e-17]
+2021-03-05 10:38:05,169 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:05,169 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.068s.
+2021-03-05 10:38:05,206 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:05,206 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:05,259 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:38:05,259 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:05,259 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.053s.
+2021-03-05 10:38:05,311 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:05,311 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:05,371 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:38:05,371 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:05,371 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:38:05,417 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:05,417 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:05,475 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:38:05,475 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:05,475 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:38:05,521 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:05,521 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:05,587 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:38:05,587 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:05,587 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.066s.
+2021-03-05 10:38:05,625 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:05,625 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:05,685 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:38:05,685 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:05,685 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.060s.
+2021-03-05 10:38:05,730 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:05,730 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:05,785 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:38:05,785 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:05,785 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.055s.
+2021-03-05 10:38:05,835 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:05,835 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:05,897 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:38:05,898 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:05,898 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:38:05,939 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:05,939 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:05,993 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:38:05,993 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:05,993 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.054s.
+2021-03-05 10:38:06,044 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:06,044 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:06,109 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:38:06,110 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:06,110 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.066s.
+2021-03-05 10:38:06,148 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:06,148 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:06,203 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:38:06,203 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:06,203 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.055s.
+2021-03-05 10:38:06,251 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:06,252 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:06,310 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:38:06,310 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:06,310 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.059s.
+2021-03-05 10:38:06,355 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:06,356 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:06,418 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:38:06,418 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:06,418 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.063s.
+2021-03-05 10:38:06,458 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:06,458 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:06,522 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:38:06,522 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:06,522 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.064s.
+2021-03-05 10:38:06,562 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Calling act on callback.
+2021-03-05 10:38:06,562 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Querying model for action.
+2021-03-05 10:38:06,626 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: [1.6931221e-13 1.0000000e+00 5.4663548e-23 4.4052734e-17 4.6947813e-15
+ 1.2190332e-17]
+2021-03-05 10:38:06,626 [robin-fleige_clara-hartmann_christopher-klammt_code] DEBUG: Chose action: RIGHT
+2021-03-05 10:38:06,626 [robin-fleige_clara-hartmann_christopher-klammt_wrapper] DEBUG: Got result from callback#act in 0.064s.

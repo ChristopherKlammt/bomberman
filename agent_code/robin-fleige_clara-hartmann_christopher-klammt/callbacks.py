@@ -9,6 +9,35 @@ from tensorflow import keras
 
 ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
 
+def get_next_action(self, game_state):
+    probabilities = self.model.predict(np.array([state_to_features(game_state)]))[0] 
+    # probabilities = probabilities ** 2 # square probability vector
+    probabilities = probabilities * get_valid_actions(game_state) # only allow valid actions
+    probabilities = probabilities / probabilities.sum() # normalize to statistical vector (= sums up to 1)
+    choice = np.random.choice(ACTIONS, p=probabilities)
+    
+    return probabilities, choice
+
+def get_valid_actions(game_state):
+    _, _, bomb, (x, y) = game_state["self"]
+    walls = game_state["field"]
+
+    actions = np.ones(6)
+
+    if walls[x][y-1] != 0:
+        actions[0] = 0 # can't go up
+    if walls[x+1][y] != 0:
+        actions[1] = 0 # can't go right
+    if walls[x][y+1] != 0:
+        actions[2] = 0 # can't go down
+    if walls[x-1][y] != 0:
+        actions[3] = 0 # can't go left
+
+    # if not bomb:
+    if True: # TODO: currently always disable bomb
+        actions[5] = 0 # can't plant bomb
+    
+    return actions
 
 def setup(self):
     """
@@ -45,35 +74,19 @@ def act(self, game_state: dict) -> str:
     :return: The action to take as a string.
     """
     # todo Exploration vs exploitation
-    random_prob = .1
+    random_prob = .0
     if self.train and random.random() < random_prob:
         self.logger.debug("Choosing action purely at random.")
-        choice = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
+        choice = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .2, .0])
         self.logger.debug(f"Chose action: {choice}")
         return choice
     
     self.logger.debug("Querying model for action.")
-    choice = np.random.choice(ACTIONS, p=self.model.predict(np.array([state_to_features(game_state)]))[0])
+    probabilities, choice = get_next_action(self, game_state)
     # choice = ACTIONS[np.argmax(self.model.predict(np.array([state_to_features(game_state)]))[0])]
-    self.logger.debug(self.model.predict(np.array([state_to_features(game_state)]))[0])
+    self.logger.debug(probabilities)
     self.logger.debug(f"Chose action: {choice}")
     return choice
-
-VIEW_SIZE = 9
-
-def field_to_small_view(field, x, y):
-    step = int((VIEW_SIZE - 1) / 2)
-    central_view = []
-    for x_i in range(x - step, x + step + 1):
-        row = []
-        for y_i in range(y - step, y + step + 1):
-            if x_i < 17 and y_i < 17:
-                row.append(field[x_i][y_i])
-            else:
-                row.append(-1)
-        central_view.append(row)
-    central_view = np.array(central_view)
-    return central_view
 
 
 def state_to_features(game_state: dict) -> np.array:
@@ -99,30 +112,44 @@ def state_to_features(game_state: dict) -> np.array:
 
     # chanels consist of: 
     #       - walls
+    #       - crates
     #       - coins
-    # each channel is a 5x5 view of the field around the player
-
-    name, score, bomb, (x_pos, y_pos) = game_state["self"]
+    #       - players
+    #       - bombs
 
     # create walls channel
-    walls = field_to_small_view(game_state["field"], x_pos, y_pos)
-    channels.append(walls)
+    wall_map = np.zeros_like(game_state["field"])
+    for x, y in zip(*np.where(game_state["field"] == -1)):
+        wall_map[x][y] = 1
+    channels.append(wall_map)
+
+    # create crates channel
+    crate_map = np.zeros_like(wall_map)
+    for x, y in zip(*np.where(game_state["field"] == 1)):
+        crate_map[x][y] = 1
+    channels.append(crate_map)    
 
     # create coins channel
-    coin_map = np.zeros_like(game_state["field"])
+    coin_map = np.zeros_like(wall_map)
     for x, y in game_state["coins"]:
         coin_map[x][y] = 1
-    coins = field_to_small_view(coin_map, x_pos, y_pos)
-    channels.append(coins)
+    channels.append(coin_map)
 
     # create bomb channel
-    bomb_map = np.zeros_like(game_state["field"])
+    bomb_map = np.zeros_like(wall_map)
     for (x, y), countdown in game_state["bombs"]:
-        bomb_map[x][y] = countdown
-    bombs = field_to_small_view(bomb_map, x_pos, y_pos)
-    channels.append(bombs)
+        bomb_map[x][y] = -countdown
+    # TODO: add explosion map
+    channels.append(bomb_map)
+
+    # create player channel
+    player_map = np.zeros_like(wall_map)
+    _, _, _, (x, y) = game_state["self"]
+    player_map[x][y] = 1
+    for _, _, _, (x, y) in game_state["others"]:
+        player_map[x][y] = -1
+    channels.append(player_map)
 
     # concatenate them as a feature tensor (they must have the same shape), ...
-    stacked_channels = np.stack(channels)
-    # and return them as a vector
-    return stacked_channels.reshape(-1)
+    stacked_channels = np.stack(channels).astype(float)
+    return stacked_channels

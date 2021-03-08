@@ -4,7 +4,7 @@ from collections import namedtuple, deque
 from typing import List
 
 import events as e
-from .callbacks import state_to_features
+from .callbacks import state_to_features, get_next_action
 
 import numpy as np
 
@@ -13,67 +13,64 @@ import keras
 import tensorflow as tf
 
 from keras.models import Sequential
-from keras.layers import Dense, Dropout
+from keras.layers import Dense, Dropout, Conv2D, MaxPooling2D, Flatten
 from keras.optimizers import Adam
-
-# This is only an example!
-Transition = namedtuple('Transition',
-                        ('state', 'action', 'next_state', 'reward'))
 
 # Hyper parameters -- DO modify
 TRANSITION_HISTORY_SIZE = 1  # keep only ... last transitions
 # RECORD_ENEMY_TRANSITIONS = 1.0  # record enemy transitions with probability ...
 GAMMA = .99
 MINIBATCH_SIZE = 32
-LEARNING_RATE=0.05
+LEARNING_RATE = 0.0005
 
 actions_to_number = {"UP": 0, "RIGHT": 1, "DOWN": 2, "LEFT": 3, "BOMB": 4, "WAIT": 5}
 
 # Events
 SURVIVED_ROUND = "SURVIVED_ROUND"
+ALREADY_VISITED = "ALREADY_VISITED"
+NEW_LOCATION_VISITED = "NEW_LOCATION_VISITED"
 
 def create_model():
     # parameters
     num_actions = 6
-    num_channels = 3
-    view_size = 9
-    input_dim = num_channels * view_size ** 2
 
     # create keras model
     model = Sequential()
-    
-    model.add(Dense(64, input_dim=input_dim, activation="relu"))
+    model.add(Conv2D(32, kernel_size=(5, 5), padding="same", activation="relu"))
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Conv2D(64, kernel_size=(3, 3), padding="same", activation="relu"))
+    # model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Flatten())
     model.add(Dense(32, activation="relu"))
     model.add(Dense(num_actions, activation="softmax"))
-    model.compile(loss="mean_squared_error", optimizer=Adam())
+    model.compile(loss="mean_squared_error", optimizer=Adam(learning_rate=LEARNING_RATE))
 
     return model
 
 def train(self):
-    minibatch = np.random.choice(self.transitions, MINIBATCH_SIZE, replace=True)
+    batch_size = MINIBATCH_SIZE
+    if MINIBATCH_SIZE > len(self.transitions):
+        batch_size = len(self.transitions)
+    minibatch = np.random.choice(self.transitions, batch_size, replace=True)
 
-    # states = np.array(list(map(lambda x: x.state, minibatch)))
-    # actions = np.array(list(map(lambda x: x.action, minibatch)))
-    # next_states = np.array(list(map(lambda x: x.next_state, minibatch)))
-    # rewards = np.array(list(map(lambda x: x.reward, minibatch)))
-    states = np.array(list(map(lambda x: x["s"], minibatch)))
-    actions = np.array(list(map(lambda x: x["a"], minibatch)))
-    next_states = np.array(list(map(lambda x: x["sprime"], minibatch)))
-    rewards = np.array(list(map(lambda x: x["r"], minibatch)))
+    states = np.array(list(map(lambda x: state_to_features(x["state"]), minibatch)))
+    actions = np.array(list(map(lambda x: x["action"], minibatch)))
+    next_states = np.array(list(map(lambda x: state_to_features(x["next_state"]), minibatch)))
+    rewards = np.array(list(map(lambda x: x["reward"], minibatch)))
+    game_overs = np.array(list(map(lambda x: x["game_over"], minibatch)))
 
     qvals_next_states = self.model.predict(next_states)
     target_f = self.model.predict(states)
 
     # q-update target
-    for i, (state, action, reward, qvals_next_state) in enumerate(zip(states, actions, rewards, qvals_next_states)):
-        if qvals_next_state is None:
+    for i, (state, action, reward, qvals_next_state, game_over) in enumerate(zip(states, actions, rewards, qvals_next_states, game_overs)):
+        if game_over:
             target = reward
         else:
             target = reward + GAMMA * np.max(qvals_next_state)
         target_f[i][actions_to_number[action]] = target
 
     self.model.fit(states, target_f, epochs=1, verbose=0)
-    return self.model
 
 def save_model(model, fn):
     model.save(fn)
@@ -88,18 +85,16 @@ def setup_training(self):
     """
     # Example: Setup an array that will note transition tuples
     # (s, a, r, s')
-    # self.transitions = deque(maxlen=TRANSITION_HISTORY_SIZE)
     self.transitions = []
 
+    self.visited_coords = []
+
     self.reward_sum = 0
+    self.rewards = deque([], 5)
 
     if not hasattr(self, "model"):
         self.logger.debug("create new models for training")
         self.model = create_model()
-        # self.target_model = create_model()
-    else:
-        self.logger.debug("load model as target_model as well")
-        # self.target_model = keras.models.load_model("my_agent.model")
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
     """
@@ -124,16 +119,20 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
     if ...:
         events.append(SURVIVED_ROUND)
 
+    _, _, _, coords = new_game_state["self"]
+    if coords in self.visited_coords:
+        events.append(ALREADY_VISITED)
+    else:
+        events.append(NEW_LOCATION_VISITED)
+        self.visited_coords.append(coords)
+
     if len(self.transitions) > TRANSITION_HISTORY_SIZE:
-            self.transitions.pop(0)
+            self.transitions.pop()
 
     # state_to_features is defined in callbacks.py
     if old_game_state is not None:
         self.reward_sum += reward_from_events(self, events)
-        self.transitions.append({"s": state_to_features(old_game_state), "a": self_action, "sprime": state_to_features(new_game_state), "r": reward_from_events(self, events)})
-        # self.transitions.append(Transition(state_to_features(old_game_state), self_action, state_to_features(new_game_state), reward_from_events(self, events)))
-
-        train(self)
+        self.transitions.append({"state": old_game_state, "action": self_action, "next_state": new_game_state, "reward": reward_from_events(self, events), "game_over": False})
 
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
@@ -150,12 +149,16 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     """
     self.reward_sum += reward_from_events(self, events)
     self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
-    # self.transitions.append({"s": state_to_features(last_game_state), "a": last_action, "sprime": None, "r": reward_from_events(self, events)})
-    # self.transitions.append(Transition(state_to_features(last_game_state), last_action, state_to_features(None), reward_from_events(self, events)))
+    self.transitions.append({"state": last_game_state, "action": last_action, "next_state": last_game_state, "reward": reward_from_events(self, events), "game_over": True})
 
-    print("Total reward:", self.reward_sum)
+    for i in range(10): # train after each game with 10 different minibatches
+        train(self)
+
+    self.rewards.append(self.reward_sum)
+    print("Mean reward (last 5 games):", np.mean(self.rewards))
     self.reward_sum = 0
     self.transitions = []
+    self.visited_coords = []
 
     # Store the model
     save_model(self.model, "my_agent.model")
@@ -169,17 +172,19 @@ def reward_from_events(self, events: List[str]) -> int:
     certain behavior.
     """
     game_rewards = {
-        e.MOVED_LEFT: .5,
-        e.MOVED_RIGHT: .5,
-        e.MOVED_UP: .5,
-        e.MOVED_DOWN: .5,
-        e.COIN_COLLECTED: 10,
+        # e.MOVED_LEFT: .5,
+        # e.MOVED_RIGHT: .5,
+        # e.MOVED_UP: .5,
+        # e.MOVED_DOWN: .5,
+        e.COIN_COLLECTED: 5,
         # e.KILLED_OPPONENT: 5,
-        e.INVALID_ACTION: -2,
-        e.WAITED: -2,
-        # SURVIVED_ROUND: .1,
-        e.KILLED_SELF: -100,
-        # e.BOMB_DROPPED: -1,
+        # e.INVALID_ACTION: -1,
+        # e.WAITED: -1,
+        # e.KILLED_SELF: -100,
+        # e.BOMB_DROPPED: -10,
+        # SURVIVED_ROUND: -.1,
+        # NEW_LOCATION_VISITED: 1,
+        # ALREADY_VISITED: -.5,
     }
     reward_sum = 0
     for event in events:

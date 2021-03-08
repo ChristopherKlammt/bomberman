@@ -17,6 +17,6 @@ create conda env by using
 
 starts the game and executes our own trained agent
 
-```python main.py play --my-agent robin-fleige_clara-hartmann_christopher-klammt --train 1````
+```python main.py play --my-agent robin-fleige_clara-hartmann_christopher-klammt --train 1 --no-gui --n-rounds=200```
 
 starts the training process

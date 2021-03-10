@@ -3,13 +3,12 @@ Setup for a project/competition amongst students to train a winning Reinforcemen
 
 ## setup conda env
 
-export required libraries
-
-```conda list -e > requirements.txt```
-
 create conda env by using 
 
-```conda create --name bomberman python=3.8 --file requirements.txt```
+```
+conda create --name bomberman python=3.8
+pip install numpy tensorflow tqdm keras pygame
+```
 
 ## play and train
 

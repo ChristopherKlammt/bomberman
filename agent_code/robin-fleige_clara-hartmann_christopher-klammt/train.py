@@ -21,7 +21,7 @@ TRANSITION_HISTORY_SIZE = 100  # keep only ... last transitions
 # RECORD_ENEMY_TRANSITIONS = 1.0  # record enemy transitions with probability ...
 GAMMA = .99
 MINIBATCH_SIZE = 32
-LEARNING_RATE = 0.00005
+LEARNING_RATE = 0.05
 
 actions_to_number = {"UP": 0, "RIGHT": 1, "DOWN": 2, "LEFT": 3, "BOMB": 4, "WAIT": 5}
 

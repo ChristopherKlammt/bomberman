@@ -6,35 +6,52 @@ import numpy as np
 
 from tensorflow import keras
 
+np.set_printoptions(suppress=True)
+np.set_printoptions(formatter={'float_kind': "{:.4f}".format})
 
 ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
 
+# returns probabilites for an array of game_states
+def get_valid_probabilities_list(self, states, features):
+    probabilities = self.model.predict(np.array(features))
+    self.logger.debug(probabilities)
+    for i in range(len(probabilities)):
+        if min(probabilities[i]) < 0:
+            probabilities[i] += abs(min(probabilities[i]))
+        probabilities[i] *= get_valid_actions(states[i]) # only allow valid actions
+        probabilities[i] /= probabilities[i].sum() # normalize to statistical vector (= sums up to 1)
+    return probabilities
+
+
+def get_valid_probabilities(self, game_state):
+    probabilities = get_valid_probabilities_list(self, [game_state], [state_to_features(game_state)])[0]
+    return probabilities
+
 def get_next_action(self, game_state):
-    probabilities = self.model.predict(np.array([state_to_features(game_state)]))[0] 
-    # probabilities = probabilities ** 2 # square probability vector
-    probabilities = probabilities * get_valid_actions(game_state) # only allow valid actions
-    probabilities = probabilities / probabilities.sum() # normalize to statistical vector (= sums up to 1)
+    probabilities = get_valid_probabilities(self, game_state)
     choice = np.random.choice(ACTIONS, p=probabilities)
+    # choice = ACTIONS[np.argmax(probabilities)]
     
     return probabilities, choice
 
 def get_valid_actions(game_state):
     _, _, bomb, (x, y) = game_state["self"]
     walls = game_state["field"]
+    bombs = list(map(lambda x: x[0], game_state["bombs"]))
 
     actions = np.ones(6)
 
-    if walls[x][y-1] != 0:
+    if walls[x][y-1] != 0 or (x, y-1) in bombs:
         actions[0] = 0 # can't go up
-    if walls[x+1][y] != 0:
+    if walls[x+1][y] != 0 or (x+1, y) in bombs:
         actions[1] = 0 # can't go right
-    if walls[x][y+1] != 0:
+    if walls[x][y+1] != 0 or (x, y+1) in bombs:
         actions[2] = 0 # can't go down
-    if walls[x-1][y] != 0:
+    if walls[x-1][y] != 0 or (x-1, y) in bombs:
         actions[3] = 0 # can't go left
 
+    if True:
     # if not bomb:
-    if True: # TODO: currently always disable bomb
         actions[5] = 0 # can't plant bomb
     
     return actions
@@ -74,12 +91,12 @@ def act(self, game_state: dict) -> str:
     :return: The action to take as a string.
     """
     # todo Exploration vs exploitation
-    random_prob = .0
+    random_prob = .1
     if self.train and random.random() < random_prob:
         self.logger.debug("Choosing action purely at random.")
-        choice = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .2, .0])
+        choice = np.random.choice(ACTIONS, p=[.2, .2, .2, .2, .1, .1])
         self.logger.debug(f"Chose action: {choice}")
-        return choice
+        return choice 
     
     self.logger.debug("Querying model for action.")
     probabilities, choice = get_next_action(self, game_state)
@@ -137,9 +154,23 @@ def state_to_features(game_state: dict) -> np.array:
 
     # create bomb channel
     bomb_map = np.zeros_like(wall_map)
+    for x, y in zip(*np.where(game_state["explosion_map"] == 1)):
+        bomb_map[x][y] = 1
+        # bomb basically is a wall -> player can't move past it
+        wall_map[x][y] = 1
+
     for (x, y), countdown in game_state["bombs"]:
-        bomb_map[x][y] = -countdown
-    # TODO: add explosion map
+        bomb_map[x][y] = 1
+        for i in range(1, 4):
+            if x+i < len(bomb_map[x]) - 1:
+                bomb_map[x+i][y] = 1
+            if x-i > 0:
+                bomb_map[x-i][y] = 1
+            if y+i < len(bomb_map[:,y]) - 1:
+                bomb_map[x][y+i] = 1
+            if y-i > 0:
+                bomb_map[x][y-i] = 1
+
     channels.append(bomb_map)
 
     # create player channel

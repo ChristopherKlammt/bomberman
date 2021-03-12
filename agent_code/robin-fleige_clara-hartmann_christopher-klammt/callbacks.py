@@ -21,7 +21,6 @@ RULE_BASED_PROB_STEP = (RULE_BASED_PROB_MAX -RULE_BASED_PROB_MIN) / TRANSITION_H
 # returns probabilites for an array of game_states
 def get_valid_probabilities_list(self, states, features):
     probabilities = self.model.predict(np.array(features))
-    self.logger.debug(probabilities)
     for i in range(len(probabilities)):
         if min(probabilities[i]) < 0:
             probabilities[i] += abs(min(probabilities[i]))

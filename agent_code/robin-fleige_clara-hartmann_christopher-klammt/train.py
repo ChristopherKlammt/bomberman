@@ -61,16 +61,17 @@ def train(self):
     game_overs = np.array(list(map(lambda x: x["game_over"], minibatch)))
 
     qvals_next_states = self.model.predict(next_states)
+    qvals_next_states_target = self.target_model.predict(next_states)
     target_f = get_valid_probabilities_list(self, states, feature_states)
 
     # q-update target
-    for i, (state, action, reward, qvals_next_state, game_over) in enumerate(zip(feature_states, actions, rewards, qvals_next_states, game_overs)):
+    for i, (state, action, reward, qvals_next_state, qvals_next_state_target, game_over) in enumerate(zip(feature_states, actions, rewards, qvals_next_states, qvals_next_states_target, game_overs)):
         # add total reward to each step ??
         # reward = reward + self.reward_sum
         if game_over:
             target = reward
         else:
-            target = reward + GAMMA * np.max(qvals_next_state)
+            target = reward + GAMMA * qvals_next_state_target[np.argmax(qvals_next_state)]
         target_f[i][actions_to_number[action]] = target
 
     self.model.fit(feature_states, target_f, epochs=1, verbose=0)
@@ -98,6 +99,8 @@ def setup_training(self):
     if not hasattr(self, "model"):
         self.logger.debug("create new models for training")
         self.model = create_model()
+    
+    self.target_model = create_model()
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
     """
@@ -161,11 +164,14 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
         train(self)
 
     self.rewards.append(self.reward_sum)
-    print(f"Number of steps: {len(self.transitions)}")
+    print(f"Number of steps: {last_game_state['step']}")
     # print(f"Positive reward quota: {np.count_nonzero(np.array(self.rewards) > 0) / len(self.rewards) * 100 : .1f} % ({self.reward_sum : .1f} in {len(self.transitions)} rounds)")
     self.reward_sum = 0
     self.transitions = []
     self.visited_coords = []
+
+     # update target model
+    self.target_model.set_weights(self.model.get_weights())
 
     # Store the model
     save_model(self.model, "my_agent.model")

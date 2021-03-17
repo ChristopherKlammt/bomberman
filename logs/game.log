@@ -1,571 +1,1302 @@
-2021-03-05 10:37:42,963 [BombeRLeWorld] INFO: Initializing game world
-2021-03-05 10:37:47,663 [BombeRLeWorld] INFO: STARTING ROUND #1
-2021-03-05 10:37:47,769 [BombeRLeWorld] INFO: STARTING STEP 1
-2021-03-05 10:37:47,881 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.11s.
-2021-03-05 10:37:47,881 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:47,881 [BombeRLeWorld] INFO: STARTING STEP 2
-2021-03-05 10:37:47,931 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:37:47,931 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:47,984 [BombeRLeWorld] INFO: STARTING STEP 3
-2021-03-05 10:37:48,047 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:48,047 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:48,089 [BombeRLeWorld] INFO: STARTING STEP 4
-2021-03-05 10:37:48,153 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:48,153 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:48,192 [BombeRLeWorld] INFO: STARTING STEP 5
-2021-03-05 10:37:48,261 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:48,261 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:48,296 [BombeRLeWorld] INFO: STARTING STEP 6
-2021-03-05 10:37:48,355 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:48,355 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:48,400 [BombeRLeWorld] INFO: STARTING STEP 7
-2021-03-05 10:37:48,464 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:48,464 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:48,501 [BombeRLeWorld] INFO: STARTING STEP 8
-2021-03-05 10:37:48,560 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:48,560 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:48,603 [BombeRLeWorld] INFO: STARTING STEP 9
-2021-03-05 10:37:48,668 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:48,669 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:48,712 [BombeRLeWorld] INFO: STARTING STEP 10
-2021-03-05 10:37:48,771 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:48,771 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:48,815 [BombeRLeWorld] INFO: STARTING STEP 11
-2021-03-05 10:37:48,872 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:48,872 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:48,919 [BombeRLeWorld] INFO: STARTING STEP 12
-2021-03-05 10:37:48,984 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:48,984 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:49,021 [BombeRLeWorld] INFO: STARTING STEP 13
-2021-03-05 10:37:49,083 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:49,083 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:49,126 [BombeRLeWorld] INFO: STARTING STEP 14
-2021-03-05 10:37:49,198 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:49,198 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:49,230 [BombeRLeWorld] INFO: STARTING STEP 15
-2021-03-05 10:37:49,293 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:49,293 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:49,334 [BombeRLeWorld] INFO: STARTING STEP 16
-2021-03-05 10:37:49,395 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:49,395 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:49,436 [BombeRLeWorld] INFO: STARTING STEP 17
-2021-03-05 10:37:49,497 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:49,497 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:49,539 [BombeRLeWorld] INFO: STARTING STEP 18
-2021-03-05 10:37:49,608 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:49,608 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:49,642 [BombeRLeWorld] INFO: STARTING STEP 19
-2021-03-05 10:37:49,707 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:49,707 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:49,746 [BombeRLeWorld] INFO: STARTING STEP 20
-2021-03-05 10:37:49,807 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:49,807 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:49,847 [BombeRLeWorld] INFO: STARTING STEP 21
-2021-03-05 10:37:49,906 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:49,906 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:49,980 [BombeRLeWorld] INFO: STARTING STEP 22
-2021-03-05 10:37:50,036 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:37:50,036 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:50,084 [BombeRLeWorld] INFO: STARTING STEP 23
-2021-03-05 10:37:50,151 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:50,151 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:50,187 [BombeRLeWorld] INFO: STARTING STEP 24
-2021-03-05 10:37:50,249 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:50,249 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:50,292 [BombeRLeWorld] INFO: STARTING STEP 25
-2021-03-05 10:37:50,351 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:50,351 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:50,395 [BombeRLeWorld] INFO: STARTING STEP 26
-2021-03-05 10:37:50,456 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:50,456 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:50,497 [BombeRLeWorld] INFO: STARTING STEP 27
-2021-03-05 10:37:50,558 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:50,558 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:50,602 [BombeRLeWorld] INFO: STARTING STEP 28
-2021-03-05 10:37:50,666 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:50,666 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:50,706 [BombeRLeWorld] INFO: STARTING STEP 29
-2021-03-05 10:37:50,771 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:50,771 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:50,808 [BombeRLeWorld] INFO: STARTING STEP 30
-2021-03-05 10:37:50,866 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:50,867 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:50,912 [BombeRLeWorld] INFO: STARTING STEP 31
-2021-03-05 10:37:50,970 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:50,970 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:51,020 [BombeRLeWorld] INFO: STARTING STEP 32
-2021-03-05 10:37:51,087 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:51,087 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:51,123 [BombeRLeWorld] INFO: STARTING STEP 33
-2021-03-05 10:37:51,193 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:51,193 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:51,227 [BombeRLeWorld] INFO: STARTING STEP 34
-2021-03-05 10:37:51,292 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:51,292 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:51,332 [BombeRLeWorld] INFO: STARTING STEP 35
-2021-03-05 10:37:51,391 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:51,391 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:51,436 [BombeRLeWorld] INFO: STARTING STEP 36
-2021-03-05 10:37:51,507 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:51,507 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:51,541 [BombeRLeWorld] INFO: STARTING STEP 37
-2021-03-05 10:37:51,593 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:37:51,593 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:51,643 [BombeRLeWorld] INFO: STARTING STEP 38
-2021-03-05 10:37:51,704 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:51,704 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:51,748 [BombeRLeWorld] INFO: STARTING STEP 39
-2021-03-05 10:37:51,805 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:51,805 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:51,853 [BombeRLeWorld] INFO: STARTING STEP 40
-2021-03-05 10:37:51,913 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:51,913 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:51,955 [BombeRLeWorld] INFO: STARTING STEP 41
-2021-03-05 10:37:52,024 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:52,024 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:52,058 [BombeRLeWorld] INFO: STARTING STEP 42
-2021-03-05 10:37:52,122 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
-2021-03-05 10:37:52,129 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:52,129 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:52,129 [BombeRLeWorld] INFO: STARTING ROUND #2
-2021-03-05 10:37:52,163 [BombeRLeWorld] INFO: STARTING STEP 1
-2021-03-05 10:37:52,222 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:52,222 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:52,268 [BombeRLeWorld] INFO: STARTING STEP 2
-2021-03-05 10:37:52,330 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:52,330 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:52,371 [BombeRLeWorld] INFO: STARTING STEP 3
-2021-03-05 10:37:52,439 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:52,439 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:52,476 [BombeRLeWorld] INFO: STARTING STEP 4
-2021-03-05 10:37:52,537 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:52,537 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:52,578 [BombeRLeWorld] INFO: STARTING STEP 5
-2021-03-05 10:37:52,633 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:37:52,633 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:52,683 [BombeRLeWorld] INFO: STARTING STEP 6
-2021-03-05 10:37:52,745 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:52,745 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:52,791 [BombeRLeWorld] INFO: STARTING STEP 7
-2021-03-05 10:37:52,847 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:52,847 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:52,892 [BombeRLeWorld] INFO: STARTING STEP 8
-2021-03-05 10:37:52,958 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:52,958 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:52,996 [BombeRLeWorld] INFO: STARTING STEP 9
-2021-03-05 10:37:53,058 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:53,058 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:53,087 [BombeRLeWorld] INFO: WRAPPING UP ROUND #2
-2021-03-05 10:37:53,092 [BombeRLeWorld] INFO: STARTING ROUND #3
-2021-03-05 10:37:53,098 [BombeRLeWorld] INFO: STARTING STEP 1
-2021-03-05 10:37:53,154 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:37:53,154 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:53,202 [BombeRLeWorld] INFO: STARTING STEP 2
-2021-03-05 10:37:53,266 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:53,266 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:53,305 [BombeRLeWorld] INFO: STARTING STEP 3
-2021-03-05 10:37:53,373 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:53,373 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:53,410 [BombeRLeWorld] INFO: STARTING STEP 4
-2021-03-05 10:37:53,469 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:53,469 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:53,514 [BombeRLeWorld] INFO: STARTING STEP 5
-2021-03-05 10:37:53,576 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:53,576 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:53,617 [BombeRLeWorld] INFO: STARTING STEP 6
-2021-03-05 10:37:53,671 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:37:53,671 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:53,718 [BombeRLeWorld] INFO: STARTING STEP 7
-2021-03-05 10:37:53,783 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:53,783 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:53,818 [BombeRLeWorld] INFO: STARTING STEP 8
-2021-03-05 10:37:53,886 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:53,886 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:53,922 [BombeRLeWorld] INFO: STARTING STEP 9
-2021-03-05 10:37:53,981 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:53,981 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:54,027 [BombeRLeWorld] INFO: STARTING STEP 10
-2021-03-05 10:37:54,090 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:54,090 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:54,118 [BombeRLeWorld] INFO: WRAPPING UP ROUND #3
-2021-03-05 10:37:54,125 [BombeRLeWorld] INFO: STARTING ROUND #4
-2021-03-05 10:37:54,132 [BombeRLeWorld] INFO: STARTING STEP 1
-2021-03-05 10:37:54,187 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:37:54,187 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:54,233 [BombeRLeWorld] INFO: STARTING STEP 2
-2021-03-05 10:37:54,299 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:54,299 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:54,333 [BombeRLeWorld] INFO: STARTING STEP 3
-2021-03-05 10:37:54,395 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:54,395 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:54,439 [BombeRLeWorld] INFO: STARTING STEP 4
-2021-03-05 10:37:54,499 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:54,499 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:54,542 [BombeRLeWorld] INFO: STARTING STEP 5
-2021-03-05 10:37:54,603 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:54,603 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:54,603 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> picked up coin at (6, 1) and receives 1 point
-2021-03-05 10:37:54,645 [BombeRLeWorld] INFO: STARTING STEP 6
-2021-03-05 10:37:54,701 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:54,701 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:54,749 [BombeRLeWorld] INFO: STARTING STEP 7
-2021-03-05 10:37:54,816 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:54,816 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:54,850 [BombeRLeWorld] INFO: STARTING STEP 8
-2021-03-05 10:37:54,911 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:54,911 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:54,954 [BombeRLeWorld] INFO: STARTING STEP 9
-2021-03-05 10:37:55,013 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:55,013 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:55,059 [BombeRLeWorld] INFO: STARTING STEP 10
-2021-03-05 10:37:55,121 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:55,121 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:55,163 [BombeRLeWorld] INFO: STARTING STEP 11
-2021-03-05 10:37:55,227 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:55,227 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:55,268 [BombeRLeWorld] INFO: STARTING STEP 12
-2021-03-05 10:37:55,390 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.12s.
-2021-03-05 10:37:55,390 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:55,390 [BombeRLeWorld] INFO: STARTING STEP 13
-2021-03-05 10:37:55,445 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:37:55,445 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:55,445 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> picked up coin at (14, 1) and receives 1 point
-2021-03-05 10:37:55,492 [BombeRLeWorld] INFO: STARTING STEP 14
-2021-03-05 10:37:55,556 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:55,556 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:55,596 [BombeRLeWorld] INFO: STARTING STEP 15
-2021-03-05 10:37:55,657 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:55,658 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:55,698 [BombeRLeWorld] INFO: STARTING STEP 16
-2021-03-05 10:37:55,759 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:55,759 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:55,800 [BombeRLeWorld] INFO: STARTING STEP 17
-2021-03-05 10:37:55,859 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:55,859 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:55,903 [BombeRLeWorld] INFO: STARTING STEP 18
-2021-03-05 10:37:55,958 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:37:55,958 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:56,007 [BombeRLeWorld] INFO: STARTING STEP 19
-2021-03-05 10:37:56,070 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:56,070 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:56,108 [BombeRLeWorld] INFO: STARTING STEP 20
-2021-03-05 10:37:56,179 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:56,179 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:56,213 [BombeRLeWorld] INFO: STARTING STEP 21
-2021-03-05 10:37:56,269 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:56,269 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:56,314 [BombeRLeWorld] INFO: STARTING STEP 22
-2021-03-05 10:37:56,365 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:37:56,365 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:56,418 [BombeRLeWorld] INFO: STARTING STEP 23
-2021-03-05 10:37:56,477 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:56,478 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:56,523 [BombeRLeWorld] INFO: STARTING STEP 24
-2021-03-05 10:37:56,584 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:56,584 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:56,627 [BombeRLeWorld] INFO: STARTING STEP 25
-2021-03-05 10:37:56,690 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:56,690 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:56,729 [BombeRLeWorld] INFO: STARTING STEP 26
-2021-03-05 10:37:56,793 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:56,793 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:56,829 [BombeRLeWorld] INFO: STARTING STEP 27
-2021-03-05 10:37:56,892 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:56,892 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:56,935 [BombeRLeWorld] INFO: STARTING STEP 28
-2021-03-05 10:37:56,993 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:56,994 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:57,037 [BombeRLeWorld] INFO: STARTING STEP 29
-2021-03-05 10:37:57,102 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:57,102 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:57,140 [BombeRLeWorld] INFO: STARTING STEP 30
-2021-03-05 10:37:57,197 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:57,197 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:57,243 [BombeRLeWorld] INFO: STARTING STEP 31
-2021-03-05 10:37:57,306 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:57,306 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:57,346 [BombeRLeWorld] INFO: STARTING STEP 32
-2021-03-05 10:37:57,407 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:57,407 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:57,427 [BombeRLeWorld] INFO: WRAPPING UP ROUND #4
-2021-03-05 10:37:57,433 [BombeRLeWorld] INFO: STARTING ROUND #5
-2021-03-05 10:37:57,450 [BombeRLeWorld] INFO: STARTING STEP 1
-2021-03-05 10:37:57,510 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:57,510 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:57,555 [BombeRLeWorld] INFO: STARTING STEP 2
-2021-03-05 10:37:57,624 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:57,624 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:57,659 [BombeRLeWorld] INFO: STARTING STEP 3
-2021-03-05 10:37:57,715 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:57,715 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:57,763 [BombeRLeWorld] INFO: STARTING STEP 4
-2021-03-05 10:37:57,830 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:57,830 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:57,866 [BombeRLeWorld] INFO: STARTING STEP 5
-2021-03-05 10:37:57,919 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:37:57,919 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:57,968 [BombeRLeWorld] INFO: STARTING STEP 6
-2021-03-05 10:37:58,034 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:58,034 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:58,073 [BombeRLeWorld] INFO: STARTING STEP 7
-2021-03-05 10:37:58,135 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:58,135 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:58,176 [BombeRLeWorld] INFO: STARTING STEP 8
-2021-03-05 10:37:58,232 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:37:58,232 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:58,278 [BombeRLeWorld] INFO: STARTING STEP 9
-2021-03-05 10:37:58,341 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:58,341 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:58,380 [BombeRLeWorld] INFO: STARTING STEP 10
-2021-03-05 10:37:58,443 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:58,443 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:58,485 [BombeRLeWorld] INFO: STARTING STEP 11
-2021-03-05 10:37:58,547 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:58,547 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:58,589 [BombeRLeWorld] INFO: STARTING STEP 12
-2021-03-05 10:37:58,651 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:58,651 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:58,694 [BombeRLeWorld] INFO: STARTING STEP 13
-2021-03-05 10:37:58,750 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:58,753 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:58,798 [BombeRLeWorld] INFO: STARTING STEP 14
-2021-03-05 10:37:58,857 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:58,857 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:58,903 [BombeRLeWorld] INFO: STARTING STEP 15
-2021-03-05 10:37:58,962 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:58,962 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:59,005 [BombeRLeWorld] INFO: STARTING STEP 16
-2021-03-05 10:37:59,068 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:59,068 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:59,110 [BombeRLeWorld] INFO: STARTING STEP 17
-2021-03-05 10:37:59,174 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:59,174 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:59,215 [BombeRLeWorld] INFO: STARTING STEP 18
-2021-03-05 10:37:59,272 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:59,272 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:59,319 [BombeRLeWorld] INFO: STARTING STEP 19
-2021-03-05 10:37:59,381 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:59,381 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:59,413 [BombeRLeWorld] INFO: WRAPPING UP ROUND #5
-2021-03-05 10:37:59,481 [BombeRLeWorld] INFO: STARTING ROUND #6
-2021-03-05 10:37:59,526 [BombeRLeWorld] INFO: STARTING STEP 1
-2021-03-05 10:37:59,592 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:37:59,592 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:59,634 [BombeRLeWorld] INFO: STARTING STEP 2
-2021-03-05 10:37:59,690 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:59,690 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:59,735 [BombeRLeWorld] INFO: STARTING STEP 3
-2021-03-05 10:37:59,797 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:59,797 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:59,839 [BombeRLeWorld] INFO: STARTING STEP 4
-2021-03-05 10:37:59,901 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:37:59,901 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:37:59,942 [BombeRLeWorld] INFO: STARTING STEP 5
-2021-03-05 10:37:59,997 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:37:59,997 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:00,046 [BombeRLeWorld] INFO: STARTING STEP 6
-2021-03-05 10:38:00,103 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:00,103 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:00,146 [BombeRLeWorld] INFO: STARTING STEP 7
-2021-03-05 10:38:00,205 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:00,205 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:00,205 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> picked up coin at (8, 15) and receives 1 point
-2021-03-05 10:38:00,249 [BombeRLeWorld] INFO: STARTING STEP 8
-2021-03-05 10:38:00,308 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:00,309 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:00,354 [BombeRLeWorld] INFO: STARTING STEP 9
-2021-03-05 10:38:00,410 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:00,410 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:00,458 [BombeRLeWorld] INFO: STARTING STEP 10
-2021-03-05 10:38:00,522 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:00,522 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:00,562 [BombeRLeWorld] INFO: STARTING STEP 11
-2021-03-05 10:38:00,618 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:00,618 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:00,618 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> picked up coin at (12, 15) and receives 1 point
-2021-03-05 10:38:00,663 [BombeRLeWorld] INFO: STARTING STEP 12
-2021-03-05 10:38:00,719 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:38:00,719 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:00,763 [BombeRLeWorld] INFO: STARTING STEP 13
-2021-03-05 10:38:00,822 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:00,822 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:00,865 [BombeRLeWorld] INFO: STARTING STEP 14
-2021-03-05 10:38:00,925 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:00,925 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:00,969 [BombeRLeWorld] INFO: STARTING STEP 15
-2021-03-05 10:38:01,031 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:01,031 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:01,078 [BombeRLeWorld] INFO: STARTING STEP 16
-2021-03-05 10:38:01,135 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:01,135 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:01,180 [BombeRLeWorld] INFO: STARTING STEP 17
-2021-03-05 10:38:01,240 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:01,240 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:01,283 [BombeRLeWorld] INFO: STARTING STEP 18
-2021-03-05 10:38:01,346 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:01,346 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:01,385 [BombeRLeWorld] INFO: STARTING STEP 19
-2021-03-05 10:38:01,447 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:01,447 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:01,489 [BombeRLeWorld] INFO: STARTING STEP 20
-2021-03-05 10:38:01,512 [BombeRLeWorld] INFO: WRAPPING UP ROUND #6
-2021-03-05 10:38:01,517 [BombeRLeWorld] INFO: STARTING ROUND #7
-2021-03-05 10:38:01,554 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:01,554 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:01,595 [BombeRLeWorld] INFO: STARTING STEP 1
-2021-03-05 10:38:01,652 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:01,652 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:01,699 [BombeRLeWorld] INFO: STARTING STEP 2
-2021-03-05 10:38:01,760 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:01,760 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:01,803 [BombeRLeWorld] INFO: STARTING STEP 3
-2021-03-05 10:38:01,871 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:38:01,871 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:01,907 [BombeRLeWorld] INFO: STARTING STEP 4
-2021-03-05 10:38:01,964 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:01,964 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:02,007 [BombeRLeWorld] INFO: STARTING STEP 5
-2021-03-05 10:38:02,062 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:38:02,062 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:02,109 [BombeRLeWorld] INFO: STARTING STEP 6
-2021-03-05 10:38:02,164 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:38:02,164 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:02,215 [BombeRLeWorld] INFO: STARTING STEP 7
-2021-03-05 10:38:02,277 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:02,277 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:02,317 [BombeRLeWorld] INFO: STARTING STEP 8
-2021-03-05 10:38:02,386 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:38:02,386 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:02,421 [BombeRLeWorld] INFO: STARTING STEP 9
-2021-03-05 10:38:02,471 [BombeRLeWorld] INFO: WRAPPING UP ROUND #7
-2021-03-05 10:38:02,475 [BombeRLeWorld] INFO: STARTING ROUND #8
-2021-03-05 10:38:02,483 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:02,483 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:02,525 [BombeRLeWorld] INFO: STARTING STEP 1
-2021-03-05 10:38:02,586 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:02,586 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:02,629 [BombeRLeWorld] INFO: STARTING STEP 2
-2021-03-05 10:38:02,685 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:38:02,685 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:02,734 [BombeRLeWorld] INFO: STARTING STEP 3
-2021-03-05 10:38:02,802 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:38:02,802 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:02,835 [BombeRLeWorld] INFO: STARTING STEP 4
-2021-03-05 10:38:02,896 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:02,896 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:02,940 [BombeRLeWorld] INFO: STARTING STEP 5
-2021-03-05 10:38:02,996 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:02,996 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:03,042 [BombeRLeWorld] INFO: STARTING STEP 6
-2021-03-05 10:38:03,107 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:03,107 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:03,146 [BombeRLeWorld] INFO: STARTING STEP 7
-2021-03-05 10:38:03,200 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:38:03,200 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:03,200 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> picked up coin at (9, 1) and receives 1 point
-2021-03-05 10:38:03,249 [BombeRLeWorld] INFO: STARTING STEP 8
-2021-03-05 10:38:03,313 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:03,313 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:03,356 [BombeRLeWorld] INFO: STARTING STEP 9
-2021-03-05 10:38:03,412 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:03,412 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:03,456 [BombeRLeWorld] INFO: STARTING STEP 10
-2021-03-05 10:38:03,517 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:03,517 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:03,517 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> picked up coin at (12, 1) and receives 1 point
-2021-03-05 10:38:03,557 [BombeRLeWorld] INFO: STARTING STEP 11
-2021-03-05 10:38:03,621 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:03,621 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:03,661 [BombeRLeWorld] INFO: STARTING STEP 12
-2021-03-05 10:38:03,724 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:03,724 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:03,766 [BombeRLeWorld] INFO: STARTING STEP 13
-2021-03-05 10:38:03,824 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:03,824 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:03,869 [BombeRLeWorld] INFO: STARTING STEP 14
-2021-03-05 10:38:03,925 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:03,925 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:03,973 [BombeRLeWorld] INFO: STARTING STEP 15
-2021-03-05 10:38:04,035 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:04,035 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:04,078 [BombeRLeWorld] INFO: STARTING STEP 16
-2021-03-05 10:38:04,143 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:04,143 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:04,183 [BombeRLeWorld] INFO: STARTING STEP 17
-2021-03-05 10:38:04,247 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:04,247 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:04,283 [BombeRLeWorld] INFO: STARTING STEP 18
-2021-03-05 10:38:04,303 [BombeRLeWorld] INFO: WRAPPING UP ROUND #8
-2021-03-05 10:38:04,309 [BombeRLeWorld] INFO: STARTING ROUND #9
-2021-03-05 10:38:04,345 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:04,346 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:04,387 [BombeRLeWorld] INFO: STARTING STEP 1
-2021-03-05 10:38:04,442 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:38:04,442 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:04,487 [BombeRLeWorld] INFO: STARTING STEP 2
-2021-03-05 10:38:04,546 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:04,546 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:04,592 [BombeRLeWorld] INFO: STARTING STEP 3
-2021-03-05 10:38:04,659 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:38:04,659 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:04,696 [BombeRLeWorld] INFO: STARTING STEP 4
-2021-03-05 10:38:04,755 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:04,755 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:04,800 [BombeRLeWorld] INFO: STARTING STEP 5
-2021-03-05 10:38:04,858 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:04,858 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:04,900 [BombeRLeWorld] INFO: STARTING STEP 6
-2021-03-05 10:38:04,956 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:38:04,956 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:05,001 [BombeRLeWorld] INFO: STARTING STEP 7
-2021-03-05 10:38:05,063 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:05,063 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:05,101 [BombeRLeWorld] INFO: STARTING STEP 8
-2021-03-05 10:38:05,170 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:38:05,170 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:05,187 [BombeRLeWorld] INFO: WRAPPING UP ROUND #9
-2021-03-05 10:38:05,192 [BombeRLeWorld] INFO: STARTING ROUND #10
-2021-03-05 10:38:05,206 [BombeRLeWorld] INFO: STARTING STEP 1
-2021-03-05 10:38:05,259 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:38:05,259 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:05,310 [BombeRLeWorld] INFO: STARTING STEP 2
-2021-03-05 10:38:05,371 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:05,371 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:05,416 [BombeRLeWorld] INFO: STARTING STEP 3
-2021-03-05 10:38:05,475 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:05,475 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:05,520 [BombeRLeWorld] INFO: STARTING STEP 4
-2021-03-05 10:38:05,587 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:38:05,587 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:05,625 [BombeRLeWorld] INFO: STARTING STEP 5
-2021-03-05 10:38:05,685 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:05,685 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:05,729 [BombeRLeWorld] INFO: STARTING STEP 6
-2021-03-05 10:38:05,785 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:38:05,785 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:05,834 [BombeRLeWorld] INFO: STARTING STEP 7
-2021-03-05 10:38:05,898 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:05,898 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:05,938 [BombeRLeWorld] INFO: STARTING STEP 8
-2021-03-05 10:38:05,993 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.05s.
-2021-03-05 10:38:05,993 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:06,043 [BombeRLeWorld] INFO: STARTING STEP 9
-2021-03-05 10:38:06,110 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.07s.
-2021-03-05 10:38:06,110 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:06,147 [BombeRLeWorld] INFO: STARTING STEP 10
-2021-03-05 10:38:06,203 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:06,203 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:06,251 [BombeRLeWorld] INFO: STARTING STEP 11
-2021-03-05 10:38:06,311 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:06,311 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:06,355 [BombeRLeWorld] INFO: STARTING STEP 12
-2021-03-05 10:38:06,418 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:06,418 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:06,457 [BombeRLeWorld] INFO: STARTING STEP 13
-2021-03-05 10:38:06,522 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:06,522 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
-2021-03-05 10:38:06,561 [BombeRLeWorld] INFO: STARTING STEP 14
-2021-03-05 10:38:06,579 [BombeRLeWorld] INFO: WRAPPING UP ROUND #10
-2021-03-05 10:38:06,585 [BombeRLeWorld] INFO: SHUT DOWN
-2021-03-05 10:38:06,626 [BombeRLeWorld] INFO: Agent <robin-fleige_clara-hartmann_christopher-klammt> chose action RIGHT in 0.06s.
-2021-03-05 10:38:06,626 [BombeRLeWorld] WARNING: Agent <robin-fleige_clara-hartmann_christopher-klammt> stayed within acceptable think time.
+2021-03-17 08:49:12,715 [BombeRLeWorld] INFO: Initializing game world
+2021-03-17 08:49:16,994 [BombeRLeWorld] INFO: STARTING ROUND #1
+2021-03-17 08:49:17,099 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-17 08:49:17,221 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.12s.
+2021-03-17 08:49:17,221 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:17,221 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-17 08:49:17,256 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:17,256 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:17,324 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-17 08:49:17,354 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:17,354 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:17,354 [BombeRLeWorld] INFO: Agent <imitation> picked up coin at (1, 12) and receives 1 point
+2021-03-17 08:49:17,428 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-17 08:49:17,459 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:17,460 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:17,532 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-17 08:49:17,562 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:17,562 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:17,636 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-17 08:49:17,711 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.07s.
+2021-03-17 08:49:17,711 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:17,738 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-17 08:49:17,769 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:17,769 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:17,769 [BombeRLeWorld] INFO: Agent <imitation> picked up coin at (2, 9) and receives 1 point
+2021-03-17 08:49:17,842 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-17 08:49:17,880 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:17,880 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:17,946 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-17 08:49:17,978 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:17,979 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:18,051 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-17 08:49:18,090 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:18,090 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:18,151 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-17 08:49:18,183 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:18,183 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:18,256 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-17 08:49:18,287 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:18,287 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:18,359 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-17 08:49:18,395 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:18,395 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:18,464 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-17 08:49:18,496 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:18,496 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:18,564 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-17 08:49:18,598 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:18,598 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:18,666 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-17 08:49:18,699 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:18,699 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:18,771 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-17 08:49:18,807 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:18,807 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:18,880 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-17 08:49:18,913 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:18,913 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:18,983 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-17 08:49:19,017 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:19,017 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:19,086 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-17 08:49:19,123 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:19,123 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:19,190 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-17 08:49:19,224 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:19,224 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:19,293 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-17 08:49:19,328 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:19,328 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:19,397 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-17 08:49:19,429 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:19,429 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:19,502 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-17 08:49:19,535 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:19,535 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:19,606 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-17 08:49:19,643 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:19,643 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:19,706 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-17 08:49:19,740 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:19,740 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:19,806 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-17 08:49:19,842 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:19,842 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:19,913 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-17 08:49:19,950 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:19,950 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:20,018 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-17 08:49:20,051 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:20,051 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:20,123 [BombeRLeWorld] INFO: STARTING STEP 30
+2021-03-17 08:49:20,151 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:20,151 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:20,228 [BombeRLeWorld] INFO: STARTING STEP 31
+2021-03-17 08:49:20,261 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:20,261 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:20,330 [BombeRLeWorld] INFO: STARTING STEP 32
+2021-03-17 08:49:20,364 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:20,364 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:20,434 [BombeRLeWorld] INFO: STARTING STEP 33
+2021-03-17 08:49:20,466 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:20,466 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:20,535 [BombeRLeWorld] INFO: STARTING STEP 34
+2021-03-17 08:49:20,569 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:20,569 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:20,640 [BombeRLeWorld] INFO: STARTING STEP 35
+2021-03-17 08:49:20,677 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:20,678 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:20,742 [BombeRLeWorld] INFO: STARTING STEP 36
+2021-03-17 08:49:20,775 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:20,775 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:20,846 [BombeRLeWorld] INFO: STARTING STEP 37
+2021-03-17 08:49:20,887 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:20,887 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:20,948 [BombeRLeWorld] INFO: STARTING STEP 38
+2021-03-17 08:49:20,979 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:20,979 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:21,050 [BombeRLeWorld] INFO: STARTING STEP 39
+2021-03-17 08:49:21,083 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:21,083 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:21,151 [BombeRLeWorld] INFO: STARTING STEP 40
+2021-03-17 08:49:21,188 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.04s.
+2021-03-17 08:49:21,188 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:21,254 [BombeRLeWorld] INFO: STARTING STEP 41
+2021-03-17 08:49:21,286 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:21,286 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:21,357 [BombeRLeWorld] INFO: STARTING STEP 42
+2021-03-17 08:49:21,391 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:21,391 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:21,459 [BombeRLeWorld] INFO: STARTING STEP 43
+2021-03-17 08:49:21,491 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:21,491 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:21,564 [BombeRLeWorld] INFO: STARTING STEP 44
+2021-03-17 08:49:21,600 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:21,600 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:21,665 [BombeRLeWorld] INFO: STARTING STEP 45
+2021-03-17 08:49:21,702 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:21,702 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:21,770 [BombeRLeWorld] INFO: STARTING STEP 46
+2021-03-17 08:49:21,807 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:21,807 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:21,807 [BombeRLeWorld] INFO: Agent <imitation> picked up coin at (9, 15) and receives 1 point
+2021-03-17 08:49:21,871 [BombeRLeWorld] INFO: STARTING STEP 47
+2021-03-17 08:49:21,905 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:21,905 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:21,975 [BombeRLeWorld] INFO: STARTING STEP 48
+2021-03-17 08:49:22,006 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:22,006 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:22,006 [BombeRLeWorld] INFO: Agent <imitation> picked up coin at (11, 15) and receives 1 point
+2021-03-17 08:49:22,080 [BombeRLeWorld] INFO: STARTING STEP 49
+2021-03-17 08:49:22,117 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:22,117 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:22,190 [BombeRLeWorld] INFO: STARTING STEP 50
+2021-03-17 08:49:22,224 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:22,224 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:22,292 [BombeRLeWorld] INFO: STARTING STEP 51
+2021-03-17 08:49:22,327 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:22,327 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:22,397 [BombeRLeWorld] INFO: STARTING STEP 52
+2021-03-17 08:49:22,435 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:22,435 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:22,500 [BombeRLeWorld] INFO: STARTING STEP 53
+2021-03-17 08:49:22,534 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:22,534 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:22,602 [BombeRLeWorld] INFO: STARTING STEP 54
+2021-03-17 08:49:22,632 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:22,632 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:22,704 [BombeRLeWorld] INFO: STARTING STEP 55
+2021-03-17 08:49:22,742 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:22,742 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:22,807 [BombeRLeWorld] INFO: STARTING STEP 56
+2021-03-17 08:49:22,840 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:22,841 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:22,908 [BombeRLeWorld] INFO: STARTING STEP 57
+2021-03-17 08:49:22,945 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:22,945 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:23,012 [BombeRLeWorld] INFO: STARTING STEP 58
+2021-03-17 08:49:23,045 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:23,045 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:23,117 [BombeRLeWorld] INFO: STARTING STEP 59
+2021-03-17 08:49:23,151 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:23,151 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:23,219 [BombeRLeWorld] INFO: STARTING STEP 60
+2021-03-17 08:49:23,251 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:23,251 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:23,322 [BombeRLeWorld] INFO: STARTING STEP 61
+2021-03-17 08:49:23,354 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:23,354 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:23,426 [BombeRLeWorld] INFO: STARTING STEP 62
+2021-03-17 08:49:23,464 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:23,464 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:23,530 [BombeRLeWorld] INFO: STARTING STEP 63
+2021-03-17 08:49:23,564 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:23,564 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:23,631 [BombeRLeWorld] INFO: STARTING STEP 64
+2021-03-17 08:49:23,669 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:23,670 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:23,734 [BombeRLeWorld] INFO: STARTING STEP 65
+2021-03-17 08:49:23,767 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:23,767 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:23,835 [BombeRLeWorld] INFO: STARTING STEP 66
+2021-03-17 08:49:23,868 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:23,868 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:23,940 [BombeRLeWorld] INFO: STARTING STEP 67
+2021-03-17 08:49:23,979 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:23,979 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:24,045 [BombeRLeWorld] INFO: STARTING STEP 68
+2021-03-17 08:49:24,077 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:24,077 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:24,145 [BombeRLeWorld] INFO: STARTING STEP 69
+2021-03-17 08:49:24,181 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:24,181 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:24,250 [BombeRLeWorld] INFO: STARTING STEP 70
+2021-03-17 08:49:24,278 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:24,278 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:24,354 [BombeRLeWorld] INFO: STARTING STEP 71
+2021-03-17 08:49:24,388 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:24,388 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:24,454 [BombeRLeWorld] INFO: STARTING STEP 72
+2021-03-17 08:49:24,492 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:24,493 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:24,556 [BombeRLeWorld] INFO: STARTING STEP 73
+2021-03-17 08:49:24,594 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:24,594 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:24,657 [BombeRLeWorld] INFO: STARTING STEP 74
+2021-03-17 08:49:24,693 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:24,693 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:24,762 [BombeRLeWorld] INFO: STARTING STEP 75
+2021-03-17 08:49:24,795 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:24,795 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:24,866 [BombeRLeWorld] INFO: STARTING STEP 76
+2021-03-17 08:49:24,900 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:24,900 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:24,967 [BombeRLeWorld] INFO: STARTING STEP 77
+2021-03-17 08:49:25,005 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:25,005 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:25,071 [BombeRLeWorld] INFO: STARTING STEP 78
+2021-03-17 08:49:25,103 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:25,103 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:25,171 [BombeRLeWorld] INFO: STARTING STEP 79
+2021-03-17 08:49:25,208 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:25,208 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:25,277 [BombeRLeWorld] INFO: STARTING STEP 80
+2021-03-17 08:49:25,310 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:25,310 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:25,380 [BombeRLeWorld] INFO: STARTING STEP 81
+2021-03-17 08:49:25,414 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:25,414 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:25,480 [BombeRLeWorld] INFO: STARTING STEP 82
+2021-03-17 08:49:25,523 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:25,523 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:25,585 [BombeRLeWorld] INFO: STARTING STEP 83
+2021-03-17 08:49:25,619 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:25,619 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:25,690 [BombeRLeWorld] INFO: STARTING STEP 84
+2021-03-17 08:49:25,725 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:25,725 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:25,793 [BombeRLeWorld] INFO: STARTING STEP 85
+2021-03-17 08:49:25,825 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:25,825 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:25,897 [BombeRLeWorld] INFO: STARTING STEP 86
+2021-03-17 08:49:25,933 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:25,933 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:26,014 [BombeRLeWorld] INFO: STARTING STEP 87
+2021-03-17 08:49:26,014 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
+2021-03-17 08:49:26,022 [BombeRLeWorld] INFO: STARTING ROUND #2
+2021-03-17 08:49:26,059 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:26,059 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:26,116 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-17 08:49:26,149 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:26,149 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:26,217 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-17 08:49:26,250 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:26,250 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:26,321 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-17 08:49:26,354 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:26,354 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:26,425 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-17 08:49:26,464 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:26,464 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:26,526 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-17 08:49:26,625 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.10s.
+2021-03-17 08:49:26,625 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:26,627 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-17 08:49:26,659 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:26,659 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:26,732 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-17 08:49:26,764 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:26,764 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:26,832 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-17 08:49:26,864 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:26,864 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:26,933 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-17 08:49:26,970 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:26,970 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:27,037 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-17 08:49:27,069 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:27,069 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:27,141 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-17 08:49:27,175 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:27,175 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:27,246 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-17 08:49:27,277 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:27,277 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:27,277 [BombeRLeWorld] INFO: Agent <imitation> picked up coin at (3, 4) and receives 1 point
+2021-03-17 08:49:27,350 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-17 08:49:27,394 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:27,394 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:27,454 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-17 08:49:27,493 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:27,493 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:27,559 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-17 08:49:27,593 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:27,593 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:27,664 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-17 08:49:27,702 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:27,702 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:27,769 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-17 08:49:27,801 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:27,801 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:27,873 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-17 08:49:27,909 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:27,909 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:27,979 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-17 08:49:28,011 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:28,011 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:28,080 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-17 08:49:28,115 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:28,115 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:28,183 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-17 08:49:28,217 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:28,217 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:28,285 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-17 08:49:28,323 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:28,323 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:28,387 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-17 08:49:28,419 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:28,419 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:28,493 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-17 08:49:28,524 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:28,524 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:28,596 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-17 08:49:28,630 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:28,631 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:28,701 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-17 08:49:28,739 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:28,739 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:28,802 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-17 08:49:28,836 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:28,836 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:28,904 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-17 08:49:28,939 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:28,939 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:29,008 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-17 08:49:29,041 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:29,041 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:29,113 [BombeRLeWorld] INFO: STARTING STEP 30
+2021-03-17 08:49:29,146 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:29,146 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:29,214 [BombeRLeWorld] INFO: STARTING STEP 31
+2021-03-17 08:49:29,257 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:29,257 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:29,316 [BombeRLeWorld] INFO: STARTING STEP 32
+2021-03-17 08:49:29,350 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:29,350 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:29,421 [BombeRLeWorld] INFO: STARTING STEP 33
+2021-03-17 08:49:29,456 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:29,456 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:29,525 [BombeRLeWorld] INFO: STARTING STEP 34
+2021-03-17 08:49:29,558 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:29,558 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:29,629 [BombeRLeWorld] INFO: STARTING STEP 35
+2021-03-17 08:49:29,664 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:29,664 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:29,734 [BombeRLeWorld] INFO: STARTING STEP 36
+2021-03-17 08:49:29,771 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.04s.
+2021-03-17 08:49:29,771 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:29,838 [BombeRLeWorld] INFO: STARTING STEP 37
+2021-03-17 08:49:29,872 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:29,872 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:29,943 [BombeRLeWorld] INFO: STARTING STEP 38
+2021-03-17 08:49:29,981 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:29,981 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:30,048 [BombeRLeWorld] INFO: STARTING STEP 39
+2021-03-17 08:49:30,081 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:30,081 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:30,149 [BombeRLeWorld] INFO: STARTING STEP 40
+2021-03-17 08:49:30,189 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:30,189 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:30,253 [BombeRLeWorld] INFO: STARTING STEP 41
+2021-03-17 08:49:30,279 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:30,279 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:30,355 [BombeRLeWorld] INFO: STARTING STEP 42
+2021-03-17 08:49:30,388 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:30,389 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:30,455 [BombeRLeWorld] INFO: STARTING STEP 43
+2021-03-17 08:49:30,486 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:30,486 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:30,558 [BombeRLeWorld] INFO: STARTING STEP 44
+2021-03-17 08:49:30,592 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:30,592 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:30,663 [BombeRLeWorld] INFO: STARTING STEP 45
+2021-03-17 08:49:30,692 [BombeRLeWorld] INFO: WRAPPING UP ROUND #2
+2021-03-17 08:49:30,697 [BombeRLeWorld] INFO: STARTING ROUND #3
+2021-03-17 08:49:30,705 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:30,705 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:30,766 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-17 08:49:30,803 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.04s.
+2021-03-17 08:49:30,803 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:30,870 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-17 08:49:30,903 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:30,903 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:30,973 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-17 08:49:31,006 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:31,007 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:31,007 [BombeRLeWorld] INFO: Agent <imitation> picked up coin at (12, 15) and receives 1 point
+2021-03-17 08:49:31,077 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-17 08:49:31,114 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:31,114 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:31,182 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-17 08:49:31,219 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:31,219 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:31,289 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-17 08:49:31,322 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:31,322 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:31,391 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-17 08:49:31,424 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:31,424 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:31,496 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-17 08:49:31,534 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.04s.
+2021-03-17 08:49:31,534 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:31,600 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-17 08:49:31,633 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:31,633 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:31,704 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-17 08:49:31,739 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:31,739 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:31,804 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-17 08:49:31,836 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:31,836 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:31,905 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-17 08:49:31,938 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:31,938 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:32,010 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-17 08:49:32,054 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.04s.
+2021-03-17 08:49:32,054 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:32,114 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-17 08:49:32,147 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:32,147 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:32,219 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-17 08:49:32,252 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:32,252 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:32,319 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-17 08:49:32,351 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:32,351 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:32,421 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-17 08:49:32,455 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:32,455 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:32,524 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-17 08:49:32,562 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:32,562 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:32,628 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-17 08:49:32,661 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:32,661 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:32,730 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-17 08:49:32,764 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:32,764 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:32,834 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-17 08:49:32,867 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:32,867 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:32,938 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-17 08:49:32,981 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:32,981 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:33,043 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-17 08:49:33,080 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:33,080 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:33,147 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-17 08:49:33,178 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:33,179 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:33,252 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-17 08:49:33,285 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:33,285 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:33,355 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-17 08:49:33,385 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:33,385 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:33,460 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-17 08:49:33,496 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:33,496 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:33,564 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-17 08:49:33,601 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:33,601 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:33,664 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-17 08:49:33,696 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:33,696 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:33,764 [BombeRLeWorld] INFO: STARTING STEP 30
+2021-03-17 08:49:33,798 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:33,798 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:33,867 [BombeRLeWorld] INFO: STARTING STEP 31
+2021-03-17 08:49:33,903 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.04s.
+2021-03-17 08:49:33,903 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:33,971 [BombeRLeWorld] INFO: STARTING STEP 32
+2021-03-17 08:49:34,005 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:34,005 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:34,076 [BombeRLeWorld] INFO: STARTING STEP 33
+2021-03-17 08:49:34,113 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:34,113 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:34,181 [BombeRLeWorld] INFO: STARTING STEP 34
+2021-03-17 08:49:34,214 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:34,214 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:34,285 [BombeRLeWorld] INFO: STARTING STEP 35
+2021-03-17 08:49:34,301 [BombeRLeWorld] INFO: WRAPPING UP ROUND #3
+2021-03-17 08:49:34,309 [BombeRLeWorld] INFO: STARTING ROUND #4
+2021-03-17 08:49:34,329 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:34,329 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:34,388 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-17 08:49:34,420 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:34,421 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:34,492 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-17 08:49:34,525 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:34,525 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:34,595 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-17 08:49:34,628 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:34,628 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:34,696 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-17 08:49:34,728 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:34,728 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:34,798 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-17 08:49:34,837 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:34,837 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:34,902 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-17 08:49:34,934 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:34,934 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:35,007 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-17 08:49:35,040 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:35,040 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:35,109 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-17 08:49:35,146 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:35,146 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:35,214 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-17 08:49:35,245 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:35,245 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:35,317 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-17 08:49:35,351 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:35,351 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:35,351 [BombeRLeWorld] INFO: Agent <imitation> picked up coin at (2, 9) and receives 1 point
+2021-03-17 08:49:35,420 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-17 08:49:35,452 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:35,452 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:35,524 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-17 08:49:35,558 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:35,558 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:35,629 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-17 08:49:35,665 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.04s.
+2021-03-17 08:49:35,665 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:35,733 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-17 08:49:35,770 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.04s.
+2021-03-17 08:49:35,770 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:35,838 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-17 08:49:35,875 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:35,875 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:35,942 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-17 08:49:35,970 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:35,970 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:36,046 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-17 08:49:36,081 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:36,081 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:36,151 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-17 08:49:36,182 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:36,182 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:36,255 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-17 08:49:36,288 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:36,288 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:36,360 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-17 08:49:36,397 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:36,397 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:36,464 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-17 08:49:36,497 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:36,497 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:36,569 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-17 08:49:36,606 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:36,607 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:36,670 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-17 08:49:36,709 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:36,709 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:36,774 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-17 08:49:36,811 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:36,811 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:36,876 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-17 08:49:36,913 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:36,913 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:36,980 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-17 08:49:37,013 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:37,013 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:37,083 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-17 08:49:37,120 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:37,120 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:37,188 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-17 08:49:37,220 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:37,220 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:37,292 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-17 08:49:37,328 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:37,328 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:37,399 [BombeRLeWorld] INFO: STARTING STEP 30
+2021-03-17 08:49:37,432 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:37,432 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:37,501 [BombeRLeWorld] INFO: STARTING STEP 31
+2021-03-17 08:49:37,534 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:37,534 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:37,606 [BombeRLeWorld] INFO: STARTING STEP 32
+2021-03-17 08:49:37,618 [BombeRLeWorld] INFO: WRAPPING UP ROUND #4
+2021-03-17 08:49:37,625 [BombeRLeWorld] INFO: STARTING ROUND #5
+2021-03-17 08:49:37,656 [BombeRLeWorld] INFO: Agent <imitation> chose action BOMB in 0.05s.
+2021-03-17 08:49:37,656 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:37,656 [BombeRLeWorld] INFO: Agent <imitation> drops bomb at (1, 15)
+2021-03-17 08:49:37,656 [BombeRLeWorld] INFO: Agent <imitation> picked up coin at (1, 15) and receives 1 point
+2021-03-17 08:49:37,710 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-17 08:49:37,743 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:37,743 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:37,815 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-17 08:49:37,851 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:37,851 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:37,918 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-17 08:49:37,956 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:37,956 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:38,018 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-17 08:49:38,051 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:38,051 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:38,051 [BombeRLeWorld] INFO: Agent <imitation>'s bomb at (1, 15) explodes
+2021-03-17 08:49:38,122 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-17 08:49:38,157 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:38,157 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:38,226 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-17 08:49:38,258 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:38,259 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:38,330 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-17 08:49:38,368 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:38,368 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:38,432 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-17 08:49:38,474 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:38,474 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:38,535 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-17 08:49:38,573 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:38,573 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:38,639 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-17 08:49:38,676 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:38,676 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:38,743 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-17 08:49:38,772 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:38,772 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:38,848 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-17 08:49:38,882 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:38,882 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:38,950 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-17 08:49:38,982 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:38,982 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:39,053 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-17 08:49:39,086 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:39,086 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:39,155 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-17 08:49:39,193 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:39,193 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:39,258 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-17 08:49:39,291 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:39,291 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:39,358 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-17 08:49:39,393 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:39,393 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:39,464 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-17 08:49:39,502 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:39,502 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:39,565 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-17 08:49:39,598 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:39,598 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:39,670 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-17 08:49:39,686 [BombeRLeWorld] INFO: WRAPPING UP ROUND #5
+2021-03-17 08:49:39,691 [BombeRLeWorld] INFO: STARTING ROUND #6
+2021-03-17 08:49:39,716 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:39,716 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:39,770 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-17 08:49:39,802 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:39,802 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:39,872 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-17 08:49:39,905 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:39,905 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:39,972 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-17 08:49:40,009 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:40,009 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:40,075 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-17 08:49:40,107 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:40,107 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:40,107 [BombeRLeWorld] INFO: Agent <imitation> picked up coin at (1, 10) and receives 1 point
+2021-03-17 08:49:40,180 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-17 08:49:40,214 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:40,214 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:40,285 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-17 08:49:40,317 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:40,317 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:40,389 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-17 08:49:40,427 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:40,427 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:40,493 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-17 08:49:40,531 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:40,531 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:40,597 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-17 08:49:40,630 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:40,630 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:40,698 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-17 08:49:40,732 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:40,732 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:40,801 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-17 08:49:40,833 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:40,833 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:40,903 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-17 08:49:40,936 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:40,936 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:41,004 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-17 08:49:41,040 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:41,041 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:41,108 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-17 08:49:41,141 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:41,141 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:41,213 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-17 08:49:41,247 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:41,247 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:41,317 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-17 08:49:41,352 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:41,353 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:41,422 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-17 08:49:41,455 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:41,455 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:41,531 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-17 08:49:41,564 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:41,564 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:41,634 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-17 08:49:41,667 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:41,667 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:41,735 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-17 08:49:41,774 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:41,774 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:41,840 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-17 08:49:41,872 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:41,872 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:41,944 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-17 08:49:41,978 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:41,978 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:42,049 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-17 08:49:42,080 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:42,080 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:42,153 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-17 08:49:42,186 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:42,186 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:42,258 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-17 08:49:42,300 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:42,300 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:42,362 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-17 08:49:42,395 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:42,395 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:42,466 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-17 08:49:42,503 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:42,503 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:42,568 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-17 08:49:42,598 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:42,598 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:42,672 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-17 08:49:42,707 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:42,708 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:42,779 [BombeRLeWorld] INFO: STARTING STEP 30
+2021-03-17 08:49:42,811 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:42,811 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:42,883 [BombeRLeWorld] INFO: STARTING STEP 31
+2021-03-17 08:49:42,910 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:42,910 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:42,987 [BombeRLeWorld] INFO: STARTING STEP 32
+2021-03-17 08:49:43,023 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:43,023 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:43,089 [BombeRLeWorld] INFO: STARTING STEP 33
+2021-03-17 08:49:43,122 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:43,122 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:43,190 [BombeRLeWorld] INFO: STARTING STEP 34
+2021-03-17 08:49:43,229 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:43,229 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:43,293 [BombeRLeWorld] INFO: STARTING STEP 35
+2021-03-17 08:49:43,325 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:43,325 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:43,398 [BombeRLeWorld] INFO: STARTING STEP 36
+2021-03-17 08:49:43,431 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:43,431 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:43,502 [BombeRLeWorld] INFO: STARTING STEP 37
+2021-03-17 08:49:43,540 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:43,540 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:43,602 [BombeRLeWorld] INFO: STARTING STEP 38
+2021-03-17 08:49:43,634 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:43,634 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:43,704 [BombeRLeWorld] INFO: STARTING STEP 39
+2021-03-17 08:49:43,737 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:43,737 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:43,805 [BombeRLeWorld] INFO: STARTING STEP 40
+2021-03-17 08:49:43,836 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:43,836 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:43,908 [BombeRLeWorld] INFO: STARTING STEP 41
+2021-03-17 08:49:43,941 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:43,942 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:44,011 [BombeRLeWorld] INFO: STARTING STEP 42
+2021-03-17 08:49:44,048 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:44,048 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:44,116 [BombeRLeWorld] INFO: STARTING STEP 43
+2021-03-17 08:49:44,153 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:44,153 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:44,220 [BombeRLeWorld] INFO: STARTING STEP 44
+2021-03-17 08:49:44,254 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:44,254 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:44,324 [BombeRLeWorld] INFO: STARTING STEP 45
+2021-03-17 08:49:44,355 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:44,355 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:44,429 [BombeRLeWorld] INFO: STARTING STEP 46
+2021-03-17 08:49:44,461 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:44,461 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:44,533 [BombeRLeWorld] INFO: STARTING STEP 47
+2021-03-17 08:49:44,571 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:44,571 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:44,638 [BombeRLeWorld] INFO: STARTING STEP 48
+2021-03-17 08:49:44,671 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:44,672 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:44,742 [BombeRLeWorld] INFO: STARTING STEP 49
+2021-03-17 08:49:44,779 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:44,779 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:44,847 [BombeRLeWorld] INFO: STARTING STEP 50
+2021-03-17 08:49:44,879 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:44,879 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:44,951 [BombeRLeWorld] INFO: STARTING STEP 51
+2021-03-17 08:49:44,982 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:44,982 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:45,056 [BombeRLeWorld] INFO: STARTING STEP 52
+2021-03-17 08:49:45,092 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:45,092 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:45,160 [BombeRLeWorld] INFO: STARTING STEP 53
+2021-03-17 08:49:45,193 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:45,193 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:45,264 [BombeRLeWorld] INFO: STARTING STEP 54
+2021-03-17 08:49:45,301 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:45,301 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:45,366 [BombeRLeWorld] INFO: STARTING STEP 55
+2021-03-17 08:49:45,398 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:45,398 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:45,466 [BombeRLeWorld] INFO: STARTING STEP 56
+2021-03-17 08:49:45,499 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:45,499 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:45,570 [BombeRLeWorld] INFO: STARTING STEP 57
+2021-03-17 08:49:45,603 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:45,603 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:45,674 [BombeRLeWorld] INFO: STARTING STEP 58
+2021-03-17 08:49:45,707 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:45,707 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:45,776 [BombeRLeWorld] INFO: STARTING STEP 59
+2021-03-17 08:49:45,814 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:45,814 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:45,880 [BombeRLeWorld] INFO: STARTING STEP 60
+2021-03-17 08:49:45,913 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:45,913 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:45,937 [BombeRLeWorld] INFO: WRAPPING UP ROUND #6
+2021-03-17 08:49:45,944 [BombeRLeWorld] INFO: STARTING ROUND #7
+2021-03-17 08:49:45,985 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-17 08:49:46,023 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:46,023 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:46,093 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-17 08:49:46,126 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:46,126 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:46,197 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-17 08:49:46,230 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:46,230 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:46,298 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-17 08:49:46,335 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:46,335 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:46,403 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-17 08:49:46,435 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:46,435 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:46,507 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-17 08:49:46,540 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:46,540 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:46,608 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-17 08:49:46,640 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:46,640 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:46,708 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-17 08:49:46,741 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:46,741 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:46,812 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-17 08:49:46,850 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:46,850 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:46,917 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-17 08:49:46,954 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:46,954 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:47,020 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-17 08:49:47,054 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:47,054 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:47,123 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-17 08:49:47,154 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:47,154 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:47,227 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-17 08:49:47,260 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:47,260 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:47,330 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-17 08:49:47,368 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:47,368 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:47,433 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-17 08:49:47,465 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:47,465 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:47,533 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-17 08:49:47,567 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:47,567 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:47,635 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-17 08:49:47,668 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:47,668 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:47,738 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-17 08:49:47,771 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:47,771 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:47,840 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-17 08:49:47,881 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:47,882 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:47,945 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-17 08:49:47,977 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:47,977 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:48,049 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-17 08:49:48,082 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:48,082 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:48,151 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-17 08:49:48,183 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:48,183 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:48,252 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-17 08:49:48,285 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:48,285 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:48,285 [BombeRLeWorld] INFO: Agent <imitation> picked up coin at (5, 14) and receives 1 point
+2021-03-17 08:49:48,357 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-17 08:49:48,395 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:48,395 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:48,461 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-17 08:49:48,493 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:48,493 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:48,566 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-17 08:49:48,599 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:48,599 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:48,670 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-17 08:49:48,701 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:48,701 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:48,773 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-17 08:49:48,815 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:48,815 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:48,878 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-17 08:49:48,916 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:48,916 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:48,982 [BombeRLeWorld] INFO: STARTING STEP 30
+2021-03-17 08:49:49,015 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:49,015 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:49,084 [BombeRLeWorld] INFO: STARTING STEP 31
+2021-03-17 08:49:49,110 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.02s.
+2021-03-17 08:49:49,110 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:49,185 [BombeRLeWorld] INFO: STARTING STEP 32
+2021-03-17 08:49:49,216 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:49,216 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:49,286 [BombeRLeWorld] INFO: STARTING STEP 33
+2021-03-17 08:49:49,319 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:49,319 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:49,390 [BombeRLeWorld] INFO: STARTING STEP 34
+2021-03-17 08:49:49,393 [BombeRLeWorld] INFO: WRAPPING UP ROUND #7
+2021-03-17 08:49:49,400 [BombeRLeWorld] INFO: STARTING ROUND #8
+2021-03-17 08:49:49,435 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:49,435 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:49,435 [BombeRLeWorld] INFO: Agent <imitation> picked up coin at (1, 14) and receives 1 point
+2021-03-17 08:49:49,494 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-17 08:49:49,527 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:49,527 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:49,599 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-17 08:49:49,633 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:49,633 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:49,703 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-17 08:49:49,741 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:49,741 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:49,807 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-17 08:49:49,839 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:49,839 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:49,907 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-17 08:49:49,945 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:49,945 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:50,012 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-17 08:49:50,044 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:50,044 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:50,116 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-17 08:49:50,153 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:50,153 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:50,217 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-17 08:49:50,248 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:50,248 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:50,319 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-17 08:49:50,351 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:50,351 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:50,419 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-17 08:49:50,457 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:50,458 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:50,523 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-17 08:49:50,556 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:50,557 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:50,623 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-17 08:49:50,665 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:50,665 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:50,725 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-17 08:49:50,757 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:50,757 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:50,828 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-17 08:49:50,861 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:50,861 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:50,933 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-17 08:49:50,971 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:50,971 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:51,035 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-17 08:49:51,064 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:51,064 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:51,139 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-17 08:49:51,174 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:51,174 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:51,242 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-17 08:49:51,273 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:51,273 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:51,347 [BombeRLeWorld] INFO: STARTING STEP 19
+2021-03-17 08:49:51,380 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:51,380 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:51,450 [BombeRLeWorld] INFO: STARTING STEP 20
+2021-03-17 08:49:51,487 [BombeRLeWorld] INFO: Agent <imitation> chose action WAIT in 0.04s.
+2021-03-17 08:49:51,487 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:51,553 [BombeRLeWorld] INFO: STARTING STEP 21
+2021-03-17 08:49:51,591 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:51,592 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:51,654 [BombeRLeWorld] INFO: STARTING STEP 22
+2021-03-17 08:49:51,687 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:51,687 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:51,755 [BombeRLeWorld] INFO: STARTING STEP 23
+2021-03-17 08:49:51,787 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:51,787 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:51,857 [BombeRLeWorld] INFO: STARTING STEP 24
+2021-03-17 08:49:51,889 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:51,889 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:51,957 [BombeRLeWorld] INFO: STARTING STEP 25
+2021-03-17 08:49:51,994 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:51,994 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:52,060 [BombeRLeWorld] INFO: STARTING STEP 26
+2021-03-17 08:49:52,092 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:52,092 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:52,165 [BombeRLeWorld] INFO: STARTING STEP 27
+2021-03-17 08:49:52,199 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:52,199 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:52,269 [BombeRLeWorld] INFO: STARTING STEP 28
+2021-03-17 08:49:52,301 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:52,301 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:52,374 [BombeRLeWorld] INFO: STARTING STEP 29
+2021-03-17 08:49:52,405 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:52,405 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:52,474 [BombeRLeWorld] INFO: STARTING STEP 30
+2021-03-17 08:49:52,517 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:52,517 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:52,579 [BombeRLeWorld] INFO: STARTING STEP 31
+2021-03-17 08:49:52,612 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:52,612 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:52,683 [BombeRLeWorld] INFO: STARTING STEP 32
+2021-03-17 08:49:52,717 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:52,717 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:52,785 [BombeRLeWorld] INFO: STARTING STEP 33
+2021-03-17 08:49:52,816 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:52,816 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:52,890 [BombeRLeWorld] INFO: STARTING STEP 34
+2021-03-17 08:49:52,924 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:52,924 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:52,990 [BombeRLeWorld] INFO: STARTING STEP 35
+2021-03-17 08:49:53,028 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:53,028 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:53,092 [BombeRLeWorld] INFO: STARTING STEP 36
+2021-03-17 08:49:53,125 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:53,125 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:53,194 [BombeRLeWorld] INFO: STARTING STEP 37
+2021-03-17 08:49:53,223 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:53,224 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:53,299 [BombeRLeWorld] INFO: STARTING STEP 38
+2021-03-17 08:49:53,331 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:53,331 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:53,403 [BombeRLeWorld] INFO: STARTING STEP 39
+2021-03-17 08:49:53,444 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:53,444 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:53,508 [BombeRLeWorld] INFO: STARTING STEP 40
+2021-03-17 08:49:53,545 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:53,545 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:53,612 [BombeRLeWorld] INFO: STARTING STEP 41
+2021-03-17 08:49:53,646 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:53,646 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:53,717 [BombeRLeWorld] INFO: STARTING STEP 42
+2021-03-17 08:49:53,753 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:53,753 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:53,821 [BombeRLeWorld] INFO: STARTING STEP 43
+2021-03-17 08:49:53,854 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:53,854 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:53,926 [BombeRLeWorld] INFO: STARTING STEP 44
+2021-03-17 08:49:53,961 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:53,961 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:54,032 [BombeRLeWorld] INFO: STARTING STEP 45
+2021-03-17 08:49:54,064 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:54,064 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:54,134 [BombeRLeWorld] INFO: STARTING STEP 46
+2021-03-17 08:49:54,167 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:54,167 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:54,234 [BombeRLeWorld] INFO: STARTING STEP 47
+2021-03-17 08:49:54,270 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:54,270 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:54,334 [BombeRLeWorld] INFO: STARTING STEP 48
+2021-03-17 08:49:54,372 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:54,372 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:54,436 [BombeRLeWorld] INFO: STARTING STEP 49
+2021-03-17 08:49:54,469 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:54,469 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:54,537 [BombeRLeWorld] INFO: STARTING STEP 50
+2021-03-17 08:49:54,574 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:54,574 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:54,638 [BombeRLeWorld] INFO: STARTING STEP 51
+2021-03-17 08:49:54,670 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:54,670 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:54,739 [BombeRLeWorld] INFO: STARTING STEP 52
+2021-03-17 08:49:54,772 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:54,772 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:54,843 [BombeRLeWorld] INFO: STARTING STEP 53
+2021-03-17 08:49:54,875 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:54,875 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:54,948 [BombeRLeWorld] INFO: STARTING STEP 54
+2021-03-17 08:49:54,981 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:54,981 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:55,050 [BombeRLeWorld] INFO: STARTING STEP 55
+2021-03-17 08:49:55,088 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:55,088 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:55,151 [BombeRLeWorld] INFO: STARTING STEP 56
+2021-03-17 08:49:55,183 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:55,183 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:55,253 [BombeRLeWorld] INFO: STARTING STEP 57
+2021-03-17 08:49:55,287 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:55,287 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:55,357 [BombeRLeWorld] INFO: STARTING STEP 58
+2021-03-17 08:49:55,389 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:55,389 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:55,462 [BombeRLeWorld] INFO: STARTING STEP 59
+2021-03-17 08:49:55,495 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:55,495 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:55,566 [BombeRLeWorld] INFO: STARTING STEP 60
+2021-03-17 08:49:55,604 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:55,604 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:55,668 [BombeRLeWorld] INFO: STARTING STEP 61
+2021-03-17 08:49:55,700 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:55,700 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:55,772 [BombeRLeWorld] INFO: STARTING STEP 62
+2021-03-17 08:49:55,808 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:55,808 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:55,808 [BombeRLeWorld] INFO: Agent <imitation> picked up coin at (11, 15) and receives 1 point
+2021-03-17 08:49:55,872 [BombeRLeWorld] INFO: STARTING STEP 63
+2021-03-17 08:49:55,904 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:55,904 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:55,973 [BombeRLeWorld] INFO: STARTING STEP 64
+2021-03-17 08:49:56,006 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:56,006 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:56,074 [BombeRLeWorld] INFO: STARTING STEP 65
+2021-03-17 08:49:56,108 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:56,108 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:56,174 [BombeRLeWorld] INFO: STARTING STEP 66
+2021-03-17 08:49:56,212 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:56,212 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:56,274 [BombeRLeWorld] INFO: STARTING STEP 67
+2021-03-17 08:49:56,310 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:56,310 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:56,379 [BombeRLeWorld] INFO: STARTING STEP 68
+2021-03-17 08:49:56,412 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:56,412 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:56,484 [BombeRLeWorld] INFO: STARTING STEP 69
+2021-03-17 08:49:56,517 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:56,518 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:56,587 [BombeRLeWorld] INFO: STARTING STEP 70
+2021-03-17 08:49:56,626 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:56,626 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:56,689 [BombeRLeWorld] INFO: STARTING STEP 71
+2021-03-17 08:49:56,723 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:56,723 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:56,794 [BombeRLeWorld] INFO: STARTING STEP 72
+2021-03-17 08:49:56,831 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:56,831 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:56,898 [BombeRLeWorld] INFO: STARTING STEP 73
+2021-03-17 08:49:56,931 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:56,931 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:57,003 [BombeRLeWorld] INFO: STARTING STEP 74
+2021-03-17 08:49:57,037 [BombeRLeWorld] INFO: WRAPPING UP ROUND #8
+2021-03-17 08:49:57,040 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:57,040 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:57,105 [BombeRLeWorld] INFO: STARTING ROUND #9
+2021-03-17 08:49:57,111 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-17 08:49:57,151 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:57,151 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:57,213 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-17 08:49:57,245 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:57,246 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:57,317 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-17 08:49:57,354 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:57,354 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:57,420 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-17 08:49:57,453 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:57,453 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:57,524 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-17 08:49:57,558 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:57,558 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:57,626 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-17 08:49:57,658 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:57,658 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:57,730 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-17 08:49:57,764 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:57,764 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:57,834 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-17 08:49:57,871 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:57,872 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:57,937 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-17 08:49:57,969 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:57,969 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:58,041 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-17 08:49:58,084 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:58,084 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:58,144 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-17 08:49:58,175 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:58,175 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:58,248 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-17 08:49:58,286 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:49:58,286 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:58,358 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-17 08:49:58,390 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:58,390 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:58,462 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-17 08:49:58,496 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:49:58,496 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:58,567 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-17 08:49:58,605 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.04s.
+2021-03-17 08:49:58,605 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:58,672 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-17 08:49:58,706 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:58,706 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:58,774 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-17 08:49:58,808 [BombeRLeWorld] INFO: Agent <imitation> chose action UP in 0.03s.
+2021-03-17 08:49:58,808 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:58,867 [BombeRLeWorld] INFO: WRAPPING UP ROUND #9
+2021-03-17 08:49:58,874 [BombeRLeWorld] INFO: STARTING ROUND #10
+2021-03-17 08:49:58,878 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-17 08:49:58,912 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:58,912 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:58,983 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-17 08:49:59,020 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:59,020 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:59,084 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-17 08:49:59,123 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.04s.
+2021-03-17 08:49:59,123 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:59,187 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-17 08:49:59,219 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:59,219 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:59,290 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-17 08:49:59,323 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:59,323 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:59,394 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-17 08:49:59,419 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.02s.
+2021-03-17 08:49:59,419 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:59,499 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-17 08:49:59,531 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:59,531 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:59,601 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-17 08:49:59,639 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.04s.
+2021-03-17 08:49:59,639 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:59,704 [BombeRLeWorld] INFO: STARTING STEP 9
+2021-03-17 08:49:59,736 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:49:59,736 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:59,806 [BombeRLeWorld] INFO: STARTING STEP 10
+2021-03-17 08:49:59,840 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:49:59,840 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:49:59,911 [BombeRLeWorld] INFO: STARTING STEP 11
+2021-03-17 08:49:59,949 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.04s.
+2021-03-17 08:49:59,949 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:50:00,013 [BombeRLeWorld] INFO: STARTING STEP 12
+2021-03-17 08:50:00,121 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.11s.
+2021-03-17 08:50:00,121 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:50:00,122 [BombeRLeWorld] INFO: STARTING STEP 13
+2021-03-17 08:50:00,155 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.03s.
+2021-03-17 08:50:00,155 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:50:00,226 [BombeRLeWorld] INFO: STARTING STEP 14
+2021-03-17 08:50:00,253 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.03s.
+2021-03-17 08:50:00,253 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:50:00,330 [BombeRLeWorld] INFO: STARTING STEP 15
+2021-03-17 08:50:00,362 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.03s.
+2021-03-17 08:50:00,362 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:50:00,434 [BombeRLeWorld] INFO: STARTING STEP 16
+2021-03-17 08:50:00,472 [BombeRLeWorld] INFO: Agent <imitation> chose action DOWN in 0.04s.
+2021-03-17 08:50:00,472 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:50:00,535 [BombeRLeWorld] INFO: STARTING STEP 17
+2021-03-17 08:50:00,559 [BombeRLeWorld] INFO: Agent <imitation> chose action RIGHT in 0.02s.
+2021-03-17 08:50:00,559 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.
+2021-03-17 08:50:00,640 [BombeRLeWorld] INFO: STARTING STEP 18
+2021-03-17 08:50:00,658 [BombeRLeWorld] INFO: WRAPPING UP ROUND #10
+2021-03-17 08:50:00,659 [BombeRLeWorld] INFO: SHUT DOWN
+2021-03-17 08:50:00,679 [BombeRLeWorld] INFO: Agent <imitation> chose action LEFT in 0.04s.
+2021-03-17 08:50:00,679 [BombeRLeWorld] WARNING: Agent <imitation> stayed within acceptable think time.

@@ -39,7 +39,7 @@ def train(self):
     index = np.arange(MINIBATCH_SIZE)
     target_f[index, actions] = rewards + GAMMA * qvals_next_states_target[index, np.argmax(qvals_next_states, axis=1)]
 
-    self.model.fit(features_states, target_f, verbose=0)
+    self.model.fit(features_states, target_f, verbose=2)
 
 def setup_training(self):
     """
@@ -82,6 +82,8 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
         self.reward_sum += reward_from_events(self, events)
         self.experience.remember(old_game_state, ACTIONS_TO_NUMBER[self_action], new_game_state, reward_from_events(self, events))
 
+    train(self)
+
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
     """
@@ -97,16 +99,13 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     """
     self.reward_sum += reward_from_events(self, events)
     self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
-    
-    for i in range(10): # train after each game with 10 different minibatches
-        train(self)
 
     self.rewards.append(self.reward_sum)
     print(f"Number of steps: {last_game_state['step']}")
     self.reward_sum = 0
     self.visited_coords = []
 
-     # update target model
+    # update target model
     self.target_model.set_weights(self.model.get_weights())
 
     # Store the model
@@ -133,22 +132,22 @@ def reward_from_events(self, events: List[str]) -> int:
     certain behavior.
     """
     game_rewards = {
-        # e.MOVED_LEFT: .1,
-        # e.MOVED_RIGHT: .1,
-        # e.MOVED_UP: .1,
-        # e.MOVED_DOWN: .1,
-        e.COIN_COLLECTED: 10,
-        # e.KILLED_OPPONENT: 5,
-        e.WAITED: -2,
-        # e.KILLED_SELF: -10,
-        # e.BOMB_EXPLODED: 10,
-        # e.BOMB_DROPPED: -5,
-        SURVIVED_ROUND: -.5,
-        # e.CRATE_DESTROYED: 3,
-        # e.COIN_FOUND: 5,
-        NEW_LOCATION_VISITED: 1,
-        ALREADY_VISITED: -.5,
-        # SURVIVED_BOMB: 10,
+        e.MOVED_LEFT: -0.01,
+        e.MOVED_RIGHT: -0.01,
+        e.MOVED_UP: -0.01,
+        e.MOVED_DOWN: -0.01,
+        e.WAITED: -0.05,
+        e.INVALID_ACTION: -0.05,
+        e.BOMB_DROPPED: 0.15,
+        # e.BOMB_EXPLODED: 0,
+        e.CRATE_DESTROYED: 0.5,
+        e.COIN_FOUND: 0.15,
+        e.COIN_COLLECTED: 0.3,
+        e.KILLED_OPPONENT: 1,
+        e.KILLED_SELF: -1,
+        e.GOT_KILLED: -1,
+        e.OPPONENT_ELIMINATED: 0.1,
+        SURVIVED_ROUND: 0.05,
     }
     reward_sum = 0
     for event in events:

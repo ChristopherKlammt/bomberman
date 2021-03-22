@@ -114,6 +114,9 @@ def act(self, game_state: dict) -> str:
     #Rule Based Agent
     if self.train and random.random() < RULE_BASED_PROB_MAX-RULE_BASED_PROB_STEP*self.trainingStrength:
         choice = rb_act(self, game_state)
+        probabilities, model_choice = get_next_action(self, game_state)
+        self.logger.debug(probabilities)
+        self.logger.debug(f"Model choice: {model_choice}")
 
     if choice is None:
         self.logger.debug("Querying model for action.")

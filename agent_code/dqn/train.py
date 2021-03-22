@@ -10,6 +10,8 @@ from tqdm.keras import TqdmCallback
 import keras
 import tensorflow as tf
 
+import tables
+
 from .experience import Experience
 from .callbacks import get_next_action, get_valid_probabilities_list
 from .model import create_model
@@ -23,7 +25,8 @@ from .parameters import (
     SURVIVED_ROUND,
     ALREADY_VISITED,
     NEW_LOCATION_VISITED,
-    SURVIVED_BOMB
+    SURVIVED_BOMB,
+    FILENAME
 )
 
 def train(self):
@@ -55,6 +58,10 @@ def setup_training(self):
 
     self.reward_sum = 0
     self.rewards = []
+    self.trainingStrength = 0
+    self.collected_coins = 0 # number of coins collected during one round
+    self.killed_opponents = 0 # number of killed opponents
+    self.self_kill = 0 # ==1 if he killed himself
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
     """
@@ -97,18 +104,22 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
 
     :param self: The same object that is passed to all of your callbacks.
     """
+    add_custom_events(self, last_game_state, events)
     self.reward_sum += reward_from_events(self, events)
     self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
     
     # evaluate current training using total rewards and number of steps
     evaluation = True
     if evaluation:
-        evaluate_training([last_game_state['step'], self.reward_sum])
+        evaluate_training([last_game_state['step'], self.reward_sum, self.collected_coins, self.killed_opponents, self.self_kill])
 
     self.rewards.append(self.reward_sum)
     print(f"Number of steps: {last_game_state['step']}")
     self.reward_sum = 0
     self.visited_coords = []
+    self.collected_coins = 0
+    self.killed_opponents = 0
+    self.self_kill = 0 
 
     # update target model
     self.target_model.set_weights(self.model.get_weights())
@@ -128,6 +139,14 @@ def add_custom_events(self, new_game_state, events):
 
     if SURVIVED_ROUND in events and e.BOMB_EXPLODED in events:
         events.append(SURVIVED_BOMB)
+    # for evaluation purposes
+    if e.COIN_COLLECTED in events:
+        self.collected_coins += 1
+    if e.KILLED_OPPONENT in events:
+        self.killed_opponents += 1
+    if e.KILLED_SELF in events:
+        self.self_kill = 1
+    
 
 def reward_from_events(self, events: List[str]) -> int:
     """
@@ -163,5 +182,6 @@ def reward_from_events(self, events: List[str]) -> int:
     
 
 def evaluate_training(values):
-    file = tables.open_file(FILENAME, mode='a')
-    file.root.data.append(np.reshape(np.array(values), (1,2)))
+    print(values)
+    file = tables.open_file('../../'+FILENAME, mode='a')
+    file.root.data.append(np.reshape(np.array(values), (1,len(values))))

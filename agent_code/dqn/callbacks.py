@@ -12,7 +12,10 @@ from .parameters import (
     TRANSITION_HISTORY_SIZE,
     RULE_BASED_PROB_MAX,
     RULE_BASED_PROB_MIN, 
-    RULE_BASED_PROB_STEP
+    RULE_BASED_PROB_STEP,
+    TEMPERATURE,
+    EPS, 
+    TRAINING_STEP
 )
 
 from .model import create_model
@@ -40,10 +43,10 @@ def get_valid_probabilities(self, game_state):
 def max_boltzmann(probabilities):
     distribution = []
     for i in range(len(probabilities)):
-        if probabilities[i]>0:
+        # if probabilities[i]>0:
             distribution.append(np.exp((probabilities[i]/TEMPERATURE)))
-        else: 
-            distribution.append(0)
+        # else: 
+        #     distribution.append(0)
     distribution /= np.sum(distribution)
     if np.random.random() >= EPS: # return choice of highest probability
         return distribution, ACTIONS[np.argmax(probabilities)]
@@ -52,9 +55,9 @@ def max_boltzmann(probabilities):
 
 def get_next_action(self, game_state):
     # Using Max-Boltzmann exploration
-    # probabilities, choice = max_boltzmann(get_valid_probabilities(self, game_state))
-    probabilities = get_valid_probabilities(self, game_state)
-    choice = np.random.choice(ACTIONS, p=probabilities)
+    probabilities, choice = max_boltzmann(get_valid_probabilities(self, game_state))
+    # probabilities = get_valid_probabilities(self, game_state)
+    # choice = np.random.choice(ACTIONS, p=probabilities)
     # choice = ACTIONS[np.argmax(probabilities)]
     return probabilities, choice
 
@@ -123,10 +126,10 @@ def act(self, game_state: dict) -> str:
     :param game_state: The dictionary that describes everything on the board.
     :return: The action to take as a string.
     """
-    self.trainingStrength = game_state['round']
+    # self.trainingStrength = game_state['round']
     choice = None
     #Rule Based Agent
-    if self.train and random.random() < RULE_BASED_PROB_MAX-RULE_BASED_PROB_STEP*self.trainingStrength:
+    if self.train and random.random() < max(RULE_BASED_PROB_MAX-RULE_BASED_PROB_STEP*self.trainingStrength, RULE_BASED_PROB_MIN):
         choice = rb_act(self, game_state)
         probabilities, model_choice = get_next_action(self, game_state)
         self.logger.debug(probabilities)
@@ -138,5 +141,5 @@ def act(self, game_state: dict) -> str:
         self.logger.debug(probabilities)
         self.logger.debug(f"Chose action: {choice}")
     
-    self.trainingStrength +=1
+    self.trainingStrength += TRAINING_STEP
     return choice

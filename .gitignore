@@ -112,3 +112,5 @@ screenshots/*.mp4
 screenshots/*.webm
 
 replays/
+
+*tf-logs*

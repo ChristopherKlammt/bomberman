@@ -195,9 +195,7 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     for i in range(10): # train after each game with 10 different minibatches
         train(self)
     
-    # evaluate current training using total rewards and number of steps 
-    # self.number_of_steps.append(last_game_state['step'])
-    # self.total_auxiliary_reward.append(self.reward_sum)
+    # evaluate current training using total rewards and number of steps
     evaluation = True
     if evaluation:
         evaluate_training([last_game_state['step'], self.reward_sum])

@@ -16,6 +16,8 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, Conv2D, Flatten
 from keras.optimizers import Adam
 
+import tables # for evaluation
+
 # Hyper parameters -- DO modify
 TRANSITION_HISTORY_SIZE = 100  # keep only ... last transitions
 # RECORD_ENEMY_TRANSITIONS = 1.0  # record enemy transitions with probability ...
@@ -30,6 +32,11 @@ SURVIVED_ROUND = "SURVIVED_ROUND"
 ALREADY_VISITED = "ALREADY_VISITED"
 NEW_LOCATION_VISITED = "NEW_LOCATION_VISITED"
 SURVIVED_BOMB = "SURVIVED_BOMB"
+REDONE_LAST_ACTION = "REDONE_LAST_ACTION"
+MOVED_TOWARDS_COIN = "MOVED_TOWARDS_COIN"
+MOVED_AWAY_FROM_COIN = "MOVED_AWAY_FROM_COIN"
+
+FILENAME = '../../max_boltzmann1.h5'
 
 def create_model():
     # parameters
@@ -95,6 +102,11 @@ def setup_training(self):
 
     self.reward_sum = 0
     self.rewards = []
+        
+    # Needed for evaluation
+    self.number_of_steps = []
+    self.total_auxiliary_reward = []
+    
 
     if not hasattr(self, "model"):
         self.logger.debug("create new models for training")
@@ -137,11 +149,30 @@ def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_
 
     if len(self.transitions) > TRANSITION_HISTORY_SIZE:
             self.transitions.pop()
+            
+    # find out whether the last action has been redone
+    try:
+        if ((LAST_ACTION == 'LEFT' and self_action == 'RIGHT') or 
+            (LAST_ACTION == 'RIGHT' and self_action == 'LEFT') or
+            (LAST_ACTION == 'UP' and self_action == 'DOWN') or
+            (LAST_ACTION == 'DOWN' and self_action == 'UP')):
+            events.append(REDONE_LAST_ACTION)
+    except NameError: LAST_ACTION = None
 
     # state_to_features is defined in callbacks.py
     if old_game_state is not None:
+        # Compute distance to closest coin - used for first trainings step: coin collecting
+        distance_to_closest_coin = np.sum(np.abs(np.subtract(new_game_state['coins'], coords)), axis=1).min()
+        old_distance = np.sum(np.abs(np.subtract(old_game_state['coins'], coords)), axis=1).min()
+        if(distance_to_closest_coin < old_distance or e.COIN_COLLECTED in events):
+            events.append(MOVED_TOWARDS_COIN)
+        else:
+            events.append(MOVED_AWAY_FROM_COIN)
+    
         self.reward_sum += reward_from_events(self, events)
         self.transitions.append({"state": old_game_state, "action": self_action, "next_state": new_game_state, "reward": reward_from_events(self, events), "game_over": False})
+    
+    LAST_ACTION = self_action
 
 
 def end_of_round(self, last_game_state: dict, last_action: str, events: List[str]):
@@ -157,12 +188,20 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     :param self: The same object that is passed to all of your callbacks.
     """
     self.reward_sum += reward_from_events(self, events)
+    self.logger.info(f'Total reward of this round (including auxiliary rewards): {self.reward_sum}')
     self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
     self.transitions.append({"state": last_game_state, "action": last_action, "next_state": last_game_state, "reward": reward_from_events(self, events), "game_over": True})
 
     for i in range(10): # train after each game with 10 different minibatches
         train(self)
-
+    
+    # evaluate current training using total rewards and number of steps 
+    # self.number_of_steps.append(last_game_state['step'])
+    # self.total_auxiliary_reward.append(self.reward_sum)
+    evaluation = True
+    if evaluation:
+        evaluate_training([last_game_state['step'], self.reward_sum])
+        
     self.rewards.append(self.reward_sum)
     print(f"Number of steps: {last_game_state['step']}")
     # print(f"Positive reward quota: {np.count_nonzero(np.array(self.rewards) > 0) / len(self.rewards) * 100 : .1f} % ({self.reward_sum : .1f} in {len(self.transitions)} rounds)")
@@ -171,11 +210,12 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     self.visited_coords = []
 
      # update target model
+    
     self.target_model.set_weights(self.model.get_weights())
 
     # Store the model
     save_model(self.model, "my_agent.model")
-
+        
 
 def reward_from_events(self, events: List[str]) -> int:
     """
@@ -185,22 +225,25 @@ def reward_from_events(self, events: List[str]) -> int:
     certain behavior.
     """
     game_rewards = {
-        # e.MOVED_LEFT: .1,
-        # e.MOVED_RIGHT: .1,
-        # e.MOVED_UP: .1,
-        # e.MOVED_DOWN: .1,
+        e.MOVED_LEFT: -.1,
+        e.MOVED_RIGHT: -.1,
+        e.MOVED_UP: -.1,
+        e.MOVED_DOWN: -.1,
         e.COIN_COLLECTED: 10,
         # e.KILLED_OPPONENT: 5,
-        e.WAITED: -2,
+        e.WAITED: -5,
         # e.KILLED_SELF: -10,
         # e.BOMB_EXPLODED: 10,
         # e.BOMB_DROPPED: -5,
-        SURVIVED_ROUND: -.5,
+        # SURVIVED_ROUND: .05,
         # e.CRATE_DESTROYED: 3,
         # e.COIN_FOUND: 5,
-        NEW_LOCATION_VISITED: 1,
-        ALREADY_VISITED: -.5,
+        NEW_LOCATION_VISITED: 2,
+        ALREADY_VISITED: -0.1,
         # SURVIVED_BOMB: 10,
+        # REDONE_LAST_ACTION: -2,
+        MOVED_TOWARDS_COIN: 0.1,
+        MOVED_AWAY_FROM_COIN: -0.1,
     }
     reward_sum = 0
     for event in events:
@@ -208,3 +251,9 @@ def reward_from_events(self, events: List[str]) -> int:
             reward_sum += game_rewards[event]
     self.logger.info(f"Awarded {reward_sum} for events {', '.join(events)}")
     return reward_sum
+
+
+def evaluate_training(values):
+    file = tables.open_file(FILENAME, mode='a')
+    file.root.data.append(np.reshape(np.array(values), (1,2)))
+    

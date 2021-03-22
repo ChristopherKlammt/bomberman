@@ -14,9 +14,11 @@ np.set_printoptions(formatter={'float_kind': "{:.4f}".format})
 ACTIONS = ['UP', 'RIGHT', 'DOWN', 'LEFT', 'WAIT', 'BOMB']
 
 TRANSITION_HISTORY_SIZE = 100
-RULE_BASED_PROB_MAX = 1.20
-RULE_BASED_PROB_MIN = 0.20
+RULE_BASED_PROB_MAX = 0.0
+RULE_BASED_PROB_MIN = 0.0
 RULE_BASED_PROB_STEP = (RULE_BASED_PROB_MAX -RULE_BASED_PROB_MIN) / TRANSITION_HISTORY_SIZE
+TEMPERATURE = 100
+EPS = 0.3
 
 # returns probabilites for an array of game_states
 def get_valid_probabilities_list(self, states, features):
@@ -32,10 +34,31 @@ def get_valid_probabilities_list(self, states, features):
 def get_valid_probabilities(self, game_state):
     probabilities = get_valid_probabilities_list(self, [game_state], [state_to_features(game_state)])[0]
     return probabilities
+    
+def max_boltzmann(probabilities):
+    distribution = []
+    for i in range(len(probabilities)):
+        if probabilities[i]>0:
+            distribution.append(np.exp((probabilities[i]/TEMPERATURE)))
+        else: 
+            distribution.append(0)
+    distribution /= np.sum(distribution)
+    if np.random.random() >= EPS: # return choice of highest probability
+        return distribution, ACTIONS[np.argmax(probabilities)]
+    else: 
+        return distribution, np.random.choice(ACTIONS, p=distribution)
+    
 
 def get_next_action(self, game_state):
-    probabilities = get_valid_probabilities(self, game_state)
-    choice = np.random.choice(ACTIONS, p=probabilities)
+    # Using Max-Boltzmann exploration
+    probabilities, choice = max_boltzmann(get_valid_probabilities(self, game_state))
+    
+    # Choosing always according to the probabilities
+    # probabilities = np.square(np.square(get_valid_probabilities(self, game_state))) # square probabilities to take better actions with higher probability
+    # probabilities /= probabilities.sum()
+    # choice = np.random.choice(ACTIONS, p=probabilities)
+    
+    # Taking the action with highest probability
     # choice = ACTIONS[np.argmax(probabilities)]
     
     return probabilities, choice
@@ -102,7 +125,7 @@ def act(self, game_state: dict) -> str:
     self.trainingStrength = game_state['round']
     choice = None
     #Rule Based Agent
-    if self.train and random.random() < RULE_BASED_PROB_MAX-RULE_BASED_PROB_STEP*self.trainingStrength:
+    if self.train and random.random() < RULE_BASED_PROB_MAX - RULE_BASED_PROB_STEP*self.trainingStrength:
         choice = rb_act(self, game_state)
     
     #Random Agent
@@ -117,7 +140,6 @@ def act(self, game_state: dict) -> str:
         self.logger.debug("Querying model for action.")
         probabilities, choice = get_next_action(self, game_state)
         #choice = ACTIONS[np.argmax(self.model.predict(np.array([state_to_features(game_state)]))[0])]
-        self.logger.debug(probabilities)
         self.logger.debug(f"Chose action: {choice}")
     
     self.trainingStrength +=1

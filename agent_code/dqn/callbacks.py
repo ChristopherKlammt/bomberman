@@ -31,8 +31,9 @@ def get_valid_probabilities_list(self, states, features):
     for i in range(len(probabilities)):
         if min(probabilities[i]) < 0:
             probabilities[i] += abs(min(probabilities[i]))
-        probabilities[i] *= get_valid_actions(states[i]) # only allow valid actions
-        probabilities[i] /= probabilities[i].sum() # normalize to statistical vector (= sums up to 1)
+        # probabilities[i] *= get_valid_actions(states[i]) # only allow valid actions
+        if(probabilities[i].sum() != 0):
+            probabilities[i] /= probabilities[i].sum() # normalize to statistical vector (= sums up to 1)
     return probabilities
 
 
@@ -40,7 +41,7 @@ def get_valid_probabilities(self, game_state):
     probabilities = get_valid_probabilities_list(self, [game_state], [state_to_features(game_state)])[0]
     return probabilities
     
-def max_boltzmann(probabilities):
+def max_boltzmann(self, probabilities):
     distribution = []
     for i in range(len(probabilities)):
         # if probabilities[i]>0:
@@ -49,13 +50,15 @@ def max_boltzmann(probabilities):
         #     distribution.append(0)
     distribution /= np.sum(distribution)
     if np.random.random() >= EPS: # return choice of highest probability
+        self.logger.debug(f"Chose exploiting action.")
         return distribution, ACTIONS[np.argmax(probabilities)]
     else: 
+        self.logger.debug(f"Chose exploring action.")
         return distribution, np.random.choice(ACTIONS, p=distribution)
 
 def get_next_action(self, game_state):
     # Using Max-Boltzmann exploration
-    probabilities, choice = max_boltzmann(get_valid_probabilities(self, game_state))
+    probabilities, choice = max_boltzmann(self, get_valid_probabilities(self, game_state))
     # probabilities = get_valid_probabilities(self, game_state)
     # choice = np.random.choice(ACTIONS, p=probabilities)
     # choice = ACTIONS[np.argmax(probabilities)]
@@ -140,6 +143,7 @@ def act(self, game_state: dict) -> str:
         probabilities, choice = get_next_action(self, game_state)
         self.logger.debug(probabilities)
         self.logger.debug(f"Chose action: {choice}")
-    
-    self.trainingStrength += TRAINING_STEP
+        
+    if self.train:
+        self.trainingStrength += TRAINING_STEP
     return choice

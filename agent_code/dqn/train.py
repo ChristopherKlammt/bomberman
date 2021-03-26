@@ -42,7 +42,7 @@ def train(self):
     index = np.arange(MINIBATCH_SIZE)
     target_f[index, actions] = rewards + GAMMA * qvals_next_states_target[index, np.argmax(qvals_next_states, axis=1)]
 
-    self.model.fit(features_states, target_f, verbose=2)
+    self.model.fit(features_states, target_f, verbose=0)
 
 def setup_training(self):
     """
@@ -139,6 +139,7 @@ def add_custom_events(self, new_game_state, events):
 
     if SURVIVED_ROUND in events and e.BOMB_EXPLODED in events:
         events.append(SURVIVED_BOMB)
+        
     # for evaluation purposes
     if e.COIN_COLLECTED in events:
         self.collected_coins += 1
@@ -162,16 +163,17 @@ def reward_from_events(self, events: List[str]) -> int:
         e.MOVED_DOWN: -0.01,
         e.WAITED: -0.05,
         e.INVALID_ACTION: -0.05,
-        e.BOMB_DROPPED: 0.15,
+        e.BOMB_DROPPED: -0.5, 
         # e.BOMB_EXPLODED: 0,
-        e.CRATE_DESTROYED: 0.5,
-        e.COIN_FOUND: 0.15,
-        e.COIN_COLLECTED: 0.3,
+        e.CRATE_DESTROYED: 0.1,
+        e.COIN_FOUND: 0.1,
+        e.COIN_COLLECTED: 0.5,
         e.KILLED_OPPONENT: 1,
         e.KILLED_SELF: -1,
         e.GOT_KILLED: -1,
         e.OPPONENT_ELIMINATED: 0.1,
-        SURVIVED_ROUND: 0.05,
+        # SURVIVED_ROUND: 0.01,
+        SURVIVED_BOMB: 0.3
     }
     reward_sum = 0
     for event in events:

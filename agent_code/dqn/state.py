@@ -38,8 +38,8 @@ def state_to_features(game_state: dict) -> np.array:
     
     adjusted_map = np.array(game_state["field"])
     adjusted_map[player_position[0]][player_position[1]] = -2
-    print("Adjusted Map")
-    print(adjusted_map)
+    #print("Adjusted Map")
+    #print(adjusted_map)
     # Player = -2
     # Wall = -1
     # Crate = 1
@@ -54,41 +54,41 @@ def state_to_features(game_state: dict) -> np.array:
     neighbouring_fields.append((player_position[0],      player_position[1]+1   ))
     neighbouring_fields.append((player_position[0]+1,    player_position[1]     ))
     neighbouring_fields.append((player_position[0],      player_position[1]-1   ))
-    print("Neighbouring Fields")
-    print(neighbouring_fields)
+    #print("Neighbouring Fields")
+    #print(neighbouring_fields)
     
     # is it possible to move in that direction?
     movable = np.zeros(4)
     for i, position in enumerate(neighbouring_fields):
         field = adjusted_map[int(position[0])][int(position[1])]
         movable[i] = field == 0 or field == 2
-    print("Moveable")
-    print(movable)
+    #print("Moveable")
+    #print(movable)
     
     # is the field dangered by a bomb? if yes, how many turn until explosion?
     dangered = np.zeros(4)
     for i, position in enumerate(neighbouring_fields):
         dangered[i] = 4
         for bomb in game_state["bombs"]:
-            if get_dangered_fields_by_bomb(bomb[0],adjusted_map.shape).contains(position):
+            if position in get_dangered_fields_by_bomb(bomb[0],adjusted_map.shape):
                 if dangered[i] > bomb[1]:
-                        dangered = bomb[1]
-    print("Dangered")
-    print(dangered)
+                        dangered[i] = bomb[1]
+    #print("Dangered")
+    #print(dangered)
     
     # distance to the next coin
     coin_distance = np.zeros(4)
     for i, position in enumerate(neighbouring_fields):
         coin_distance[i] = get_closest(position,adjusted_map, 2)
-    print("Coin Distance")
-    print(coin_distance)
+    #print("Coin Distance")
+    #print(coin_distance)
                     
     # distance to the next enemy
     enemy_distance = np.zeros(4)
     for i, position in enumerate(neighbouring_fields):
         enemy_distance[i] = get_closest(position,adjusted_map, 4)
-    print("Enemy Distance")
-    print(enemy_distance)
+    #print("Enemy Distance")
+    #print(enemy_distance)
 
     # number of crates in bomb range
     bomb_strength = np.zeros(4)
@@ -99,8 +99,8 @@ def state_to_features(game_state: dict) -> np.array:
             if(adjusted_map[field[0]][field[1]]) == 1:
                 count = count + 1
         bomb_strength[i] = count
-    print("Bomb Strength")
-    print(bomb_strength)    
+    #print("Bomb Strength")
+    #print(bomb_strength)    
         
 
     # concatenate them as a feature tensor (they must have the same shape), ...
@@ -116,6 +116,8 @@ def get_closest(position, adjusted_map, goal):
     to_move = [(position[0],position[1],0)]
     while len(to_move) > 0:
         position = to_move.pop(0)
+        if position[2] > 8:
+            return -1
         if position[0] > 0 and position[1] > 0 and position[0] < adjusted_map.shape[0] and position[1] <adjusted_map.shape[1]:
              if adjusted_map[position[0]][position[1]] == goal:
                  return position[2]+1

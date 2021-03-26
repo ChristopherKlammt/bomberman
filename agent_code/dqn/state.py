@@ -110,7 +110,7 @@ def state_to_features(game_state: dict) -> np.array:
     channels.append(enemy_distance)
     channels.append(bomb_strength)
     stacked_channels = np.stack(channels).astype(float)
-    return stacked_channels
+    return stacked_channels.reshape(-1)
 
 def get_closest(position, adjusted_map, goal):
     to_move = [(position[0],position[1],0)]

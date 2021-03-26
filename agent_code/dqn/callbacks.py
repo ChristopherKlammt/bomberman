@@ -141,5 +141,6 @@ def act(self, game_state: dict) -> str:
         self.logger.debug(probabilities)
         self.logger.debug(f"Chose action: {choice}")
     
-    self.trainingStrength += TRAINING_STEP
+    if self.train:
+        self.trainingStrength += TRAINING_STEP
     return choice

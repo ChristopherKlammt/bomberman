@@ -38,6 +38,11 @@ def state_to_features(game_state: dict) -> np.array:
     
     adjusted_map = np.array(game_state["field"])
     adjusted_map[player_position[0]][player_position[1]] = -2
+    # Add coins to adjusted map
+    adjusted_map[tuple(np.array(game_state["coins"]).T)] = 2
+    # Add others
+    for i in range(len(game_state["others"])):
+        adjusted_map[game_state["others"][3]] = 4
     #print("Adjusted Map")
     #print(adjusted_map)
     # Player = -2
@@ -49,11 +54,12 @@ def state_to_features(game_state: dict) -> np.array:
     #TODO: Add Others = 4
     
     
+    
     neighbouring_fields = []
-    neighbouring_fields.append((player_position[0]-1,    player_position[1]     ))
-    neighbouring_fields.append((player_position[0],      player_position[1]+1   ))
-    neighbouring_fields.append((player_position[0]+1,    player_position[1]     ))
-    neighbouring_fields.append((player_position[0],      player_position[1]-1   ))
+    neighbouring_fields.append((player_position[0]-1,    player_position[1]     )) # links
+    neighbouring_fields.append((player_position[0],      player_position[1]+1   )) # unten
+    neighbouring_fields.append((player_position[0]+1,    player_position[1]     )) # rechts
+    neighbouring_fields.append((player_position[0],      player_position[1]-1   )) # oben
     #print("Neighbouring Fields")
     #print(neighbouring_fields)
     
@@ -65,7 +71,7 @@ def state_to_features(game_state: dict) -> np.array:
     #print("Moveable")
     #print(movable)
     
-    # is the field dangered by a bomb? if yes, how many turn until explosion?
+    # is the field dangered by a bomb? if yes, how many turns until explosion?
     dangered = np.zeros(4)
     for i, position in enumerate(neighbouring_fields):
         dangered[i] = 4
@@ -118,7 +124,7 @@ def get_closest(position, adjusted_map, goal):
         position = to_move.pop(0)
         if position[2] > 8:
             return -1
-        if position[0] > 0 and position[1] > 0 and position[0] < adjusted_map.shape[0] and position[1] <adjusted_map.shape[1]:
+        if position[0] > 0 and position[1] > 0 and position[0] < adjusted_map.shape[0] and position[1] < adjusted_map.shape[1]:
              if adjusted_map[position[0]][position[1]] == goal:
                  return position[2]+1
              else:
@@ -132,7 +138,7 @@ def get_closest(position, adjusted_map, goal):
 
 def get_dangered_fields_by_bomb(bomb,shape):
     dangered_fields = []
-    for i in range(3):
+    for i in range(4):
         position = (bomb[0]+i,bomb[1]  )
         if position[0] > 0 and position[1] > 0 and position[0] < shape[0] and position[1] <shape[1]:
             dangered_fields.append(position)

@@ -25,13 +25,10 @@ class Experience:
         self.features_next_states.append(state_to_features(next_state))
         self.rewards.append(reward)
 
-        if self.size == len(self.states):
+        if len(self.states) >= MINIBATCH_SIZE:
             self.filled = True
 
     def get_sample(self, batch_size=MINIBATCH_SIZE):
-        if self.filled:
-            indices = np.random.choice(self.size, batch_size)
-        else:
-            indices = np.random.choice(len(self.states), batch_size)
+        indices = np.random.choice(len(self.states), batch_size)
 
         return np.array(self.states)[indices], np.array(self.features_states)[indices], np.array(self.actions)[indices], np.array(self.features_next_states)[indices], np.array(self.rewards)[indices]

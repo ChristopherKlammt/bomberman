@@ -51,7 +51,7 @@ def max_boltzmann(self, probabilities):
     distribution /= np.sum(distribution)
     if np.random.random() >= EPS: # return choice of highest probability
         self.logger.debug(f"Chose exploiting action.")
-        return distribution, ACTIONS[np.argmax(probabilities)]
+        return probabilities, ACTIONS[np.argmax(probabilities)]
     else: 
         self.logger.debug(f"Chose exploring action.")
         return distribution, np.random.choice(ACTIONS, p=distribution)
@@ -118,8 +118,6 @@ def setup(self):
         self.logger.info("No trained model available.")
         exit()
         
-
-
 def act(self, game_state: dict) -> str:
     """
     Your agent should parse the input, think, and take a decision.

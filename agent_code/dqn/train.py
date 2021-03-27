@@ -26,7 +26,8 @@ from .parameters import (
     ALREADY_VISITED,
     NEW_LOCATION_VISITED,
     SURVIVED_BOMB,
-    FILENAME
+    FILENAME,
+    EVALUATION
 )
 
 def train(self):
@@ -109,8 +110,7 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     self.logger.debug(f'Encountered event(s) {", ".join(map(repr, events))} in final step')
     
     # evaluate current training using total rewards and number of steps
-    evaluation = True
-    if evaluation:
+    if EVALUATION:
         evaluate_training([last_game_state['step'], self.reward_sum, self.collected_coins, self.killed_opponents, self.self_kill])
 
     self.rewards.append(self.reward_sum)
@@ -163,7 +163,7 @@ def reward_from_events(self, events: List[str]) -> int:
         e.MOVED_DOWN: -0.01,
         e.WAITED: -0.05,
         e.INVALID_ACTION: -0.05,
-        e.BOMB_DROPPED: -0.5, 
+        e.BOMB_DROPPED: -0.3, 
         # e.BOMB_EXPLODED: 0,
         e.CRATE_DESTROYED: 0.1,
         e.COIN_FOUND: 0.1,
@@ -173,7 +173,7 @@ def reward_from_events(self, events: List[str]) -> int:
         e.GOT_KILLED: -1,
         e.OPPONENT_ELIMINATED: 0.1,
         # SURVIVED_ROUND: 0.01,
-        SURVIVED_BOMB: 0.3
+        SURVIVED_BOMB: 0.1
     }
     reward_sum = 0
     for event in events:

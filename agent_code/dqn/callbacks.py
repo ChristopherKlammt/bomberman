@@ -28,12 +28,6 @@ np.set_printoptions(formatter={'float_kind': "{:.4f}".format})
 # returns probabilites for an array of game_states
 def get_valid_probabilities_list(self, states, features):
     probabilities = self.model.predict(np.array(features))
-    for i in range(len(probabilities)):
-        if min(probabilities[i]) < 0:
-            probabilities[i] += abs(min(probabilities[i]))
-        # probabilities[i] *= get_valid_actions(states[i]) # only allow valid actions
-        if(probabilities[i].sum() != 0):
-            probabilities[i] /= probabilities[i].sum() # normalize to statistical vector (= sums up to 1)
     return probabilities
 
 
@@ -58,33 +52,12 @@ def max_boltzmann(self, probabilities):
 
 def get_next_action(self, game_state):
     # Using Max-Boltzmann exploration
-    probabilities, choice = max_boltzmann(self, get_valid_probabilities(self, game_state))
-    # probabilities = get_valid_probabilities(self, game_state)
-    # choice = np.random.choice(ACTIONS, p=probabilities)
+    # probabilities, choice = max_boltzmann(get_valid_probabilities(self, game_state))
+    probabilities = get_valid_probabilities(self, game_state)
+    choice = np.random.choice(ACTIONS, p=probabilities)
     # choice = ACTIONS[np.argmax(probabilities)]
     return probabilities, choice
 
-def get_valid_actions(game_state):
-    _, _, bomb, (x, y) = game_state["self"]
-    walls = game_state["field"]
-    bombs = list(map(lambda x: x[0], game_state["bombs"]))
-
-    actions = np.ones(6)
-
-    if walls[x][y-1] != 0 or (x, y-1) in bombs:
-        actions[0] = 0 # can't go up
-    if walls[x+1][y] != 0 or (x+1, y) in bombs:
-        actions[1] = 0 # can't go right
-    if walls[x][y+1] != 0 or (x, y+1) in bombs:
-        actions[2] = 0 # can't go down
-    if walls[x-1][y] != 0 or (x-1, y) in bombs:
-        actions[3] = 0 # can't go left
-
-    # if True:
-    if not bomb:
-        actions[5] = 0 # can't plant bomb
-    
-    return actions
 
 def setup(self):
     """
@@ -130,7 +103,7 @@ def act(self, game_state: dict) -> str:
     # self.trainingStrength = game_state['round']
     choice = None
     #Rule Based Agent
-    if self.train and random.random() < max(RULE_BASED_PROB_MAX-RULE_BASED_PROB_STEP*self.trainingStrength, RULE_BASED_PROB_MIN):
+    if self.train: # and random.random() < max(RULE_BASED_PROB_MAX-RULE_BASED_PROB_STEP*self.trainingStrength, RULE_BASED_PROB_MIN):
         choice = rb_act(self, game_state)
         probabilities, model_choice = get_next_action(self, game_state)
         self.logger.debug(probabilities)

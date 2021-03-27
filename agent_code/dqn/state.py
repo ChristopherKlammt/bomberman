@@ -49,19 +49,21 @@ def state_to_features(game_state: dict) -> np.array:
     # Wall = -1
     # Crate = 1
     # Free = 0
-    #TODO: Add Coins = 2
+    # Coins = 2
     #TODO: Add Bombs = 3
-    #TODO: Add Others = 4
+    # Others = 4
     
+    # print(adjusted_map)
+
     
     
     neighbouring_fields = []
-    neighbouring_fields.append((player_position[0]-1,    player_position[1]     )) # links
-    neighbouring_fields.append((player_position[0],      player_position[1]+1   )) # unten
-    neighbouring_fields.append((player_position[0]+1,    player_position[1]     )) # rechts
-    neighbouring_fields.append((player_position[0],      player_position[1]-1   )) # oben
-    #print("Neighbouring Fields")
-    #print(neighbouring_fields)
+    neighbouring_fields.append((player_position[0]-1,    player_position[1]     )) # left
+    neighbouring_fields.append((player_position[0],      player_position[1]+1   )) # down
+    neighbouring_fields.append((player_position[0]+1,    player_position[1]     )) # right
+    neighbouring_fields.append((player_position[0],      player_position[1]-1   )) # up
+    # print("Neighbouring Fields")
+    # print(neighbouring_fields)
     
     # is it possible to move in that direction?
     movable = np.zeros(4)
@@ -119,11 +121,13 @@ def state_to_features(game_state: dict) -> np.array:
     return stacked_channels.reshape(-1)
 
 def get_closest(position, adjusted_map, goal):
+    MAX = 100
+    distance_when_to_abort = 20
     to_move = [(position[0],position[1],0)]
     while len(to_move) > 0:
         position = to_move.pop(0)
-        if position[2] > 8:
-            return -1
+        if position[2] > distance_when_to_abort:
+            return MAX
         if position[0] > 0 and position[1] > 0 and position[0] < adjusted_map.shape[0] and position[1] < adjusted_map.shape[1]:
              if adjusted_map[position[0]][position[1]] == goal:
                  return position[2]+1
@@ -134,7 +138,7 @@ def get_closest(position, adjusted_map, goal):
                      to_move.append((position[0]-1,position[1]  ,position[2]+1))
                      to_move.append((position[0]  ,position[1]+1,position[2]+1))
                      to_move.append((position[0]  ,position[1]-1,position[2]+1))
-    return -1
+    return MAX
 
 def get_dangered_fields_by_bomb(bomb,shape):
     dangered_fields = []

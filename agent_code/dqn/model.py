@@ -12,9 +12,9 @@ def create_model():
     # model.add(Conv2D(8, input_shape=INPUT_SHAPE, kernel_size=(5, 5), padding="same", activation="relu"))
     # model.add(Conv2D(16, kernel_size=(3, 3), padding="same", activation="relu"))
     # model.add(Flatten())
-    model.add(Dense(128, input_shape=INPUT_SHAPE, activation="relu"))
-    model.add(Dense(128, activation="relu"))
-    model.add(Dense(NUM_ACTIONS))
+    model.add(Dense(64, input_shape=INPUT_SHAPE, activation="relu"))
+    # model.add(Dense(128, activation="relu"))
+    model.add(Dense(NUM_ACTIONS, activation="softmax"))
     model.compile(loss="mean_squared_error", optimizer=Adam(learning_rate=LEARNING_RATE))
 
     return model

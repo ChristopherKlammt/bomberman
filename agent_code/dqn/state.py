@@ -14,6 +14,7 @@ def state_to_features(game_state: dict) -> np.array:
     :param game_state:  A dictionary describing the current game board.
     :return: np.array
     """
+    
     # This is the dict before the game begins and after it ends
     if game_state is None:
         return None
@@ -29,9 +30,9 @@ def state_to_features(game_state: dict) -> np.array:
     #       - danger
     #       - coins
     #       - players
-    #       - bomb strnegth
+    #       - bomb strength
     
-    # entries in chanels are for top, right, down, left in that order
+    # entries in chanels are for self, top, right, down, left
     
     # prepare data
     player_position = np.array([game_state["self"][3][0],game_state["self"][3][1]])
@@ -42,37 +43,41 @@ def state_to_features(game_state: dict) -> np.array:
     adjusted_map[tuple(np.array(game_state["coins"]).T)] = 2
     # Add others
     for i in range(len(game_state["others"])):
-        adjusted_map[game_state["others"][3]] = 4
+        adjusted_map[game_state["others"][i][3]] = 4
+    # Add bombs
+    for i in range(len(game_state["bombs"])):
+        adjusted_map[game_state["bombs"][i][0]] = 3
     #print("Adjusted Map")
     #print(adjusted_map)
     # Player = -2
     # Wall = -1
     # Crate = 1
     # Free = 0
-    #TODO: Add Coins = 2
-    #TODO: Add Bombs = 3
-    #TODO: Add Others = 4
+    # Coins = 2
+    # Bombs = 3
+    # Others = 4
     
     
     
     neighbouring_fields = []
-    neighbouring_fields.append((player_position[0]-1,    player_position[1]     )) # links
-    neighbouring_fields.append((player_position[0],      player_position[1]+1   )) # unten
-    neighbouring_fields.append((player_position[0]+1,    player_position[1]     )) # rechts
-    neighbouring_fields.append((player_position[0],      player_position[1]-1   )) # oben
+    neighbouring_fields.append((player_position[0]  ,    player_position[1]     )) # self
+    neighbouring_fields.append((player_position[0]-1,    player_position[1]     )) # left
+    neighbouring_fields.append((player_position[0],      player_position[1]+1   )) # down
+    neighbouring_fields.append((player_position[0]+1,    player_position[1]     )) # right
+    neighbouring_fields.append((player_position[0],      player_position[1]-1   )) # up
     #print("Neighbouring Fields")
     #print(neighbouring_fields)
     
     # is it possible to move in that direction?
-    movable = np.zeros(4)
+    movable = np.zeros(5)
     for i, position in enumerate(neighbouring_fields):
         field = adjusted_map[int(position[0])][int(position[1])]
-        movable[i] = field == 0 or field == 2
+        movable[i] = field == 0 or field == 2 or field == -2
     #print("Moveable")
     #print(movable)
     
     # is the field dangered by a bomb? if yes, how many turns until explosion?
-    dangered = np.zeros(4)
+    dangered = np.zeros(5)
     for i, position in enumerate(neighbouring_fields):
         dangered[i] = 4
         for bomb in game_state["bombs"]:
@@ -83,27 +88,29 @@ def state_to_features(game_state: dict) -> np.array:
     #print(dangered)
     
     # distance to the next coin
-    coin_distance = np.zeros(4)
+    coin_distance = np.zeros(5)
     for i, position in enumerate(neighbouring_fields):
         coin_distance[i] = get_closest(position,adjusted_map, 2)
     #print("Coin Distance")
     #print(coin_distance)
                     
     # distance to the next enemy
-    enemy_distance = np.zeros(4)
+    enemy_distance = np.zeros(5)
     for i, position in enumerate(neighbouring_fields):
         enemy_distance[i] = get_closest(position,adjusted_map, 4)
     #print("Enemy Distance")
     #print(enemy_distance)
 
     # number of crates in bomb range
-    bomb_strength = np.zeros(4)
+    bomb_strength = np.zeros(5)
     for i, position in enumerate(neighbouring_fields):
         dangered_fields = get_dangered_fields_by_bomb(game_state["self"][3],adjusted_map.shape)
         count = 0
         for field in dangered_fields:
             if(adjusted_map[field[0]][field[1]]) == 1:
                 count = count + 1
+            if(adjusted_map[field[0]][field[1]]) == 4:
+                count = count + 3
         bomb_strength[i] = count
     #print("Bomb Strength")
     #print(bomb_strength)    
@@ -122,8 +129,8 @@ def get_closest(position, adjusted_map, goal):
     to_move = [(position[0],position[1],0)]
     while len(to_move) > 0:
         position = to_move.pop(0)
-        if position[2] > 8:
-            return -1
+#        if position[2] > 8:
+#            return -1
         if position[0] > 0 and position[1] > 0 and position[0] < adjusted_map.shape[0] and position[1] < adjusted_map.shape[1]:
              if adjusted_map[position[0]][position[1]] == goal:
                  return position[2]+1
@@ -134,11 +141,11 @@ def get_closest(position, adjusted_map, goal):
                      to_move.append((position[0]-1,position[1]  ,position[2]+1))
                      to_move.append((position[0]  ,position[1]+1,position[2]+1))
                      to_move.append((position[0]  ,position[1]-1,position[2]+1))
-    return -1
+    return adjusted_map.shape[0]+adjusted_map.shape[1]
 
 def get_dangered_fields_by_bomb(bomb,shape):
     dangered_fields = []
-    for i in range(4):
+    for i in range(1,4):
         position = (bomb[0]+i,bomb[1]  )
         if position[0] > 0 and position[1] > 0 and position[0] < shape[0] and position[1] <shape[1]:
             dangered_fields.append(position)

@@ -92,7 +92,8 @@ def state_to_features(game_state: dict) -> np.array:
     # distance to the next coin
     coin_distance = np.zeros(5)
     for i, position in enumerate(neighbouring_fields):
-        coin_distance[i] = get_closest(position,adjusted_map, 2)
+        if len(game_state["coins"]) != 0:
+            coin_distance[i] = get_closest(position,adjusted_map, 2)
     #print("Coin Distance")
     #print(coin_distance)
                     
@@ -128,13 +129,13 @@ def state_to_features(game_state: dict) -> np.array:
     return stacked_channels.reshape(-1)
 
 def get_closest(position, adjusted_map, goal):
-    MAX = 100
-    distance_when_to_abort = 20
+    #MAX = 100
+    #distance_when_to_abort = 20
     to_move = [(position[0],position[1],0)]
     while len(to_move) > 0:
         position = to_move.pop(0)
-        # if position[2] > distance_when_to_abort:
-        #     return MAX
+        #if position[2] > distance_when_to_abort:
+            #return MAX
         if position[0] > 0 and position[1] > 0 and position[0] < adjusted_map.shape[0] and position[1] < adjusted_map.shape[1]:
              if adjusted_map[position[0]][position[1]] == goal:
                  return position[2]+1

@@ -53,6 +53,9 @@ def setup_training(self):
 
     :param self: This object is passed to all callbacks and you can set arbitrary values.
     """
+    
+    self.eval_eor_file = tables.open_file('../../'+FILENAME+"_eor", mode='a')
+    self.eval_file = tables.open_file('../../'+FILENAME, mode='a')
     self.experience = Experience()
 
     self.visited_coords = []
@@ -111,7 +114,8 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     
     # evaluate current training using total rewards and number of steps
     if EVALUATION:
-        evaluate_training([last_game_state['step'], self.reward_sum, self.collected_coins, self.killed_opponents, self.self_kill])
+        self.last_game_state = last_game_state
+        evaluate_training_eor(self)
 
     self.rewards.append(self.reward_sum)
     print(f"Number of steps: {last_game_state['step']}")
@@ -176,14 +180,40 @@ def reward_from_events(self, events: List[str]) -> int:
         SURVIVED_BOMB: 0.1
     }
     reward_sum = 0
+    self.number_of_kills = 0
+    self.number_of_crates_destroyed = 0
+    self.number_of_points = 0
     for event in events:
         if event in game_rewards:
             reward_sum += game_rewards[event]
+        if event == e.KILLED_OPPONENT:
+            self.number_of_kills += 1
+            self.number_of_points += 5
+        if event == e.CRATE_DESTROYED:
+            self.number_of_crates_destroyed += 1
+        if event == e.COIN_COLLECTED:
+            self.number_of_points += 1
     self.logger.info(f"Awarded {reward_sum} for events {', '.join(events)}")
     return reward_sum
     
-
-def evaluate_training(values):
+def evaluate_training(self):
+    values = []
     print(values)
-    file = tables.open_file('../../'+FILENAME, mode='a')
-    file.root.data.append(np.reshape(np.array(values), (1,len(values))))
+    self.eval_file.root.data.append(np.reshape(np.array(values), (1,len(values))))
+
+
+def evaluate_training_eor(self):
+    values = []
+    values.append(self.last_game_state['step'])     # Number of survived steps
+    values.append(self.reward_sum)                  # Reward sum
+    values.append(self.collected_coins)             # Number of collected coins
+    values.append(self.killed_opponents)            # Number of killed enemies
+    values.append(self.self_kill)                   # Did he killed himself?
+    
+    values.append(self.number_of_kills)             # Number of kills
+    values.append(self.number_of_crates_destroyed)  # Number of crates destroyed
+    values.append(self.number_of_points)            # Number of points
+    
+
+    print(values)
+    self.eval_eor_file.root.data.append(np.reshape(np.array(values), (1,len(values))))

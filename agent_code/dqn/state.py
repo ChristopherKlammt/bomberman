@@ -57,6 +57,8 @@ def state_to_features(game_state: dict) -> np.array:
     # Bombs = 3
     # Others = 4
     
+    # print(adjusted_map)
+
     
     
     neighbouring_fields = []
@@ -126,11 +128,13 @@ def state_to_features(game_state: dict) -> np.array:
     return stacked_channels.reshape(-1)
 
 def get_closest(position, adjusted_map, goal):
+    MAX = 100
+    distance_when_to_abort = 20
     to_move = [(position[0],position[1],0)]
     while len(to_move) > 0:
         position = to_move.pop(0)
-#        if position[2] > 8:
-#            return -1
+        # if position[2] > distance_when_to_abort:
+        #     return MAX
         if position[0] > 0 and position[1] > 0 and position[0] < adjusted_map.shape[0] and position[1] < adjusted_map.shape[1]:
              if adjusted_map[position[0]][position[1]] == goal:
                  return position[2]+1

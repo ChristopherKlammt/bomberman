@@ -83,7 +83,7 @@ def state_to_features(game_state: dict) -> np.array:
     for i, position in enumerate(neighbouring_fields):
         dangered[i] = 4
         for bomb in game_state["bombs"]:
-            if position in get_dangered_fields_by_bomb(bomb[0],adjusted_map.shape):
+            if position in get_dangered_fields_by_bomb(bomb[0],adjusted_map):
                 if dangered[i] > bomb[1]:
                         dangered[i] = bomb[1]
     #print("Dangered")
@@ -106,7 +106,7 @@ def state_to_features(game_state: dict) -> np.array:
     # number of crates in bomb range
     bomb_strength = np.zeros(5)
     for i, position in enumerate(neighbouring_fields):
-        dangered_fields = get_dangered_fields_by_bomb(game_state["self"][3],adjusted_map.shape)
+        dangered_fields = get_dangered_fields_by_bomb(game_state["self"][3],adjusted_map)
         count = 0
         for field in dangered_fields:
             if(adjusted_map[field[0]][field[1]]) == 1:
@@ -147,19 +147,38 @@ def get_closest(position, adjusted_map, goal):
                      to_move.append((position[0]  ,position[1]-1,position[2]+1))
     return adjusted_map.shape[0]+adjusted_map.shape[1]
 
-def get_dangered_fields_by_bomb(bomb,shape):
+def get_dangered_fields_by_bomb(bomb,adjusted_map):
     dangered_fields = []
+    shape = adjusted_map.shape
     for i in range(1,4):
         position = (bomb[0]+i,bomb[1]  )
         if position[0] > 0 and position[1] > 0 and position[0] < shape[0] and position[1] <shape[1]:
-            dangered_fields.append(position)
+            if adjusted_map[position[0]][position[1]] == -1:
+                i = 4
+            else:
+                dangered_fields.append(position)
+    for i in range(1,4):
         position = (bomb[0]-i,bomb[1]  )
         if position[0] > 0 and position[1] > 0 and position[0] < shape[0] and position[1] <shape[1]:
+            if adjusted_map[position[0]][position[1]] == -1:
+                i = 4
+            else:
+                dangered_fields.append(position)
             dangered_fields.append(position)
+    for i in range(1,4):
         position = (bomb[0]  ,bomb[1]+i)
         if position[0] > 0 and position[1] > 0 and position[0] < shape[0] and position[1] <shape[1]:
+            if adjusted_map[position[0]][position[1]] == -1:
+                i = 4
+            else:
+                dangered_fields.append(position)
             dangered_fields.append(position)
+    for i in range(1,4):
         position = (bomb[0]  ,bomb[1]-i)
         if position[0] > 0 and position[1] > 0 and position[0] < shape[0] and position[1] <shape[1]:
+            if adjusted_map[position[0]][position[1]] == -1:
+                i = 4
+            else:
+                dangered_fields.append(position)
             dangered_fields.append(position)
     return dangered_fields

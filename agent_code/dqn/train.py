@@ -78,6 +78,7 @@ def setup_training(self):
     self.points = 0
     self.points_all = {}
     self.count_invalid_actions = 0
+    self.survived = 100
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
     """
@@ -140,6 +141,7 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     self.points = 0
     self.points_all = {}
     self.count_invalid_actions = 0
+    self.survived = 100
 
     # update target model
     self.target_model.set_weights(self.model.get_weights())
@@ -159,7 +161,6 @@ def add_custom_events(self, new_game_state, events):
 
     if SURVIVED_ROUND in events and e.BOMB_EXPLODED in events:
         events.append(SURVIVED_BOMB)
-        
     # for evaluation purposes
     if e.COIN_COLLECTED in events:
         self.collected_coins += 1
@@ -176,7 +177,8 @@ def add_custom_events(self, new_game_state, events):
         self.points_all[other[0]] = other[1]
     if e.INVALID_ACTION in events:
         self.count_invalid_actions +=1
-    
+    if SURVIVED_ROUND not in events:
+        self.survived = 0
 
 def reward_from_events(self, events: List[str]) -> int:
     """
@@ -214,7 +216,7 @@ def reward_from_events(self, events: List[str]) -> int:
 def evaluate_training_eor(self):
     values = []
     values.append(self.last_game_state['step']/MAX_STEPS*100)           # Number of survived steps
-    values.append(self.reward_sum/MAX_STEPS*100*2+50)                   # Reward sum
+    values.append(self.reward_sum/MAX_STEPS*100*20+50)                   # Reward sum
     values.append(self.collected_coins/SQRT_OF_COINS/SQRT_OF_COINS*100) # Number of collected coins
     if MAX_AGENTS > 1:
         values.append(self.killed_opponents/(MAX_AGENTS-1)*100)         # Number of killed enemies
@@ -230,7 +232,8 @@ def evaluate_training_eor(self):
            points += self.points_all[point]
        points = points / len(self.points_all)
     values.append(points*10)                                            # average points of enemies
-    values.append(self.count_invalid_actions/MAX_STEPS*100)             # number of invalid actions
+    values.append(self.count_invalid_actions/self.last_game_state['step']*100)             # number of invalid actions
+    values.append(self.survived)                                        # survived
 
     print(values)
     self.eval_eor_file.root.data.append(np.reshape(np.array(values), (1,len(values))))

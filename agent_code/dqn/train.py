@@ -177,7 +177,7 @@ def add_custom_events(self, new_game_state, events):
         self.points_all[other[0]] = other[1]
     if e.INVALID_ACTION in events:
         self.count_invalid_actions +=1
-    if SURVIVED_ROUND not in events:
+    if e.GOT_KILLED in events:
         self.survived = 0
 
 def reward_from_events(self, events: List[str]) -> int:
@@ -216,7 +216,7 @@ def reward_from_events(self, events: List[str]) -> int:
 def evaluate_training_eor(self):
     values = []
     values.append(self.last_game_state['step']/MAX_STEPS*100)           # Number of survived steps
-    values.append(self.reward_sum/MAX_STEPS*100*20+50)                   # Reward sum
+    values.append(self.reward_sum/self.last_game_state['step']*200+50)                   # Reward sum
     values.append(self.collected_coins/SQRT_OF_COINS/SQRT_OF_COINS*100) # Number of collected coins
     if MAX_AGENTS > 1:
         values.append(self.killed_opponents/(MAX_AGENTS-1)*100)         # Number of killed enemies

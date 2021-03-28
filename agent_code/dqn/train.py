@@ -20,7 +20,9 @@ from .state import state_to_features
 from settings import (
     MAX_STEPS,
     SQRT_OF_COINS,
-    MAX_AGENTS
+    MAX_AGENTS,
+    REWARD_COIN,
+    REWARD_KILL
     )
 
 from .parameters import (
@@ -73,6 +75,7 @@ def setup_training(self):
     self.killed_opponents = 0 # number of killed opponents
     self.self_kill = 0 # ==1 if he killed himself
     self.number_of_crates_destroyed = 0
+    self.points = 0
     self.points_all = {}
     self.count_invalid_actions = 0
 
@@ -134,6 +137,7 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     self.killed_opponents = 0
     self.self_kill = 0 
     self.number_of_crates_destroyed = 0
+    self.points = 0
     self.points_all = {}
     self.count_invalid_actions = 0
 
@@ -159,8 +163,10 @@ def add_custom_events(self, new_game_state, events):
     # for evaluation purposes
     if e.COIN_COLLECTED in events:
         self.collected_coins += 1
+        self.points += REWARD_COIN
     if e.KILLED_OPPONENT in events:
         self.killed_opponents += 1
+        self.point += REWARD_KILL
     if e.KILLED_SELF in events:
         self.self_kill = 1
     for event in events:
@@ -216,7 +222,7 @@ def evaluate_training_eor(self):
         values.append(0) 
     values.append(self.self_kill*100)                                   # Did he killed himself?
     values.append(self.number_of_crates_destroyed)                      # Number of crates destroyed
-    values.append(self.last_game_state['self'][1]*10)                   # Number of points
+    values.append(self.points*10)                                       # Number of points
     
     points = 0
     if len(self.points_all) != 0:

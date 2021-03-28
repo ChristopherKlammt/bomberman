@@ -16,6 +16,7 @@ from .experience import Experience
 from .callbacks import get_next_action, get_valid_probabilities_list
 from .model import create_model
 from .state import state_to_features
+
 from .parameters import (
     ACTIONS_TO_NUMBER,
     TRANSITION_HISTORY_SIZE,
@@ -66,6 +67,8 @@ def setup_training(self):
     self.collected_coins = 0 # number of coins collected during one round
     self.killed_opponents = 0 # number of killed opponents
     self.self_kill = 0 # ==1 if he killed himself
+    self.number_of_crates_destroyed = 0
+    self.points_all = {}
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
     """
@@ -124,6 +127,8 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     self.collected_coins = 0
     self.killed_opponents = 0
     self.self_kill = 0 
+    self.number_of_crates_destroyed = 0
+    self.points_all = {}
 
     # update target model
     self.target_model.set_weights(self.model.get_weights())
@@ -151,6 +156,11 @@ def add_custom_events(self, new_game_state, events):
         self.killed_opponents += 1
     if e.KILLED_SELF in events:
         self.self_kill = 1
+    for event in events:
+        if event == e.CRATE_DESTROYED:
+            self.number_of_crates_destroyed +=1
+    for other in new_game_state['others']:
+        self.points_all[other[0]] = other[1]
     
 
 def reward_from_events(self, events: List[str]) -> int:
@@ -180,19 +190,9 @@ def reward_from_events(self, events: List[str]) -> int:
         SURVIVED_BOMB: 0.1
     }
     reward_sum = 0
-    self.number_of_kills = 0
-    self.number_of_crates_destroyed = 0
-    self.number_of_points = 0
     for event in events:
         if event in game_rewards:
             reward_sum += game_rewards[event]
-        if event == e.KILLED_OPPONENT:
-            self.number_of_kills += 1
-            self.number_of_points += 5
-        if event == e.CRATE_DESTROYED:
-            self.number_of_crates_destroyed += 1
-        if event == e.COIN_COLLECTED:
-            self.number_of_points += 1
     self.logger.info(f"Awarded {reward_sum} for events {', '.join(events)}")
     return reward_sum
     
@@ -210,9 +210,15 @@ def evaluate_training_eor(self):
     values.append(self.killed_opponents)            # Number of killed enemies
     values.append(self.self_kill)                   # Did he killed himself?
     
-    values.append(self.number_of_kills)             # Number of kills
     values.append(self.number_of_crates_destroyed)  # Number of crates destroyed
-    values.append(self.number_of_points)            # Number of points
+    values.append(self.last_game_state['self'][1])  # Number of points
+    
+    points = 0
+    if len(self.points_all) != 0:
+       for point in self.points_all:
+           points += self.points_all[point]
+       points = points / len(self.points_all)
+    values.append(points)                           # average points of enemies
     
 
     print(values)

@@ -25,5 +25,5 @@ TRAINING_STEP = 0.2
 
 # File to evaluate data
 FILENAME = 'evaluation/new_state.h5'
-ROW_SIZE = 8
+ROW_SIZE = 9
 EVALUATION = True

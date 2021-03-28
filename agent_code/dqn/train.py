@@ -55,8 +55,7 @@ def setup_training(self):
     :param self: This object is passed to all callbacks and you can set arbitrary values.
     """
     
-    self.eval_eor_file = tables.open_file('../../'+FILENAME+"_eor", mode='a')
-    self.eval_file = tables.open_file('../../'+FILENAME, mode='a')
+    self.eval_eor_file = tables.open_file('../../'+FILENAME, mode='a')
     self.experience = Experience()
 
     self.visited_coords = []
@@ -69,6 +68,7 @@ def setup_training(self):
     self.self_kill = 0 # ==1 if he killed himself
     self.number_of_crates_destroyed = 0
     self.points_all = {}
+    self.count_invalid_actions = 0
 
 def game_events_occurred(self, old_game_state: dict, self_action: str, new_game_state: dict, events: List[str]):
     """
@@ -129,6 +129,7 @@ def end_of_round(self, last_game_state: dict, last_action: str, events: List[str
     self.self_kill = 0 
     self.number_of_crates_destroyed = 0
     self.points_all = {}
+    self.count_invalid_actions = 0
 
     # update target model
     self.target_model.set_weights(self.model.get_weights())
@@ -161,6 +162,8 @@ def add_custom_events(self, new_game_state, events):
             self.number_of_crates_destroyed +=1
     for other in new_game_state['others']:
         self.points_all[other[0]] = other[1]
+    if e.INVALID_ACTION in events:
+        self.count_invalid_actions +=1
     
 
 def reward_from_events(self, events: List[str]) -> int:
@@ -195,12 +198,6 @@ def reward_from_events(self, events: List[str]) -> int:
             reward_sum += game_rewards[event]
     self.logger.info(f"Awarded {reward_sum} for events {', '.join(events)}")
     return reward_sum
-    
-def evaluate_training(self):
-    values = []
-    print(values)
-    self.eval_file.root.data.append(np.reshape(np.array(values), (1,len(values))))
-
 
 def evaluate_training_eor(self):
     values = []
@@ -219,7 +216,7 @@ def evaluate_training_eor(self):
            points += self.points_all[point]
        points = points / len(self.points_all)
     values.append(points)                           # average points of enemies
-    
+    values.append(self.count_invalid_actions)       # number of invalid actions
 
     print(values)
     self.eval_eor_file.root.data.append(np.reshape(np.array(values), (1,len(values))))

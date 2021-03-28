@@ -51,13 +51,11 @@ def state_to_features(game_state: dict) -> np.array:
     #print(adjusted_map)
     # Player = -2
     # Wall = -1
-    # Crate = 1
     # Free = 0
+    # Crate = 1
     # Coins = 2
     # Bombs = 3
     # Others = 4
-    
-    # print(adjusted_map)
 
     
     
@@ -149,7 +147,7 @@ def get_closest(position, adjusted_map, goal):
     return adjusted_map.shape[0]+adjusted_map.shape[1]
 
 def get_dangered_fields_by_bomb(bomb,adjusted_map):
-    dangered_fields = []
+    dangered_fields = [bomb]
     shape = adjusted_map.shape
     for i in range(1,4):
         position = (bomb[0]+i,bomb[1]  )

@@ -17,6 +17,10 @@ from agents import Agent, SequentialAgentBackend
 from fallbacks import pygame
 from items import Coin, Explosion, Bomb
 
+from settings import (
+    SQRT_OF_COINS
+    )
+
 WorldArgs = namedtuple("WorldArgs",
                        ["no_gui", "fps", "turn_based", "update_interval", "save_replay", "replay", "make_video", "continue_without_training"])
 
@@ -351,8 +355,8 @@ class BombeRLeWorld(GenericWorld):
                     if coin_pattern[i, j] == 1:
                         self.coins.append(Coin((x + i, x + j), self.arena[x+i,x+j] == 0))
                         coins[x + i, x + j] += 1"""
-        for i in range(3):
-            for j in range(3):
+        for i in range(SQRT_OF_COINS):
+            for j in range(SQRT_OF_COINS):
                 n_crates = (self.arena[1 + 5 * i:6 + 5 * i, 1 + 5 * j:6 + 5 * j] == 1).sum()
                 while True:
                     x, y = np.random.randint(1 + 5 * i, 6 + 5 * i), np.random.randint(1 + 5 * j, 6 + 5 * j)

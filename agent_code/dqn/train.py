@@ -17,6 +17,12 @@ from .callbacks import get_next_action, get_valid_probabilities_list
 from .model import create_model
 from .state import state_to_features
 
+from settings import (
+    MAX_STEPS,
+    SQRT_OF_COINS,
+    MAX_AGENTS
+    )
+
 from .parameters import (
     ACTIONS_TO_NUMBER,
     TRANSITION_HISTORY_SIZE,
@@ -201,22 +207,24 @@ def reward_from_events(self, events: List[str]) -> int:
 
 def evaluate_training_eor(self):
     values = []
-    values.append(self.last_game_state['step'])     # Number of survived steps
-    values.append(self.reward_sum)                  # Reward sum
-    values.append(self.collected_coins)             # Number of collected coins
-    values.append(self.killed_opponents)            # Number of killed enemies
-    values.append(self.self_kill)                   # Did he killed himself?
-    
-    values.append(self.number_of_crates_destroyed)  # Number of crates destroyed
-    values.append(self.last_game_state['self'][1])  # Number of points
+    values.append(self.last_game_state['step']/MAX_STEPS*100)           # Number of survived steps
+    values.append(self.reward_sum/MAX_STEPS*100*2+50)                   # Reward sum
+    values.append(self.collected_coins/SQRT_OF_COINS/SQRT_OF_COINS*100) # Number of collected coins
+    if MAX_AGENTS > 1:
+        values.append(self.killed_opponents/(MAX_AGENTS-1)*100)         # Number of killed enemies
+    else:
+        values.append(0) 
+    values.append(self.self_kill*100)                                   # Did he killed himself?
+    values.append(self.number_of_crates_destroyed)                      # Number of crates destroyed
+    values.append(self.last_game_state['self'][1]*10)                   # Number of points
     
     points = 0
     if len(self.points_all) != 0:
        for point in self.points_all:
            points += self.points_all[point]
        points = points / len(self.points_all)
-    values.append(points)                           # average points of enemies
-    values.append(self.count_invalid_actions)       # number of invalid actions
+    values.append(points*10)                                            # average points of enemies
+    values.append(self.count_invalid_actions/MAX_STEPS*100)             # number of invalid actions
 
     print(values)
     self.eval_eor_file.root.data.append(np.reshape(np.array(values), (1,len(values))))

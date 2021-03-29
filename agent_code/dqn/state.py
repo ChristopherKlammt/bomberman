@@ -1,4 +1,8 @@
 import numpy as np
+from settings import (
+    BOMB_TIMER,
+    BOMB_POWER
+    )
 
 def state_to_features(game_state: dict) -> np.array:
     """
@@ -38,7 +42,7 @@ def state_to_features(game_state: dict) -> np.array:
     player_position = np.array([game_state["self"][3][0],game_state["self"][3][1]])
     
     adjusted_map = np.array(game_state["field"])
-    # adjusted_map[player_position[0]][player_position[1]] = -2
+    adjusted_map[player_position[0]][player_position[1]] = -2
     # Add coins to adjusted map
     adjusted_map[tuple(np.array(game_state["coins"]).T)] = 2
     # Add others
@@ -79,15 +83,14 @@ def state_to_features(game_state: dict) -> np.array:
     # is the field dangered by a bomb? if yes, how many turns until explosion?
     dangered = np.zeros(5)
     for i, position in enumerate(neighbouring_fields):
-        dangered[i] = 34
+        dangered[i] = BOMB_TIMER*BOMB_POWER
         for bomb in game_state["bombs"]:
-            distance_to_bomb = get_closest(position, adjusted_map, 3)
-            if dangered[i] > distance_to_bomb:
-                    dangered[i] = distance_to_bomb
-        if dangered[i] == 34:
-            dangered[i] = 0
-    # print("Dangered")
-    # print(dangered)
+            if position in get_dangered_fields_by_bomb(bomb[0],adjusted_map):
+                distance = get_distance(position, bomb[0])
+                if dangered[i] > bomb[1]*distance:
+                        dangered[i] = bomb[1]*distance
+    #print("Dangered")
+    #print(dangered)
     
     # distance to the next coin
     coin_distance = np.zeros(5)
@@ -138,7 +141,7 @@ def get_closest(position, adjusted_map, goal):
             #return MAX
         if position[0] > 0 and position[1] > 0 and position[0] < adjusted_map.shape[0] and position[1] < adjusted_map.shape[1]:
              if adjusted_map[position[0]][position[1]] == goal:
-                 return position[2]+1
+                 return position[2]
              else:
                  if adjusted_map[position[0]][position[1]] == 0 or adjusted_map[position[0]][position[1]] == 2:
                      adjusted_map[position[0]][position[1]] = -1
@@ -147,6 +150,9 @@ def get_closest(position, adjusted_map, goal):
                      to_move.append((position[0]  ,position[1]+1,position[2]+1))
                      to_move.append((position[0]  ,position[1]-1,position[2]+1))
     return adjusted_map.shape[0]+adjusted_map.shape[1]
+
+def get_distance(pos1, pos2):
+    return abs(pos1[0]-pos2[0])+abs(pos1[1]-pos2[1])
 
 def get_dangered_fields_by_bomb(bomb,adjusted_map):
     dangered_fields = [bomb]

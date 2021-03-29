@@ -168,7 +168,7 @@ def add_custom_events(self, new_game_state, events):
         self.points += REWARD_COIN
     if e.KILLED_OPPONENT in events:
         self.killed_opponents += 1
-        self.point += REWARD_KILL
+        self.points += REWARD_KILL
     if e.KILLED_SELF in events:
         self.self_kill = 1
     for event in events:

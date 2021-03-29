@@ -103,7 +103,7 @@ def act(self, game_state: dict) -> str:
     # self.trainingStrength = game_state['round']
     choice = None
     #Rule Based Agent
-    if self.train: # and random.random() < max(RULE_BASED_PROB_MAX-RULE_BASED_PROB_STEP*self.trainingStrength, RULE_BASED_PROB_MIN):
+    if self.train: # and random.random() < 0.5: #max(RULE_BASED_PROB_MAX-RULE_BASED_PROB_STEP*self.trainingStrength, RULE_BASED_PROB_MIN):
         choice = rb_act(self, game_state)
         probabilities, model_choice = get_next_action(self, game_state)
         self.logger.debug(probabilities)

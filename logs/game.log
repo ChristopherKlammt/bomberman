@@ -1,105 +1,59 @@
-2021-03-27 12:10:17,189 [BombeRLeWorld] INFO: Initializing game world
-2021-03-27 12:10:21,876 [BombeRLeWorld] INFO: STARTING ROUND #1
-2021-03-27 12:10:21,980 [BombeRLeWorld] INFO: STARTING STEP 1
-2021-03-27 12:10:22,070 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.09s.
-2021-03-27 12:10:22,070 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:22,080 [BombeRLeWorld] INFO: STARTING STEP 2
-2021-03-27 12:10:22,108 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.03s.
-2021-03-27 12:10:22,108 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:22,180 [BombeRLeWorld] INFO: STARTING STEP 3
-2021-03-27 12:10:22,217 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.04s.
-2021-03-27 12:10:22,217 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:22,318 [BombeRLeWorld] INFO: STARTING STEP 4
-2021-03-27 12:10:22,350 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.03s.
-2021-03-27 12:10:22,350 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:22,421 [BombeRLeWorld] INFO: STARTING STEP 5
-2021-03-27 12:10:22,453 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.03s.
-2021-03-27 12:10:22,453 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:22,453 [BombeRLeWorld] INFO: Agent <dqn> picked up coin at (13, 12) and receives 1 point
-2021-03-27 12:10:22,524 [BombeRLeWorld] INFO: STARTING STEP 6
-2021-03-27 12:10:22,559 [BombeRLeWorld] INFO: Agent <dqn> chose action DOWN in 0.03s.
-2021-03-27 12:10:22,559 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:22,631 [BombeRLeWorld] INFO: STARTING STEP 7
-2021-03-27 12:10:22,663 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.03s.
-2021-03-27 12:10:22,663 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:22,736 [BombeRLeWorld] INFO: STARTING STEP 8
-2021-03-27 12:10:22,767 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.03s.
-2021-03-27 12:10:22,767 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:22,838 [BombeRLeWorld] INFO: STARTING STEP 9
-2021-03-27 12:10:22,877 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.04s.
-2021-03-27 12:10:22,877 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:22,941 [BombeRLeWorld] INFO: STARTING STEP 10
-2021-03-27 12:10:22,977 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.04s.
-2021-03-27 12:10:22,978 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:22,978 [BombeRLeWorld] INFO: Agent <dqn> picked up coin at (9, 13) and receives 1 point
-2021-03-27 12:10:23,041 [BombeRLeWorld] INFO: STARTING STEP 11
-2021-03-27 12:10:23,074 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.03s.
-2021-03-27 12:10:23,074 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:23,144 [BombeRLeWorld] INFO: STARTING STEP 12
-2021-03-27 12:10:23,176 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.03s.
-2021-03-27 12:10:23,176 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:23,248 [BombeRLeWorld] INFO: STARTING STEP 13
-2021-03-27 12:10:23,280 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.03s.
-2021-03-27 12:10:23,281 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:23,353 [BombeRLeWorld] INFO: STARTING STEP 14
-2021-03-27 12:10:23,388 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.03s.
-2021-03-27 12:10:23,388 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:23,454 [BombeRLeWorld] INFO: STARTING STEP 15
-2021-03-27 12:10:23,487 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.03s.
-2021-03-27 12:10:23,487 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:23,557 [BombeRLeWorld] INFO: STARTING STEP 16
-2021-03-27 12:10:23,595 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.04s.
-2021-03-27 12:10:23,595 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:23,595 [BombeRLeWorld] INFO: Agent <dqn> picked up coin at (5, 11) and receives 1 point
-2021-03-27 12:10:23,657 [BombeRLeWorld] INFO: STARTING STEP 17
-2021-03-27 12:10:23,688 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.03s.
-2021-03-27 12:10:23,688 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:23,760 [BombeRLeWorld] INFO: STARTING STEP 18
-2021-03-27 12:10:23,792 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.03s.
-2021-03-27 12:10:23,792 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:23,864 [BombeRLeWorld] INFO: STARTING STEP 19
-2021-03-27 12:10:23,907 [BombeRLeWorld] INFO: Agent <dqn> chose action RIGHT in 0.04s.
-2021-03-27 12:10:23,907 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:23,968 [BombeRLeWorld] INFO: STARTING STEP 20
-2021-03-27 12:10:24,000 [BombeRLeWorld] INFO: Agent <dqn> chose action RIGHT in 0.03s.
-2021-03-27 12:10:24,000 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:24,001 [BombeRLeWorld] INFO: Agent <dqn> picked up coin at (7, 9) and receives 1 point
-2021-03-27 12:10:24,069 [BombeRLeWorld] INFO: STARTING STEP 21
-2021-03-27 12:10:24,104 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.03s.
-2021-03-27 12:10:24,104 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:24,176 [BombeRLeWorld] INFO: STARTING STEP 22
-2021-03-27 12:10:24,209 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.03s.
-2021-03-27 12:10:24,209 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:24,280 [BombeRLeWorld] INFO: STARTING STEP 23
-2021-03-27 12:10:24,311 [BombeRLeWorld] INFO: Agent <dqn> chose action RIGHT in 0.03s.
-2021-03-27 12:10:24,311 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:24,382 [BombeRLeWorld] INFO: STARTING STEP 24
-2021-03-27 12:10:24,420 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.04s.
-2021-03-27 12:10:24,420 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:24,483 [BombeRLeWorld] INFO: STARTING STEP 25
-2021-03-27 12:10:24,515 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.03s.
-2021-03-27 12:10:24,515 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:24,584 [BombeRLeWorld] INFO: STARTING STEP 26
-2021-03-27 12:10:24,616 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.03s.
-2021-03-27 12:10:24,617 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:24,687 [BombeRLeWorld] INFO: STARTING STEP 27
-2021-03-27 12:10:24,725 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.04s.
-2021-03-27 12:10:24,725 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:24,788 [BombeRLeWorld] INFO: STARTING STEP 28
-2021-03-27 12:10:24,824 [BombeRLeWorld] INFO: Agent <dqn> chose action RIGHT in 0.04s.
-2021-03-27 12:10:24,824 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:24,889 [BombeRLeWorld] INFO: STARTING STEP 29
-2021-03-27 12:10:24,922 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.03s.
-2021-03-27 12:10:24,922 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:24,922 [BombeRLeWorld] INFO: Agent <dqn> picked up coin at (5, 6) and receives 1 point
-2021-03-27 12:10:25,004 [BombeRLeWorld] INFO: STARTING STEP 30
-2021-03-27 12:10:25,037 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.03s.
-2021-03-27 12:10:25,037 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:25,104 [BombeRLeWorld] INFO: STARTING STEP 31
-2021-03-27 12:10:25,136 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.03s.
-2021-03-27 12:10:25,136 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:25,204 [BombeRLeWorld] INFO: STARTING STEP 32
-2021-03-27 12:10:25,238 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.03s.
-2021-03-27 12:10:25,238 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
-2021-03-27 12:10:25,306 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
-2021-03-27 12:10:25,307 [BombeRLeWorld] INFO: SHUT DOWN
+2021-03-29 09:34:58,395 [BombeRLeWorld] INFO: Initializing game world
+2021-03-29 09:35:02,825 [BombeRLeWorld] INFO: STARTING ROUND #1
+2021-03-29 09:35:03,559 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-29 09:35:03,663 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.10s.
+2021-03-29 09:35:03,663 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
+2021-03-29 09:35:03,978 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-29 09:35:04,015 [BombeRLeWorld] INFO: Agent <dqn> chose action RIGHT in 0.03s.
+2021-03-29 09:35:04,015 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
+2021-03-29 09:35:04,536 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-29 09:35:04,580 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.04s.
+2021-03-29 09:35:04,580 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
+2021-03-29 09:35:04,998 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-29 09:35:05,043 [BombeRLeWorld] INFO: Agent <dqn> chose action BOMB in 0.04s.
+2021-03-29 09:35:05,043 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
+2021-03-29 09:35:05,043 [BombeRLeWorld] INFO: Agent <dqn> drops bomb at (15, 1)
+2021-03-29 09:35:05,354 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-29 09:35:05,388 [BombeRLeWorld] INFO: Agent <dqn> chose action DOWN in 0.03s.
+2021-03-29 09:35:05,388 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
+2021-03-29 09:35:16,219 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-29 09:35:16,252 [BombeRLeWorld] INFO: Agent <dqn> chose action DOWN in 0.03s.
+2021-03-29 09:35:16,252 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
+2021-03-29 09:35:31,436 [BombeRLeWorld] INFO: STARTING STEP 7
+2021-03-29 09:35:31,469 [BombeRLeWorld] INFO: Agent <dqn> chose action RIGHT in 0.03s.
+2021-03-29 09:35:31,469 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
+2021-03-29 09:35:31,878 [BombeRLeWorld] INFO: STARTING STEP 8
+2021-03-29 09:35:31,910 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.03s.
+2021-03-29 09:35:31,911 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
+2021-03-29 09:35:31,911 [BombeRLeWorld] INFO: Agent <dqn>'s bomb at (15, 1) explodes
+2021-03-29 09:35:31,911 [BombeRLeWorld] INFO: Coin found at (12, 1)
+2021-03-29 09:35:31,911 [BombeRLeWorld] INFO: Agent <dqn> blown up by own bomb
+2021-03-29 09:35:31,911 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-29 09:35:31,911 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
+2021-03-29 09:35:32,495 [BombeRLeWorld] INFO: STARTING ROUND #2
+2021-03-29 09:35:33,143 [BombeRLeWorld] INFO: STARTING STEP 1
+2021-03-29 09:35:33,182 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.04s.
+2021-03-29 09:35:33,182 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
+2021-03-29 09:35:33,694 [BombeRLeWorld] INFO: STARTING STEP 2
+2021-03-29 09:35:33,742 [BombeRLeWorld] INFO: Agent <dqn> chose action BOMB in 0.05s.
+2021-03-29 09:35:33,742 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
+2021-03-29 09:35:33,742 [BombeRLeWorld] INFO: Agent <dqn> drops bomb at (1, 15)
+2021-03-29 09:35:34,058 [BombeRLeWorld] INFO: STARTING STEP 3
+2021-03-29 09:35:34,091 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.03s.
+2021-03-29 09:35:34,091 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
+2021-03-29 09:35:40,689 [BombeRLeWorld] INFO: STARTING STEP 4
+2021-03-29 09:35:40,728 [BombeRLeWorld] INFO: Agent <dqn> chose action LEFT in 0.04s.
+2021-03-29 09:35:40,728 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
+2021-03-29 09:35:41,450 [BombeRLeWorld] INFO: STARTING STEP 5
+2021-03-29 09:35:41,491 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.04s.
+2021-03-29 09:35:41,491 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
+2021-03-29 09:35:42,215 [BombeRLeWorld] INFO: STARTING STEP 6
+2021-03-29 09:35:42,256 [BombeRLeWorld] INFO: Agent <dqn> chose action UP in 0.04s.
+2021-03-29 09:35:42,256 [BombeRLeWorld] WARNING: Agent <dqn> stayed within acceptable think time.
+2021-03-29 09:35:42,256 [BombeRLeWorld] INFO: Agent <dqn>'s bomb at (1, 15) explodes
+2021-03-29 09:35:42,256 [BombeRLeWorld] INFO: Agent <dqn> blown up by own bomb
+2021-03-29 09:35:42,256 [BombeRLeWorld] INFO: No agent left alive, wrap up round
+2021-03-29 09:35:42,256 [BombeRLeWorld] INFO: WRAPPING UP ROUND #2
+2021-03-29 09:35:42,999 [BombeRLeWorld] INFO: STARTING ROUND #3
+2021-03-29 09:36:11,431 [BombeRLeWorld] INFO: WRAPPING UP ROUND #3
+2021-03-29 09:36:11,431 [BombeRLeWorld] INFO: SHUT DOWN

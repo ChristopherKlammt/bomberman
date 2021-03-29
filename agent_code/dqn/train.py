@@ -161,6 +161,7 @@ def add_custom_events(self, new_game_state, events):
 
     if SURVIVED_ROUND in events and e.BOMB_EXPLODED in events:
         events.append(SURVIVED_BOMB)
+
     # for evaluation purposes
     if e.COIN_COLLECTED in events:
         self.collected_coins += 1
@@ -194,7 +195,7 @@ def reward_from_events(self, events: List[str]) -> int:
         e.MOVED_DOWN: -0.01,
         e.WAITED: -0.05,
         e.INVALID_ACTION: -0.05,
-        e.BOMB_DROPPED: -0.3, 
+        e.BOMB_DROPPED: 0.3, 
         # e.BOMB_EXPLODED: 0,
         e.CRATE_DESTROYED: 0.1,
         e.COIN_FOUND: 0.1,
@@ -204,7 +205,7 @@ def reward_from_events(self, events: List[str]) -> int:
         e.GOT_KILLED: -1,
         e.OPPONENT_ELIMINATED: 0.1,
         # SURVIVED_ROUND: 0.01,
-        SURVIVED_BOMB: 0.1
+        SURVIVED_BOMB: 0.5
     }
     reward_sum = 0
     for event in events:

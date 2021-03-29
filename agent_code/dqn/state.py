@@ -38,7 +38,7 @@ def state_to_features(game_state: dict) -> np.array:
     player_position = np.array([game_state["self"][3][0],game_state["self"][3][1]])
     
     adjusted_map = np.array(game_state["field"])
-    adjusted_map[player_position[0]][player_position[1]] = -2
+    # adjusted_map[player_position[0]][player_position[1]] = -2
     # Add coins to adjusted map
     adjusted_map[tuple(np.array(game_state["coins"]).T)] = 2
     # Add others
@@ -79,13 +79,15 @@ def state_to_features(game_state: dict) -> np.array:
     # is the field dangered by a bomb? if yes, how many turns until explosion?
     dangered = np.zeros(5)
     for i, position in enumerate(neighbouring_fields):
-        dangered[i] = 4
+        dangered[i] = 34
         for bomb in game_state["bombs"]:
-            if position in get_dangered_fields_by_bomb(bomb[0],adjusted_map):
-                if dangered[i] > bomb[1]:
-                        dangered[i] = bomb[1]
-    #print("Dangered")
-    #print(dangered)
+            distance_to_bomb = get_closest(position, adjusted_map, 3)
+            if dangered[i] > distance_to_bomb:
+                    dangered[i] = distance_to_bomb
+        if dangered[i] == 34:
+            dangered[i] = 0
+    # print("Dangered")
+    # print(dangered)
     
     # distance to the next coin
     coin_distance = np.zeros(5)
